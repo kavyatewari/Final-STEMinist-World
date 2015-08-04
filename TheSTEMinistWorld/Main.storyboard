@@ -1,0 +1,1368 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="u35-py-psU">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Science View Controller-->
+        <scene sceneID="2iO-1L-SIL">
+            <objects>
+                <viewController id="AdG-qJ-V5j" userLabel="Science View Controller" customClass="ScienceViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vXz-Ar-l2U"/>
+                        <viewControllerLayoutGuide type="bottom" id="9Gs-Ua-WXg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="M3A-IT-FBD" userLabel="root view">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Acl-fL-PJm">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="601"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fST-OF-ax2" userLabel="content view">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="601"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="txl-zF-noN" userLabel="Elizabeth Blackwell">
+                                                <rect key="frame" x="10" y="105" width="80" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="Sk8-Im-blh"/>
+                                                    <constraint firstAttribute="height" constant="80" id="m7O-pj-XRa"/>
+                                                </constraints>
+                                                <state key="normal" image="ElizabethBlackwell">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="vKg-Qn-CSV" kind="presentation" id="KoJ-Ww-fcH"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pn2-z7-1DE" userLabel="Marie Curie">
+                                                <rect key="frame" x="10" y="195" width="80" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="Gei-y3-0hG"/>
+                                                </constraints>
+                                                <state key="normal" image="MarieCurie">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="MMj-5V-T1d" kind="presentation" id="nxw-rS-QUh"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0pT-Kx-XO0" userLabel="Rosalind Franklin">
+                                                <rect key="frame" x="10" y="285" width="80" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="ffX-Le-HFL"/>
+                                                </constraints>
+                                                <state key="normal" image="RosalindFranklin-1">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="btN-gp-Fcw" kind="presentation" id="UvO-p3-WdO"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vfc-Zf-SaF" userLabel="Dorothy Hodgkin">
+                                                <rect key="frame" x="10" y="375" width="80" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="9Vf-ok-4dy"/>
+                                                </constraints>
+                                                <state key="normal" image="DorothyHodgkin">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="xXR-Wt-s8T" kind="presentation" id="anm-M2-R7D"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iNk-Vn-uak">
+                                                <rect key="frame" x="10" y="465" width="80" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="iNk-Vn-uak" secondAttribute="height" multiplier="1:1" id="Vyw-HU-lcE"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                                <state key="normal" image="blue"/>
+                                                <connections>
+                                                    <action selector="takeScienceViewController:" destination="AdG-qJ-V5j" eventType="touchUpInside" id="M7v-eN-Nqx"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Explore the Science field to learn more!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="Wjx-OW-nOO">
+                                                <rect key="frame" x="170" y="83" width="263" height="17"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Does this sound like you? " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AeC-QV-j1W">
+                                                <rect key="frame" x="214" y="55" width="175" height="17"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Scientists are curious and want to know all the answers. " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mnR-EA-V1i">
+                                                <rect key="frame" x="10" y="25" width="580" height="20"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8OI-iU-Ixe">
+                                                <rect key="frame" x="10" y="465" width="80" height="80"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.18431372549019609" green="0.90196078431372551" blue="0.81568627450980391" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="centerX" secondItem="AeC-QV-j1W" secondAttribute="centerX" constant="-1.5" id="1jC-ip-nL5"/>
+                                            <constraint firstItem="Pn2-z7-1DE" firstAttribute="leading" secondItem="0pT-Kx-XO0" secondAttribute="leading" id="1ws-Z9-x16"/>
+                                            <constraint firstItem="txl-zF-noN" firstAttribute="top" secondItem="mnR-EA-V1i" secondAttribute="bottom" priority="100" constant="76" id="9HR-Ie-7qm"/>
+                                            <constraint firstItem="txl-zF-noN" firstAttribute="leading" secondItem="fST-OF-ax2" secondAttribute="leading" constant="10" id="9HZ-62-HYr"/>
+                                            <constraint firstItem="AeC-QV-j1W" firstAttribute="centerX" secondItem="Wjx-OW-nOO" secondAttribute="centerX" id="AfF-e9-a64"/>
+                                            <constraint firstItem="Pn2-z7-1DE" firstAttribute="leading" secondItem="txl-zF-noN" secondAttribute="leading" id="Dt5-WW-kcS"/>
+                                            <constraint firstItem="0pT-Kx-XO0" firstAttribute="leading" secondItem="vfc-Zf-SaF" secondAttribute="leading" id="Eqf-fl-4Ks"/>
+                                            <constraint firstItem="mnR-EA-V1i" firstAttribute="leading" secondItem="fST-OF-ax2" secondAttribute="leading" constant="10" id="FOV-hL-Y1k"/>
+                                            <constraint firstItem="8OI-iU-Ixe" firstAttribute="trailing" secondItem="iNk-Vn-uak" secondAttribute="trailing" id="Gq9-9S-R28"/>
+                                            <constraint firstItem="AeC-QV-j1W" firstAttribute="top" secondItem="mnR-EA-V1i" secondAttribute="bottom" priority="100" constant="10" id="Kc3-Xg-mfL"/>
+                                            <constraint firstItem="mnR-EA-V1i" firstAttribute="top" secondItem="fST-OF-ax2" secondAttribute="top" constant="25" id="Me6-gb-yDj"/>
+                                            <constraint firstItem="iNk-Vn-uak" firstAttribute="leading" secondItem="vfc-Zf-SaF" secondAttribute="leading" id="NQz-3I-ils"/>
+                                            <constraint firstItem="vfc-Zf-SaF" firstAttribute="top" secondItem="0pT-Kx-XO0" secondAttribute="bottom" constant="10" id="NcZ-8g-RrY"/>
+                                            <constraint firstAttribute="height" constant="601" id="Nyc-xb-w8d"/>
+                                            <constraint firstItem="txl-zF-noN" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Wjx-OW-nOO" secondAttribute="bottom" constant="5" id="R1x-GP-IFt"/>
+                                            <constraint firstItem="txl-zF-noN" firstAttribute="top" secondItem="Wjx-OW-nOO" secondAttribute="bottom" constant="19" id="V0H-MX-7Nb"/>
+                                            <constraint firstItem="8OI-iU-Ixe" firstAttribute="leading" secondItem="iNk-Vn-uak" secondAttribute="leading" id="aDu-Y9-DkK"/>
+                                            <constraint firstAttribute="bottom" secondItem="iNk-Vn-uak" secondAttribute="bottom" constant="56" id="aJ1-Qn-KKQ"/>
+                                            <constraint firstItem="8OI-iU-Ixe" firstAttribute="top" secondItem="vfc-Zf-SaF" secondAttribute="bottom" constant="10" id="bd3-YB-MFE"/>
+                                            <constraint firstAttribute="bottom" secondItem="8OI-iU-Ixe" secondAttribute="bottom" constant="56" id="egb-Mw-kRj"/>
+                                            <constraint firstItem="iNk-Vn-uak" firstAttribute="top" secondItem="vfc-Zf-SaF" secondAttribute="bottom" constant="10" id="f7z-pO-jVA"/>
+                                            <constraint firstItem="Wjx-OW-nOO" firstAttribute="top" secondItem="AeC-QV-j1W" secondAttribute="bottom" constant="11" id="h3B-Gt-wuj"/>
+                                            <constraint firstItem="0pT-Kx-XO0" firstAttribute="trailing" secondItem="Pn2-z7-1DE" secondAttribute="trailing" id="kFL-uV-qBC"/>
+                                            <constraint firstItem="0pT-Kx-XO0" firstAttribute="top" secondItem="Pn2-z7-1DE" secondAttribute="bottom" constant="10" id="orv-WO-5Te"/>
+                                            <constraint firstAttribute="centerX" secondItem="Wjx-OW-nOO" secondAttribute="centerX" constant="-1.5" id="pZh-gE-hPv"/>
+                                            <constraint firstItem="0pT-Kx-XO0" firstAttribute="trailing" secondItem="vfc-Zf-SaF" secondAttribute="trailing" id="soi-6l-rV7"/>
+                                            <constraint firstItem="iNk-Vn-uak" firstAttribute="trailing" secondItem="vfc-Zf-SaF" secondAttribute="trailing" id="sz6-T8-zRJ"/>
+                                            <constraint firstItem="txl-zF-noN" firstAttribute="trailing" secondItem="Pn2-z7-1DE" secondAttribute="trailing" id="tXT-7k-2DB"/>
+                                            <constraint firstItem="mnR-EA-V1i" firstAttribute="centerX" secondItem="fST-OF-ax2" secondAttribute="centerX" id="ukY-0y-awP"/>
+                                            <constraint firstItem="Pn2-z7-1DE" firstAttribute="top" secondItem="txl-zF-noN" secondAttribute="bottom" constant="10" id="vWw-Tl-JGf"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="9HR-Ie-7qm"/>
+                                                <exclude reference="V0H-MX-7Nb"/>
+                                            </mask>
+                                        </variation>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.18431372549019609" green="0.90196078431372551" blue="0.81568627450980391" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="fST-OF-ax2" firstAttribute="top" secondItem="Acl-fL-PJm" secondAttribute="top" id="3SK-oy-BEF"/>
+                                    <constraint firstItem="fST-OF-ax2" firstAttribute="leading" secondItem="Acl-fL-PJm" secondAttribute="leading" id="B0E-or-Rpf"/>
+                                    <constraint firstAttribute="bottom" secondItem="fST-OF-ax2" secondAttribute="bottom" id="MVo-pE-dBu"/>
+                                    <constraint firstAttribute="trailing" secondItem="fST-OF-ax2" secondAttribute="trailing" id="Z0o-Zo-dY6"/>
+                                    <constraint firstItem="fST-OF-ax2" firstAttribute="centerX" secondItem="Acl-fL-PJm" secondAttribute="centerX" id="pc4-IG-UyQ"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Acl-fL-PJm" firstAttribute="centerY" secondItem="M3A-IT-FBD" secondAttribute="centerY" id="BKF-ug-Qvz"/>
+                            <constraint firstItem="Acl-fL-PJm" firstAttribute="leading" secondItem="M3A-IT-FBD" secondAttribute="leading" id="BiL-mX-OZv"/>
+                            <constraint firstAttribute="trailing" secondItem="Acl-fL-PJm" secondAttribute="trailing" id="XZm-wx-t8D"/>
+                            <constraint firstItem="Acl-fL-PJm" firstAttribute="top" secondItem="M3A-IT-FBD" secondAttribute="top" id="cuZ-og-KDB"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="Science" id="3AE-T9-AGs">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                <color key="value" red="0.18431372549019609" green="0.90196078431372551" blue="0.81568627450980391" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                    <navigationItem key="navigationItem" id="CWk-7H-p97"/>
+                    <connections>
+                        <outlet property="Line1" destination="mnR-EA-V1i" id="tZg-TX-m7k"/>
+                        <outlet property="Line2" destination="AeC-QV-j1W" id="czY-0J-JeC"/>
+                        <outlet property="Line3" destination="Wjx-OW-nOO" id="7TB-f2-aQb"/>
+                        <outlet property="roleModel1Button" destination="txl-zF-noN" id="5WT-bL-C4y"/>
+                        <outlet property="roleModel2Button" destination="Pn2-z7-1DE" id="e13-tp-qZI"/>
+                        <outlet property="roleModel3Button" destination="0pT-Kx-XO0" id="Z6T-h0-0pf"/>
+                        <outlet property="roleModel4Button" destination="vfc-Zf-SaF" id="ruA-s8-iHE"/>
+                        <outlet property="scienceButton" destination="iNk-Vn-uak" id="ApY-No-J0d"/>
+                        <outlet property="scienceView" destination="8OI-iU-Ixe" id="CGM-S8-kH2"/>
+                        <outlet property="selfieButton" destination="iNk-Vn-uak" id="mPh-aK-DdH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cul-Zo-ev5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="301" y="-2144"/>
+        </scene>
+        <!--Elizabeth Blackwell View Controller-->
+        <scene sceneID="d1h-Lb-HG7">
+            <objects>
+                <viewController id="vKg-Qn-CSV" userLabel="Elizabeth Blackwell View Controller" customClass="ModalViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="r4L-5a-Uml"/>
+                        <viewControllerLayoutGuide type="bottom" id="qd4-bf-GS0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IuL-eT-Un6">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mcZ-AL-vOv">
+                                <rect key="frame" x="537" y="28" width="32" height="32"/>
+                                <state key="normal" image="X">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Dismiss:" destination="vKg-Qn-CSV" eventType="touchUpInside" id="e1f-Pw-afs"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mcZ-AL-vOv" firstAttribute="top" secondItem="r4L-5a-Uml" secondAttribute="bottom" constant="8" id="ATh-a9-9LR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mcZ-AL-vOv" secondAttribute="trailing" constant="15" id="L8G-zQ-xxM"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jjf-DF-I4l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2308" y="-3788"/>
+        </scene>
+        <!--Welcome View Controller-->
+        <scene sceneID="zGG-ub-Y1q">
+            <objects>
+                <viewController id="u35-py-psU" userLabel="Welcome View Controller" customClass="WelcomeViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ubB-oH-Uf1"/>
+                        <viewControllerLayoutGuide type="bottom" id="uZm-pl-MWj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6Hs-vw-hjo">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tq7-Vt-xIk" userLabel="Let's Get Started! &gt;">
+                                <rect key="frame" x="283" y="443" width="169" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Click here to get started!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="u1c-zb-NT7" kind="show" id="By4-4I-KOr"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Welcome to The STEMinist World!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C0y-Nx-ch7">
+                                <rect key="frame" x="203" y="121" width="260" height="21"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.077167182662538678" green="0.45490196078431372" blue="0.68627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="C0y-Nx-ch7" secondAttribute="centerX" id="Vvy-bi-425"/>
+                            <constraint firstAttribute="centerX" secondItem="Tq7-Vt-xIk" secondAttribute="centerX" id="ZGO-d5-eSr"/>
+                            <constraint firstAttribute="centerX" secondItem="C0y-Nx-ch7" secondAttribute="centerX" id="bp8-Hm-kEt"/>
+                            <constraint firstItem="uZm-pl-MWj" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Tq7-Vt-xIk" secondAttribute="bottom" constant="150" id="vQe-sm-oNb"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sbN-a2-axm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1552" y="-417"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="mMX-DD-sSH">
+            <objects>
+                <tabBarController id="u1c-zb-NT7" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="pSS-wJ-noq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="AdG-qJ-V5j" kind="relationship" relationship="viewControllers" id="yE6-2y-R00"/>
+                        <segue destination="yLC-Rw-kKc" kind="relationship" relationship="viewControllers" id="Uhv-yX-OWF"/>
+                        <segue destination="S8Z-jg-FHH" kind="relationship" relationship="viewControllers" id="dhM-XK-ZUx"/>
+                        <segue destination="7GC-57-L3Q" kind="relationship" relationship="viewControllers" id="OBx-kH-Lsb"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bF5-pT-JVA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-828" y="-417"/>
+        </scene>
+        <!--Technology View Controller-->
+        <scene sceneID="bT9-4P-Ghg">
+            <objects>
+                <viewController id="yLC-Rw-kKc" userLabel="Technology View Controller" customClass="ScienceViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rUH-XS-pYg"/>
+                        <viewControllerLayoutGuide type="bottom" id="LEP-QD-qwS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SXl-xY-KA9" userLabel="root view">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gMx-dx-Iu4">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="601"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cZc-iz-ezV" userLabel="content view">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="601"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0vJ-tA-sfh" userLabel="Elizabeth Blackwell">
+                                                <rect key="frame" x="10" y="105" width="80" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="4vX-Bm-fL6"/>
+                                                    <constraint firstAttribute="height" constant="80" id="pdG-bc-i4K"/>
+                                                </constraints>
+                                                <state key="normal" image="AdaLovelace">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="haa-so-nMo" kind="presentation" id="5UM-dr-8Zf"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LbV-0r-oxF" userLabel="Marie Curie">
+                                                <rect key="frame" x="10" y="195" width="80" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="dmC-te-rgb"/>
+                                                </constraints>
+                                                <state key="normal" image="GraceHopper">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="KTy-PQ-rnY" kind="presentation" id="Yrd-Zr-Tex"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oVL-jX-rM1" userLabel="Rosalind Franklin">
+                                                <rect key="frame" x="10" y="285" width="80" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="7sr-xv-RyK"/>
+                                                </constraints>
+                                                <state key="normal" image="AnitaBorg">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="Qh3-tb-vCM" kind="presentation" id="gIJ-qd-sJN"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ACh-sI-aTh" userLabel="Dorothy Hodgkin">
+                                                <rect key="frame" x="10" y="375" width="80" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="JFH-XX-pPI"/>
+                                                </constraints>
+                                                <state key="normal" image="MarissaMayer">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="Guj-mN-EAm" kind="presentation" id="460-7O-DhZ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="39m-og-yV6">
+                                                <rect key="frame" x="10" y="465" width="80" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="39m-og-yV6" secondAttribute="height" multiplier="1:1" id="Vd1-w4-Jq8"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                                <state key="normal" image="purple"/>
+                                                <connections>
+                                                    <action selector="takeTechPhoto:" destination="yLC-Rw-kKc" eventType="touchUpInside" id="ZOY-7E-FsX"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Explore the Science field to learn more!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="BFg-9d-acD">
+                                                <rect key="frame" x="170" y="79" width="263" height="17"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Does this sound like you? " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Pc-Sd-VEs">
+                                                <rect key="frame" x="214" y="51" width="175" height="17"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scientists are curious and want to know all the answers. " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="rva-Dw-rjB">
+                                                <rect key="frame" x="10" y="25" width="580" height="17"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="i8Z-ej-pXp">
+                                                <rect key="frame" x="10" y="465" width="80" height="80"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.60784313725490191" green="0.18431372549019609" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="39m-og-yV6" firstAttribute="top" secondItem="i8Z-ej-pXp" secondAttribute="top" id="0F7-M2-0jQ"/>
+                                            <constraint firstItem="39m-og-yV6" firstAttribute="leading" secondItem="i8Z-ej-pXp" secondAttribute="trailing" constant="-80" id="0fg-OP-d98"/>
+                                            <constraint firstItem="39m-og-yV6" firstAttribute="width" secondItem="i8Z-ej-pXp" secondAttribute="height" multiplier="1:1" id="36Y-rK-T8k"/>
+                                            <constraint firstAttribute="height" constant="601" id="5s4-MH-3Oc"/>
+                                            <constraint firstItem="39m-og-yV6" firstAttribute="top" secondItem="ACh-sI-aTh" secondAttribute="bottom" constant="10" id="6c6-rC-Faq"/>
+                                            <constraint firstItem="0vJ-tA-sfh" firstAttribute="trailing" secondItem="LbV-0r-oxF" secondAttribute="trailing" id="7wk-DJ-5V8"/>
+                                            <constraint firstItem="rva-Dw-rjB" firstAttribute="top" secondItem="cZc-iz-ezV" secondAttribute="top" constant="25" id="974-jt-I42"/>
+                                            <constraint firstItem="rva-Dw-rjB" firstAttribute="centerX" secondItem="cZc-iz-ezV" secondAttribute="centerX" id="BH2-37-ONe"/>
+                                            <constraint firstAttribute="centerX" secondItem="7Pc-Sd-VEs" secondAttribute="centerX" constant="-1.5" id="BUE-mD-hi4"/>
+                                            <constraint firstItem="BFg-9d-acD" firstAttribute="top" secondItem="7Pc-Sd-VEs" secondAttribute="bottom" constant="11" id="GTs-eb-aks"/>
+                                            <constraint firstItem="7Pc-Sd-VEs" firstAttribute="centerX" secondItem="BFg-9d-acD" secondAttribute="centerX" id="IC3-BY-pB1"/>
+                                            <constraint firstItem="oVL-jX-rM1" firstAttribute="trailing" secondItem="LbV-0r-oxF" secondAttribute="trailing" id="J3r-LE-1aR"/>
+                                            <constraint firstItem="0vJ-tA-sfh" firstAttribute="leading" secondItem="cZc-iz-ezV" secondAttribute="leading" constant="10" id="JNI-ct-92J"/>
+                                            <constraint firstItem="oVL-jX-rM1" firstAttribute="leading" secondItem="ACh-sI-aTh" secondAttribute="leading" id="KKw-Yf-thU"/>
+                                            <constraint firstAttribute="bottom" secondItem="i8Z-ej-pXp" secondAttribute="bottom" constant="56" id="KOK-9w-tkQ"/>
+                                            <constraint firstItem="LbV-0r-oxF" firstAttribute="leading" secondItem="oVL-jX-rM1" secondAttribute="leading" id="ML5-3F-z5b"/>
+                                            <constraint firstItem="7Pc-Sd-VEs" firstAttribute="top" secondItem="rva-Dw-rjB" secondAttribute="bottom" priority="100" constant="9" id="UKk-1Y-E9U"/>
+                                            <constraint firstAttribute="centerX" secondItem="BFg-9d-acD" secondAttribute="centerX" constant="-1.5" id="UT0-Sk-L9J"/>
+                                            <constraint firstItem="39m-og-yV6" firstAttribute="leading" secondItem="i8Z-ej-pXp" secondAttribute="leading" id="We0-96-WBA"/>
+                                            <constraint firstItem="39m-og-yV6" firstAttribute="leading" secondItem="ACh-sI-aTh" secondAttribute="leading" id="XSN-vh-zI5"/>
+                                            <constraint firstItem="oVL-jX-rM1" firstAttribute="top" secondItem="LbV-0r-oxF" secondAttribute="bottom" constant="10" id="Yed-zc-Ez1"/>
+                                            <constraint firstItem="39m-og-yV6" firstAttribute="trailing" secondItem="ACh-sI-aTh" secondAttribute="trailing" id="ZJR-fN-P4l"/>
+                                            <constraint firstAttribute="bottom" secondItem="39m-og-yV6" secondAttribute="bottom" constant="56" id="aMz-gf-ewA"/>
+                                            <constraint firstItem="0vJ-tA-sfh" firstAttribute="top" secondItem="rva-Dw-rjB" secondAttribute="bottom" priority="100" constant="76" id="azL-EG-1l7"/>
+                                            <constraint firstItem="i8Z-ej-pXp" firstAttribute="top" secondItem="ACh-sI-aTh" secondAttribute="bottom" constant="10" id="bED-YS-pnk"/>
+                                            <constraint firstItem="LbV-0r-oxF" firstAttribute="top" secondItem="0vJ-tA-sfh" secondAttribute="bottom" constant="10" id="eSC-tR-j3A"/>
+                                            <constraint firstItem="39m-og-yV6" firstAttribute="bottom" secondItem="i8Z-ej-pXp" secondAttribute="bottom" id="hiA-ns-qcY"/>
+                                            <constraint firstItem="39m-og-yV6" firstAttribute="trailing" secondItem="i8Z-ej-pXp" secondAttribute="trailing" id="i3o-E7-O28"/>
+                                            <constraint firstItem="LbV-0r-oxF" firstAttribute="leading" secondItem="0vJ-tA-sfh" secondAttribute="leading" id="jfv-6F-ihj"/>
+                                            <constraint firstItem="ACh-sI-aTh" firstAttribute="top" secondItem="oVL-jX-rM1" secondAttribute="bottom" constant="10" id="kuJ-cX-Vk3"/>
+                                            <constraint firstItem="rva-Dw-rjB" firstAttribute="leading" secondItem="cZc-iz-ezV" secondAttribute="leading" constant="10" id="ljW-iE-r9b"/>
+                                            <constraint firstItem="oVL-jX-rM1" firstAttribute="trailing" secondItem="ACh-sI-aTh" secondAttribute="trailing" id="sjT-pE-Drp"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                                <color key="value" red="0.60784313725490191" green="0.18431372549019609" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="0F7-M2-0jQ"/>
+                                                <exclude reference="0fg-OP-d98"/>
+                                                <exclude reference="36Y-rK-T8k"/>
+                                                <exclude reference="hiA-ns-qcY"/>
+                                            </mask>
+                                        </variation>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.60784313729999995" green="0.1843137255" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="cZc-iz-ezV" firstAttribute="leading" secondItem="gMx-dx-Iu4" secondAttribute="leading" id="17P-nd-ETe"/>
+                                    <constraint firstItem="cZc-iz-ezV" firstAttribute="centerX" secondItem="gMx-dx-Iu4" secondAttribute="centerX" id="7fD-uQ-cLq"/>
+                                    <constraint firstAttribute="trailing" secondItem="cZc-iz-ezV" secondAttribute="trailing" id="Ctw-NE-yba"/>
+                                    <constraint firstItem="cZc-iz-ezV" firstAttribute="top" secondItem="gMx-dx-Iu4" secondAttribute="top" id="HdD-Jw-jNE"/>
+                                    <constraint firstAttribute="bottom" secondItem="cZc-iz-ezV" secondAttribute="bottom" id="RX1-8o-NBu"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gMx-dx-Iu4" firstAttribute="top" secondItem="SXl-xY-KA9" secondAttribute="top" id="Epd-ev-B5e"/>
+                            <constraint firstItem="gMx-dx-Iu4" firstAttribute="leading" secondItem="SXl-xY-KA9" secondAttribute="leading" id="MQO-w3-YLm"/>
+                            <constraint firstAttribute="trailing" secondItem="gMx-dx-Iu4" secondAttribute="trailing" id="OGj-Of-wkC"/>
+                            <constraint firstItem="gMx-dx-Iu4" firstAttribute="centerY" secondItem="SXl-xY-KA9" secondAttribute="centerY" id="k5Y-2S-x81"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="Technology" id="7gb-H4-XDB">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                <color key="value" red="0.60784313725490191" green="0.18431372549019609" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                    <navigationItem key="navigationItem" id="F1j-Pq-gzj"/>
+                    <connections>
+                        <outlet property="Line1" destination="rva-Dw-rjB" id="JvG-SK-E65"/>
+                        <outlet property="Line2" destination="7Pc-Sd-VEs" id="XFe-ji-Edh"/>
+                        <outlet property="Line3" destination="BFg-9d-acD" id="U4p-an-A8V"/>
+                        <outlet property="roleModel1Button" destination="0vJ-tA-sfh" id="iI9-sb-Drc"/>
+                        <outlet property="roleModel2Button" destination="LbV-0r-oxF" id="yJ9-IJ-xfm"/>
+                        <outlet property="roleModel3Button" destination="oVL-jX-rM1" id="d1W-j9-FGv"/>
+                        <outlet property="roleModel4Button" destination="ACh-sI-aTh" id="ak7-N7-Kuj"/>
+                        <outlet property="selfieButton" destination="39m-og-yV6" id="iAd-G9-6Ub"/>
+                        <outlet property="techButton" destination="39m-og-yV6" id="Spo-Ka-zri"/>
+                        <outlet property="techView" destination="i8Z-ej-pXp" id="5Zc-c4-3Md"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="phU-k3-LXZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="321" y="-1266"/>
+        </scene>
+        <!--Engineering View Controller-->
+        <scene sceneID="RxD-Ka-taZ">
+            <objects>
+                <viewController id="S8Z-jg-FHH" userLabel="Engineering View Controller" customClass="ScienceViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1pj-Ik-vve"/>
+                        <viewControllerLayoutGuide type="bottom" id="IFS-dz-zIs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="G7j-J7-rli" userLabel="root view">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="okN-D1-mxR">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="601"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dIo-lB-Zv6" userLabel="content view">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="601"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VaZ-6u-GQs" userLabel="Elizabeth Blackwell">
+                                                <rect key="frame" x="10" y="117" width="80" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="ekG-a6-PA8"/>
+                                                    <constraint firstAttribute="height" constant="80" id="soK-6t-c3P"/>
+                                                </constraints>
+                                                <state key="normal" image="ElizabethBlackwell">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="acE-YS-Bqb" kind="presentation" id="3an-ak-jHA"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5hz-i3-2ia" userLabel="Marie Curie">
+                                                <rect key="frame" x="10" y="207" width="80" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="Xbd-lb-Fjd"/>
+                                                </constraints>
+                                                <state key="normal" image="MarieCurie">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="hNm-B6-ud4" kind="presentation" id="5V9-Xq-Vl9"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y8r-Xz-1Ed" userLabel="Rosalind Franklin">
+                                                <rect key="frame" x="10" y="297" width="80" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="wBA-Qr-tE4"/>
+                                                </constraints>
+                                                <state key="normal" image="RosalindFranklin-1">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="sxv-GG-P9t" kind="presentation" id="doz-bP-OvC"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5w0-Xt-Fmi" userLabel="Dorothy Hodgkin">
+                                                <rect key="frame" x="10" y="387" width="80" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="beK-PI-sqS"/>
+                                                </constraints>
+                                                <state key="normal" image="DorothyHodgkin">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="6e4-DS-eek" kind="presentation" id="C8M-2a-MgQ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o2d-Od-cbx">
+                                                <rect key="frame" x="10" y="475" width="80" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="o2d-Od-cbx" secondAttribute="height" multiplier="1:1" id="EEQ-8S-4KU"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                                <state key="normal" image="yellow"/>
+                                                <connections>
+                                                    <action selector="takePhotos:" destination="S8Z-jg-FHH" eventType="touchUpInside" id="4mV-ux-PGZ"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Explore the Science field to learn more!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="5eu-nR-RoN">
+                                                <rect key="frame" x="170" y="79" width="263" height="17"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Does this sound like you? " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xyp-6a-UqD">
+                                                <rect key="frame" x="214" y="51" width="175" height="17"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Scientists are curious and want to know all the answers. " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="jox-WR-jo6">
+                                                <rect key="frame" x="110" y="16" width="380" height="17"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5hj-6j-TZQ">
+                                                <rect key="frame" x="10" y="475" width="80" height="80"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.96078431372549022" green="0.87450980392156863" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="centerX" secondItem="5eu-nR-RoN" secondAttribute="centerX" constant="-1.5" id="1Oj-Ec-2hR"/>
+                                            <constraint firstItem="y8r-Xz-1Ed" firstAttribute="top" secondItem="5hz-i3-2ia" secondAttribute="bottom" constant="10" id="42D-IE-RNA"/>
+                                            <constraint firstAttribute="centerX" secondItem="Xyp-6a-UqD" secondAttribute="centerX" constant="-1.5" id="6OW-Pq-tce"/>
+                                            <constraint firstItem="y8r-Xz-1Ed" firstAttribute="leading" secondItem="5w0-Xt-Fmi" secondAttribute="leading" id="7FN-2A-CL9"/>
+                                            <constraint firstItem="5hj-6j-TZQ" firstAttribute="leading" secondItem="o2d-Od-cbx" secondAttribute="leading" id="8nD-x0-eDF"/>
+                                            <constraint firstItem="Xyp-6a-UqD" firstAttribute="centerX" secondItem="5eu-nR-RoN" secondAttribute="centerX" id="9DN-Ro-irn"/>
+                                            <constraint firstAttribute="height" constant="601" id="9ak-bM-Zq6"/>
+                                            <constraint firstItem="5hj-6j-TZQ" firstAttribute="top" secondItem="5w0-Xt-Fmi" secondAttribute="bottom" constant="10" id="9w7-Id-GiG"/>
+                                            <constraint firstAttribute="bottom" secondItem="o2d-Od-cbx" secondAttribute="bottom" constant="56" id="AB2-jd-hSU"/>
+                                            <constraint firstItem="jox-WR-jo6" firstAttribute="top" secondItem="dIo-lB-Zv6" secondAttribute="top" constant="25" id="AdL-lR-tBK"/>
+                                            <constraint firstItem="5eu-nR-RoN" firstAttribute="top" secondItem="Xyp-6a-UqD" secondAttribute="bottom" constant="11" id="Ehn-r0-zkw"/>
+                                            <constraint firstItem="o2d-Od-cbx" firstAttribute="leading" secondItem="5w0-Xt-Fmi" secondAttribute="leading" id="FnB-cB-Rxy"/>
+                                            <constraint firstItem="5hj-6j-TZQ" firstAttribute="trailing" secondItem="o2d-Od-cbx" secondAttribute="trailing" id="MMe-qp-YCM"/>
+                                            <constraint firstAttribute="trailing" secondItem="5hj-6j-TZQ" secondAttribute="trailing" constant="510" id="MkF-sa-aAY"/>
+                                            <constraint firstItem="y8r-Xz-1Ed" firstAttribute="trailing" secondItem="5hz-i3-2ia" secondAttribute="trailing" id="MuB-Rh-Icg"/>
+                                            <constraint firstItem="5hj-6j-TZQ" firstAttribute="leading" secondItem="dIo-lB-Zv6" secondAttribute="leading" constant="10" id="Q7g-ma-NBI"/>
+                                            <constraint firstItem="jox-WR-jo6" firstAttribute="centerX" secondItem="dIo-lB-Zv6" secondAttribute="centerX" id="QBt-Kd-1vz"/>
+                                            <constraint firstItem="o2d-Od-cbx" firstAttribute="trailing" secondItem="5w0-Xt-Fmi" secondAttribute="trailing" id="aLP-MC-GPg"/>
+                                            <constraint firstItem="y8r-Xz-1Ed" firstAttribute="trailing" secondItem="5w0-Xt-Fmi" secondAttribute="trailing" id="d8Q-rD-HzO"/>
+                                            <constraint firstItem="Xyp-6a-UqD" firstAttribute="top" secondItem="jox-WR-jo6" secondAttribute="bottom" priority="100" constant="9" id="frC-4X-KGj"/>
+                                            <constraint firstItem="o2d-Od-cbx" firstAttribute="top" secondItem="5w0-Xt-Fmi" secondAttribute="bottom" constant="10" id="ibL-t4-xmy"/>
+                                            <constraint firstAttribute="bottom" secondItem="5hj-6j-TZQ" secondAttribute="bottom" constant="56" id="icf-5U-Iib"/>
+                                            <constraint firstItem="5w0-Xt-Fmi" firstAttribute="top" secondItem="y8r-Xz-1Ed" secondAttribute="bottom" constant="10" id="jbh-p9-GDK"/>
+                                            <constraint firstItem="jox-WR-jo6" firstAttribute="leading" secondItem="dIo-lB-Zv6" secondAttribute="leading" constant="10" id="lMh-8l-Fwj"/>
+                                            <constraint firstItem="VaZ-6u-GQs" firstAttribute="leading" secondItem="dIo-lB-Zv6" secondAttribute="leading" constant="10" id="mJE-xf-Qtj"/>
+                                            <constraint firstItem="5hz-i3-2ia" firstAttribute="leading" secondItem="y8r-Xz-1Ed" secondAttribute="leading" id="mfi-ez-kwI"/>
+                                            <constraint firstItem="5hz-i3-2ia" firstAttribute="leading" secondItem="VaZ-6u-GQs" secondAttribute="leading" id="pzE-1D-xNS"/>
+                                            <constraint firstItem="5hz-i3-2ia" firstAttribute="top" secondItem="VaZ-6u-GQs" secondAttribute="bottom" constant="10" id="t0S-gH-Gv9"/>
+                                            <constraint firstItem="VaZ-6u-GQs" firstAttribute="trailing" secondItem="5hz-i3-2ia" secondAttribute="trailing" id="xwc-JQ-vqV"/>
+                                            <constraint firstItem="VaZ-6u-GQs" firstAttribute="top" secondItem="jox-WR-jo6" secondAttribute="bottom" priority="100" constant="76" id="z0b-Xg-CT2"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                                <color key="value" red="0.96078431372549022" green="0.87450980392156863" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="MkF-sa-aAY"/>
+                                                <exclude reference="Q7g-ma-NBI"/>
+                                            </mask>
+                                        </variation>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.96078431369999995" green="0.87450980389999999" blue="0.1843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="dIo-lB-Zv6" secondAttribute="trailing" id="6VZ-3F-ThP"/>
+                                    <constraint firstItem="dIo-lB-Zv6" firstAttribute="top" secondItem="okN-D1-mxR" secondAttribute="top" id="Hd0-Lc-STX"/>
+                                    <constraint firstAttribute="bottom" secondItem="dIo-lB-Zv6" secondAttribute="bottom" id="U6j-f3-sGs"/>
+                                    <constraint firstItem="dIo-lB-Zv6" firstAttribute="leading" secondItem="okN-D1-mxR" secondAttribute="leading" id="n3y-hV-tjM"/>
+                                    <constraint firstItem="dIo-lB-Zv6" firstAttribute="centerX" secondItem="okN-D1-mxR" secondAttribute="centerX" id="zg7-aS-Nit"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="okN-D1-mxR" firstAttribute="leading" secondItem="G7j-J7-rli" secondAttribute="leading" id="2K8-gS-8mm"/>
+                            <constraint firstAttribute="trailing" secondItem="okN-D1-mxR" secondAttribute="trailing" id="UsA-tU-2eh"/>
+                            <constraint firstItem="okN-D1-mxR" firstAttribute="top" secondItem="G7j-J7-rli" secondAttribute="top" id="msx-8U-dR0"/>
+                            <constraint firstItem="okN-D1-mxR" firstAttribute="centerY" secondItem="G7j-J7-rli" secondAttribute="centerY" id="sgI-0I-09a"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="Engineering" id="rNM-pI-QYF">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                <color key="value" red="0.96078431369999995" green="0.87450980389999999" blue="0.1843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                    <navigationItem key="navigationItem" id="m2u-Cf-vn6"/>
+                    <connections>
+                        <outlet property="Line1" destination="jox-WR-jo6" id="ix0-Nt-0bG"/>
+                        <outlet property="Line2" destination="Xyp-6a-UqD" id="GaD-Ej-alh"/>
+                        <outlet property="Line3" destination="5eu-nR-RoN" id="mhM-ca-TR4"/>
+                        <outlet property="engineeringButton" destination="o2d-Od-cbx" id="FUa-vb-Su0"/>
+                        <outlet property="engineeringView" destination="5hj-6j-TZQ" id="Ewr-mG-GK1"/>
+                        <outlet property="roleModel1Button" destination="VaZ-6u-GQs" id="b9F-6l-Qkg"/>
+                        <outlet property="roleModel2Button" destination="5hz-i3-2ia" id="FkM-YM-ctG"/>
+                        <outlet property="roleModel3Button" destination="y8r-Xz-1Ed" id="uWS-yz-Niv"/>
+                        <outlet property="roleModel4Button" destination="5w0-Xt-Fmi" id="hiw-c3-uey"/>
+                        <outlet property="selfieButton" destination="o2d-Od-cbx" id="RP4-ih-Thg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="POV-Pq-NsL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="313" y="148"/>
+        </scene>
+        <!--Mathematics View Controller-->
+        <scene sceneID="IaJ-iL-aAO">
+            <objects>
+                <viewController id="7GC-57-L3Q" userLabel="Mathematics View Controller" customClass="ScienceViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pg9-Tg-Nvl"/>
+                        <viewControllerLayoutGuide type="bottom" id="i4H-pA-e3d"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WG3-ZK-uLU" userLabel="root view">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X5L-dT-6Hd">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="601"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sb8-2z-KYB" userLabel="content view">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="601"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7XX-hj-xuJ" userLabel="Marie Curie">
+                                                <rect key="frame" x="10" y="207" width="80" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="wup-us-ZVJ"/>
+                                                </constraints>
+                                                <state key="normal" image="MarieCurie">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="u07-nW-45P" kind="presentation" id="gRf-xA-teg"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gFt-bH-4HO" userLabel="Rosalind Franklin">
+                                                <rect key="frame" x="10" y="299" width="80" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="fNE-RU-S3z"/>
+                                                </constraints>
+                                                <state key="normal" image="RosalindFranklin-1">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="4es-LY-NcA" kind="presentation" id="TA6-uB-K8w"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vgz-eL-RzZ" userLabel="Dorothy Hodgkin">
+                                                <rect key="frame" x="10" y="387" width="80" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="BTD-bM-S6n"/>
+                                                </constraints>
+                                                <state key="normal" image="DorothyHodgkin">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="ZC9-Tv-6L7" kind="presentation" id="eAE-fU-Dpm"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HIP-5N-Qp0">
+                                                <rect key="frame" x="10" y="475" width="80" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="HIP-5N-Qp0" secondAttribute="height" multiplier="1:1" id="i4b-mL-7rE"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                                <state key="normal" image="orange"/>
+                                                <connections>
+                                                    <action selector="takeMathPhoto:" destination="7GC-57-L3Q" eventType="touchUpInside" id="83W-SZ-xln"/>
+                                                </connections>
+                                            </button>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dAe-ba-LuX">
+                                                <rect key="frame" x="10" y="475" width="80" height="80"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Explore the Science field to learn more!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="sNM-9y-xCd">
+                                                <rect key="frame" x="170" y="79" width="263" height="17"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Does this sound like you? " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i56-i9-BOF">
+                                                <rect key="frame" x="214" y="51" width="175" height="17"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Scientists are curious and want to know all the answers. " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="5yk-fs-fnQ">
+                                                <rect key="frame" x="110" y="16" width="380" height="17"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tpS-Dz-eJq" userLabel="Elizabeth Blackwell">
+                                                <rect key="frame" x="10" y="119" width="80" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="l5a-zO-xLj"/>
+                                                    <constraint firstAttribute="height" constant="80" id="xUh-mu-80C"/>
+                                                </constraints>
+                                                <state key="normal" image="ElizabethBlackwell">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="hWO-IE-6XZ" kind="presentation" id="TC8-Dt-BQk"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.96078431372549022" green="0.29019607843137257" blue="0.054901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="i56-i9-BOF" firstAttribute="centerX" secondItem="sNM-9y-xCd" secondAttribute="centerX" id="7Oh-Dd-Shj"/>
+                                            <constraint firstItem="gFt-bH-4HO" firstAttribute="trailing" secondItem="7XX-hj-xuJ" secondAttribute="trailing" id="91A-yw-3WM"/>
+                                            <constraint firstItem="5yk-fs-fnQ" firstAttribute="leading" secondItem="sb8-2z-KYB" secondAttribute="leading" constant="10" id="BCu-4f-P0t"/>
+                                            <constraint firstItem="tpS-Dz-eJq" firstAttribute="trailing" secondItem="7XX-hj-xuJ" secondAttribute="trailing" id="CqL-Jf-M1O"/>
+                                            <constraint firstItem="HIP-5N-Qp0" firstAttribute="trailing" secondItem="Vgz-eL-RzZ" secondAttribute="trailing" id="DzX-ca-E6W"/>
+                                            <constraint firstItem="HIP-5N-Qp0" firstAttribute="trailing" secondItem="dAe-ba-LuX" secondAttribute="trailing" id="EP4-C1-uBA"/>
+                                            <constraint firstItem="HIP-5N-Qp0" firstAttribute="leading" secondItem="dAe-ba-LuX" secondAttribute="leading" id="FC9-wq-hb7"/>
+                                            <constraint firstItem="dAe-ba-LuX" firstAttribute="top" secondItem="Vgz-eL-RzZ" secondAttribute="bottom" constant="10" id="GMo-7s-vqE"/>
+                                            <constraint firstItem="Vgz-eL-RzZ" firstAttribute="top" secondItem="gFt-bH-4HO" secondAttribute="bottom" constant="10" id="IQk-ws-jul"/>
+                                            <constraint firstItem="gFt-bH-4HO" firstAttribute="trailing" secondItem="Vgz-eL-RzZ" secondAttribute="trailing" id="Jtz-dn-GFv"/>
+                                            <constraint firstAttribute="bottom" secondItem="dAe-ba-LuX" secondAttribute="bottom" constant="56" id="Kse-jd-eaX"/>
+                                            <constraint firstItem="tpS-Dz-eJq" firstAttribute="leading" secondItem="sb8-2z-KYB" secondAttribute="leading" constant="10" id="OIn-gi-hEN"/>
+                                            <constraint firstItem="5yk-fs-fnQ" firstAttribute="top" secondItem="sb8-2z-KYB" secondAttribute="top" constant="25" id="ONA-hq-p9c"/>
+                                            <constraint firstItem="gFt-bH-4HO" firstAttribute="leading" secondItem="Vgz-eL-RzZ" secondAttribute="leading" id="OdB-3W-Qhb"/>
+                                            <constraint firstItem="i56-i9-BOF" firstAttribute="top" secondItem="5yk-fs-fnQ" secondAttribute="bottom" priority="100" constant="9" id="QtS-xP-T0e"/>
+                                            <constraint firstItem="7XX-hj-xuJ" firstAttribute="leading" secondItem="tpS-Dz-eJq" secondAttribute="leading" id="R5A-Z8-HY1"/>
+                                            <constraint firstItem="sNM-9y-xCd" firstAttribute="top" secondItem="i56-i9-BOF" secondAttribute="bottom" constant="11" id="Sg7-sb-DLR"/>
+                                            <constraint firstItem="7XX-hj-xuJ" firstAttribute="leading" secondItem="gFt-bH-4HO" secondAttribute="leading" id="U2M-vG-FiS"/>
+                                            <constraint firstAttribute="centerX" secondItem="sNM-9y-xCd" secondAttribute="centerX" constant="-1.5" id="Ujb-ao-UpG"/>
+                                            <constraint firstItem="5yk-fs-fnQ" firstAttribute="centerX" secondItem="sb8-2z-KYB" secondAttribute="centerX" id="WKm-mp-sH1"/>
+                                            <constraint firstAttribute="bottom" secondItem="HIP-5N-Qp0" secondAttribute="bottom" constant="56" id="e84-lo-EAB"/>
+                                            <constraint firstItem="tpS-Dz-eJq" firstAttribute="top" secondItem="5yk-fs-fnQ" secondAttribute="bottom" priority="100" constant="76" id="ec9-gV-xce"/>
+                                            <constraint firstItem="HIP-5N-Qp0" firstAttribute="top" secondItem="Vgz-eL-RzZ" secondAttribute="bottom" constant="10" id="hVY-qi-Nmb"/>
+                                            <constraint firstItem="gFt-bH-4HO" firstAttribute="top" secondItem="7XX-hj-xuJ" secondAttribute="bottom" constant="10" id="jt0-mG-rQs"/>
+                                            <constraint firstItem="HIP-5N-Qp0" firstAttribute="leading" secondItem="Vgz-eL-RzZ" secondAttribute="leading" id="kOY-U2-7du"/>
+                                            <constraint firstAttribute="centerX" secondItem="i56-i9-BOF" secondAttribute="centerX" constant="-1.5" id="pjm-31-Quc"/>
+                                            <constraint firstAttribute="height" constant="601" id="qSv-bD-3A0"/>
+                                            <constraint firstItem="7XX-hj-xuJ" firstAttribute="top" secondItem="tpS-Dz-eJq" secondAttribute="bottom" constant="10" id="seL-nT-gfP"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                                <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.96078431369999995" green="0.2901960784" blue="0.054901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="sb8-2z-KYB" secondAttribute="trailing" id="8y4-3E-74r"/>
+                                    <constraint firstItem="sb8-2z-KYB" firstAttribute="leading" secondItem="X5L-dT-6Hd" secondAttribute="leading" id="coE-gx-7IA"/>
+                                    <constraint firstAttribute="bottom" secondItem="sb8-2z-KYB" secondAttribute="bottom" id="ey2-k5-d12"/>
+                                    <constraint firstItem="sb8-2z-KYB" firstAttribute="top" secondItem="X5L-dT-6Hd" secondAttribute="top" id="lcz-Ds-B4u"/>
+                                    <constraint firstItem="sb8-2z-KYB" firstAttribute="centerX" secondItem="X5L-dT-6Hd" secondAttribute="centerX" id="tFR-7A-Ftc"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="X5L-dT-6Hd" secondAttribute="trailing" id="0yI-Rd-96B"/>
+                            <constraint firstItem="X5L-dT-6Hd" firstAttribute="centerY" secondItem="WG3-ZK-uLU" secondAttribute="centerY" id="f5u-zs-Vo4"/>
+                            <constraint firstItem="X5L-dT-6Hd" firstAttribute="top" secondItem="WG3-ZK-uLU" secondAttribute="top" id="sIL-6u-Dsa"/>
+                            <constraint firstItem="X5L-dT-6Hd" firstAttribute="leading" secondItem="WG3-ZK-uLU" secondAttribute="leading" id="zqH-rj-Oov"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="Math" id="Vbc-sK-fiX">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                <color key="value" red="0.96078431372549022" green="0.29019607843137257" blue="0.054901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                    <navigationItem key="navigationItem" id="1Q7-tK-sHj"/>
+                    <connections>
+                        <outlet property="Line1" destination="5yk-fs-fnQ" id="McA-oS-lrd"/>
+                        <outlet property="Line2" destination="i56-i9-BOF" id="B7F-lU-ySO"/>
+                        <outlet property="Line3" destination="sNM-9y-xCd" id="GCP-EZ-xfS"/>
+                        <outlet property="mathButton" destination="HIP-5N-Qp0" id="WMT-4b-IEb"/>
+                        <outlet property="mathView" destination="dAe-ba-LuX" id="HFW-Cw-EyH"/>
+                        <outlet property="roleModel1Button" destination="tpS-Dz-eJq" id="X2s-V4-WLe"/>
+                        <outlet property="roleModel2Button" destination="7XX-hj-xuJ" id="6tc-uq-PX0"/>
+                        <outlet property="roleModel3Button" destination="gFt-bH-4HO" id="fo5-Fe-Gma"/>
+                        <outlet property="roleModel4Button" destination="Vgz-eL-RzZ" id="OFd-9l-1Mf"/>
+                        <outlet property="selfieButton" destination="HIP-5N-Qp0" id="neG-T7-WK3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pJP-Ga-w16" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="365" y="1518"/>
+        </scene>
+        <!--Marie Curie View Controller-->
+        <scene sceneID="bKc-ZB-aeu">
+            <objects>
+                <viewController id="MMj-5V-T1d" userLabel="Marie Curie View Controller" customClass="ModalViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="q7i-8O-nM9"/>
+                        <viewControllerLayoutGuide type="bottom" id="pn9-s8-ymH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zZh-EV-eda">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zK1-kT-T83">
+                                <rect key="frame" x="537" y="28" width="32" height="32"/>
+                                <state key="normal" image="X">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Dismiss:" destination="MMj-5V-T1d" eventType="touchUpInside" id="T4P-IQ-MCW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zK1-kT-T83" firstAttribute="top" secondItem="q7i-8O-nM9" secondAttribute="bottom" constant="8" id="GOj-wd-6I6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zK1-kT-T83" secondAttribute="trailing" constant="15" id="Yhf-CO-lOV"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="brA-dG-aXQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2272" y="-3090"/>
+        </scene>
+        <!--Rosalind Franklin View Controller-->
+        <scene sceneID="8qJ-B1-jOw">
+            <objects>
+                <viewController id="btN-gp-Fcw" userLabel="Rosalind Franklin View Controller" customClass="ModalViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="csc-WF-Zwb"/>
+                        <viewControllerLayoutGuide type="bottom" id="5Cl-1z-no7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="goW-sm-AhA">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cjU-fV-pK6">
+                                <rect key="frame" x="537" y="28" width="32" height="32"/>
+                                <state key="normal" image="X">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Dismiss:" destination="btN-gp-Fcw" eventType="touchUpInside" id="Ude-0v-6q0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cjU-fV-pK6" firstAttribute="top" secondItem="csc-WF-Zwb" secondAttribute="bottom" constant="8" id="Z7d-eD-Gev"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cjU-fV-pK6" secondAttribute="trailing" constant="15" id="wUG-0i-8bb"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NOe-qI-pcI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2948" y="-3788"/>
+        </scene>
+        <!--Dorothy Hodgkin View Controller-->
+        <scene sceneID="Gcv-JN-Aol">
+            <objects>
+                <viewController id="xXR-Wt-s8T" userLabel="Dorothy Hodgkin View Controller" customClass="ModalViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xQg-wB-QJb"/>
+                        <viewControllerLayoutGuide type="bottom" id="pSv-1E-1cG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="woJ-sC-KyQ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VQ4-uZ-hOo">
+                                <rect key="frame" x="537" y="28" width="32" height="32"/>
+                                <state key="normal" image="X">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Dismiss:" destination="xXR-Wt-s8T" eventType="touchUpInside" id="gdt-Cr-xMe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="VQ4-uZ-hOo" firstAttribute="top" secondItem="xQg-wB-QJb" secondAttribute="bottom" constant="8" id="2hM-Uu-Rzj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="VQ4-uZ-hOo" secondAttribute="trailing" constant="15" id="mOK-6d-3KI"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Phd-Yn-xw7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2948" y="-3058"/>
+        </scene>
+        <!--Ada Lovelace View Controller-->
+        <scene sceneID="3eB-hH-mbJ">
+            <objects>
+                <viewController id="haa-so-nMo" userLabel="Ada Lovelace View Controller" customClass="ModalViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="avm-la-92O"/>
+                        <viewControllerLayoutGuide type="bottom" id="O2J-b4-Ous"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BhO-00-bbl">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jZc-VJ-utZ">
+                                <rect key="frame" x="537" y="28" width="32" height="32"/>
+                                <state key="normal" image="X">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Dismiss:" destination="haa-so-nMo" eventType="touchUpInside" id="HaS-he-aHg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jZc-VJ-utZ" firstAttribute="top" secondItem="avm-la-92O" secondAttribute="bottom" constant="8" id="3N3-2K-jAu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jZc-VJ-utZ" secondAttribute="trailing" constant="15" id="B8B-L9-BPI"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ghn-bb-ox5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2336" y="-2144"/>
+        </scene>
+        <!--Grace Hopper View Controller-->
+        <scene sceneID="ShJ-av-6ij">
+            <objects>
+                <viewController id="KTy-PQ-rnY" userLabel="Grace Hopper View Controller" customClass="ModalViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0Fw-0x-jAE"/>
+                        <viewControllerLayoutGuide type="bottom" id="CBM-HP-LUf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YSc-Qn-2li">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7t1-kB-X4o">
+                                <rect key="frame" x="537" y="28" width="32" height="32"/>
+                                <state key="normal" image="X">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Dismiss:" destination="KTy-PQ-rnY" eventType="touchUpInside" id="LS5-Jx-aFd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7t1-kB-X4o" firstAttribute="top" secondItem="0Fw-0x-jAE" secondAttribute="bottom" constant="8" id="krF-fJ-BlU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7t1-kB-X4o" secondAttribute="trailing" constant="15" id="q6y-zi-F8K"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="09h-qk-ZsQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2992" y="-1458"/>
+        </scene>
+        <!--Anita Borg View Controller-->
+        <scene sceneID="rBR-7w-s1B">
+            <objects>
+                <viewController id="Qh3-tb-vCM" userLabel="Anita Borg View Controller" customClass="ModalViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="J3o-V0-pqn"/>
+                        <viewControllerLayoutGuide type="bottom" id="rO7-Xk-yMe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="job-aS-Dkb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eTb-Be-Hcc">
+                                <rect key="frame" x="537" y="28" width="32" height="32"/>
+                                <state key="normal" image="X">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Dismiss:" destination="Qh3-tb-vCM" eventType="touchUpInside" id="ZYm-vr-ftW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="eTb-Be-Hcc" secondAttribute="trailing" constant="15" id="Jm1-vH-4cj"/>
+                            <constraint firstItem="eTb-Be-Hcc" firstAttribute="top" secondItem="J3o-V0-pqn" secondAttribute="bottom" constant="8" id="LZa-0T-UoV"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="acb-kB-Opr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2316" y="-1538"/>
+        </scene>
+        <!--Joanna Hoffman View Controller-->
+        <scene sceneID="5pU-hm-fBl">
+            <objects>
+                <viewController id="Guj-mN-EAm" userLabel="Joanna Hoffman View Controller" customClass="ModalViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8fA-8R-mqP"/>
+                        <viewControllerLayoutGuide type="bottom" id="P0I-Ql-QVd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="etm-Ye-RA1">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HsV-tm-KU7">
+                                <rect key="frame" x="537" y="28" width="32" height="32"/>
+                                <state key="normal" image="X">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Dismiss:" destination="Guj-mN-EAm" eventType="touchUpInside" id="i24-FH-ey8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="HsV-tm-KU7" firstAttribute="top" secondItem="8fA-8R-mqP" secondAttribute="bottom" constant="8" id="Vh1-jd-dwK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="HsV-tm-KU7" secondAttribute="trailing" constant="15" id="rjy-7o-Myo"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gkb-yG-SZL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2992" y="-2125"/>
+        </scene>
+        <!--Beulah Louise Henry View Controller-->
+        <scene sceneID="2iv-bF-bv3">
+            <objects>
+                <viewController id="acE-YS-Bqb" userLabel="Beulah Louise Henry View Controller" customClass="ModalViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lm7-kf-ZKc"/>
+                        <viewControllerLayoutGuide type="bottom" id="Pw9-jU-p3o"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UhL-eA-LHm">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SZV-V1-0YF">
+                                <rect key="frame" x="537" y="28" width="32" height="32"/>
+                                <state key="normal" image="X">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Dismiss:" destination="acE-YS-Bqb" eventType="touchUpInside" id="7nd-8O-gRb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SZV-V1-0YF" firstAttribute="top" secondItem="lm7-kf-ZKc" secondAttribute="bottom" constant="8" id="D7a-wK-nJN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="SZV-V1-0YF" secondAttribute="trailing" constant="15" id="voA-K3-fBu"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XfO-cP-Tx1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2288" y="-540"/>
+        </scene>
+        <!--Hedy Lamar View Controller-->
+        <scene sceneID="X2W-GI-NtJ">
+            <objects>
+                <viewController id="hNm-B6-ud4" userLabel="Hedy Lamar View Controller" customClass="ModalViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LHd-py-3Q7"/>
+                        <viewControllerLayoutGuide type="bottom" id="4vp-Sa-sre"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WWn-vv-uZD">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RBI-wc-SmI">
+                                <rect key="frame" x="537" y="28" width="32" height="32"/>
+                                <state key="normal" image="X">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Dismiss:" destination="hNm-B6-ud4" eventType="touchUpInside" id="fZC-Sk-Mpy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RBI-wc-SmI" firstAttribute="top" secondItem="LHd-py-3Q7" secondAttribute="bottom" constant="8" id="Qcc-kt-3D4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RBI-wc-SmI" secondAttribute="trailing" constant="15" id="V9J-Rt-NJS"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DiR-FJ-kO3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2948" y="-588"/>
+        </scene>
+        <!--Sally Ride View Controller-->
+        <scene sceneID="chl-AI-Zwv">
+            <objects>
+                <viewController id="sxv-GG-P9t" userLabel="Sally Ride View Controller" customClass="ModalViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CkZ-fr-yzP"/>
+                        <viewControllerLayoutGuide type="bottom" id="X1v-cK-Cvu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HsV-og-J1p">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7L5-Fz-xo5">
+                                <rect key="frame" x="537" y="28" width="32" height="32"/>
+                                <state key="normal" image="X">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Dismiss:" destination="sxv-GG-P9t" eventType="touchUpInside" id="U5z-wz-eQy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7L5-Fz-xo5" firstAttribute="top" secondItem="CkZ-fr-yzP" secondAttribute="bottom" constant="8" id="aZw-09-5gI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7L5-Fz-xo5" secondAttribute="trailing" constant="15" id="cJO-UX-Fma"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7hI-W5-5g9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2272" y="148"/>
+        </scene>
+        <!--Marissa Mayer View Controller-->
+        <scene sceneID="mak-JD-7Pa">
+            <objects>
+                <viewController id="6e4-DS-eek" userLabel="Marissa Mayer View Controller" customClass="ModalViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Y8h-8q-QYd"/>
+                        <viewControllerLayoutGuide type="bottom" id="Uo8-z9-UGW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="a8u-ya-ClF">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N5r-SA-fT5">
+                                <rect key="frame" x="537" y="28" width="32" height="32"/>
+                                <state key="normal" image="X">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Dismiss:" destination="6e4-DS-eek" eventType="touchUpInside" id="yPI-bj-eLL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="N5r-SA-fT5" firstAttribute="top" secondItem="Y8h-8q-QYd" secondAttribute="bottom" constant="8" id="4AA-N9-3Qb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="N5r-SA-fT5" secondAttribute="trailing" constant="15" id="8b3-cj-KzP"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1NM-vK-9hI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2936" y="142"/>
+        </scene>
+        <!--Maria Gaetana Agnesi View Controller-->
+        <scene sceneID="Mr3-ft-Qe1">
+            <objects>
+                <viewController id="hWO-IE-6XZ" userLabel="Maria Gaetana Agnesi View Controller" customClass="ModalViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Dhd-gX-W3E"/>
+                        <viewControllerLayoutGuide type="bottom" id="H3e-iR-57w"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JuS-kt-ooJ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sf9-eW-EEY">
+                                <rect key="frame" x="537" y="28" width="32" height="32"/>
+                                <state key="normal" image="X">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Dismiss:" destination="hWO-IE-6XZ" eventType="touchUpInside" id="WE4-PL-grV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="sf9-eW-EEY" firstAttribute="top" secondItem="Dhd-gX-W3E" secondAttribute="bottom" constant="8" id="1H5-rn-H0P"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sf9-eW-EEY" secondAttribute="trailing" constant="15" id="jLZ-7l-9Ce"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LOM-3a-fRL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2368" y="1316"/>
+        </scene>
+        <!--Sofia Kovalevskaya View Controller-->
+        <scene sceneID="nvh-Tn-wyk">
+            <objects>
+                <viewController id="u07-nW-45P" userLabel="Sofia Kovalevskaya View Controller" customClass="ModalViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5BC-Oz-y8L"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mtt-7C-e2A"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VbE-Pd-R7K">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mId-le-OsV">
+                                <rect key="frame" x="537" y="28" width="32" height="32"/>
+                                <state key="normal" image="X">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Dismiss:" destination="u07-nW-45P" eventType="touchUpInside" id="8Yg-jr-6NN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mId-le-OsV" firstAttribute="top" secondItem="5BC-Oz-y8L" secondAttribute="bottom" constant="8" id="6pn-UH-TyI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mId-le-OsV" secondAttribute="trailing" constant="15" id="qPv-bm-EIp"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iwI-Et-Nci" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2998" y="1316"/>
+        </scene>
+        <!--Emmy Noether View Controller-->
+        <scene sceneID="9x8-Jp-ysl">
+            <objects>
+                <viewController id="4es-LY-NcA" userLabel="Emmy Noether View Controller" customClass="ModalViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cgp-f9-Z6P"/>
+                        <viewControllerLayoutGuide type="bottom" id="IQo-QG-B3e"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jgM-p3-2yJ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sDh-0r-Xis">
+                                <rect key="frame" x="537" y="28" width="32" height="32"/>
+                                <state key="normal" image="X">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Dismiss:" destination="4es-LY-NcA" eventType="touchUpInside" id="5hN-hM-0iC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="sDh-0r-Xis" secondAttribute="trailing" constant="15" id="SFC-Vh-JOR"/>
+                            <constraint firstItem="sDh-0r-Xis" firstAttribute="top" secondItem="cgp-f9-Z6P" secondAttribute="bottom" constant="8" id="yXf-aQ-kRz"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bas-ee-xdr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2368" y="1968"/>
+        </scene>
+        <!--Shakuntala Devi View Controller-->
+        <scene sceneID="bZD-v1-PmG">
+            <objects>
+                <viewController id="ZC9-Tv-6L7" userLabel="Shakuntala Devi View Controller" customClass="ModalViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1ZD-Fr-MSs"/>
+                        <viewControllerLayoutGuide type="bottom" id="B0Q-Dg-PLV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CoI-NC-EWI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hAR-mm-sx8">
+                                <rect key="frame" x="537" y="28" width="32" height="32"/>
+                                <state key="normal" image="X">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Dismiss:" destination="ZC9-Tv-6L7" eventType="touchUpInside" id="Ixf-Py-W7m"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hAR-mm-sx8" firstAttribute="top" secondItem="1ZD-Fr-MSs" secondAttribute="bottom" constant="8" id="bw0-Te-53Q"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hAR-mm-sx8" secondAttribute="trailing" constant="15" id="pby-VB-pht"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z1U-HS-4JC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2998" y="1968"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="AdaLovelace" width="600" height="600"/>
+        <image name="AnitaBorg" width="300" height="300"/>
+        <image name="DorothyHodgkin" width="437" height="373"/>
+        <image name="ElizabethBlackwell" width="307" height="418"/>
+        <image name="Engineering" width="32" height="32"/>
+        <image name="GraceHopper" width="517" height="606"/>
+        <image name="MarieCurie" width="140" height="198"/>
+        <image name="MarissaMayer" width="800" height="1048"/>
+        <image name="Math" width="32" height="32"/>
+        <image name="RosalindFranklin-1" width="360" height="336"/>
+        <image name="Science" width="42" height="42"/>
+        <image name="Technology" width="32" height="32"/>
+        <image name="X" width="32" height="32"/>
+        <image name="blue" width="512" height="512"/>
+        <image name="orange" width="512" height="512"/>
+        <image name="purple" width="512" height="512"/>
+        <image name="yellow" width="512" height="512"/>
+    </resources>
+</document>
