@@ -993,7 +993,7 @@
                                                 <rect key="frame" x="100" y="106" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Maria Gaetana Agnesi: first woman to write a mathematics handbook">
-                                                    <color key="titleColor" red="0.62516703119999995" green="0.85933216000000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
@@ -1004,7 +1004,7 @@
                                                 <rect key="frame" x="100" y="196" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Sofya Vasilyevna Kovalevskaya: pioneer in the theory of partial differential equations">
-                                                    <color key="titleColor" red="0.62516703119999995" green="0.85933216000000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
@@ -1015,7 +1015,7 @@
                                                 <rect key="frame" x="100" y="286" width="410" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Emmy Noether: most creative abstract algebraist of modern times">
-                                                    <color key="titleColor" red="0.62516703119999995" green="0.85933216000000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
@@ -1026,7 +1026,7 @@
                                                 <rect key="frame" x="278" y="376" width="312" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Shakuntala Devi: known as the &quot;human computer&quot;">
-                                                    <color key="titleColor" red="0.62516703119999995" green="0.85933216000000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
@@ -1037,7 +1037,7 @@
                                                 <rect key="frame" x="240" y="466" width="350" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="You are a current STEMinist, and a future leader in Math!">
-                                                    <color key="titleColor" red="0.62516703119999995" green="0.85933216000000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                             </button>
