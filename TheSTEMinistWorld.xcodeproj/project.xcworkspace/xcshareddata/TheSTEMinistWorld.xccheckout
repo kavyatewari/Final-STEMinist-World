@@ -11,21 +11,25 @@
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>321A69F4DA47236B4B98AA9718494AFCDDC8A5B3</key>
-		<string>https://github.com/kavyatewari/STEMinist-World.git</string>
+		<string>https://github.com/kavyatewari/The-STEMinist-World.git</string>
+		<key>C1D941FFFDF1A71D360094BCBA34D309C368B09D</key>
+		<string>https://github.com/kavyatewari/Final-STEMinist-World.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>TheSTEMinistWorld/TheSTEMinistWorld.xcodeproj/project.xcworkspace</string>
+	<string>TheSTEMinistWorld.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>321A69F4DA47236B4B98AA9718494AFCDDC8A5B3</key>
 		<string>../../..</string>
+		<key>C1D941FFFDF1A71D360094BCBA34D309C368B09D</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/kavyatewari/STEMinist-World.git</string>
+	<string>https://github.com/kavyatewari/Final-STEMinist-World.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>321A69F4DA47236B4B98AA9718494AFCDDC8A5B3</string>
+	<string>C1D941FFFDF1A71D360094BCBA34D309C368B09D</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -34,7 +38,15 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>321A69F4DA47236B4B98AA9718494AFCDDC8A5B3</string>
 			<key>IDESourceControlWCCName</key>
-			<string>STEMinist-World</string>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C1D941FFFDF1A71D360094BCBA34D309C368B09D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TheSTEMinistWorld</string>
 		</dict>
 	</array>
 </dict>

@@ -7,9 +7,12 @@
 //
 
 import UIKit
-
+import RealmSwift
 class WelcomeViewController: UIViewController {
 
+    @IBAction func clickButtonTapped(sender: AnyObject) {
+
+    }
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
     
     }

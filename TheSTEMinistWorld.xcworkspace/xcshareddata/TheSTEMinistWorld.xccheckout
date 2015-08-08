@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1AFEBAF2-97A7-42BB-9370-C40285FC6929</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TheSTEMinistWorld</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>321A69F4DA47236B4B98AA9718494AFCDDC8A5B3</key>
+		<string>https://github.com/kavyatewari/The-STEMinist-World.git</string>
+		<key>C1D941FFFDF1A71D360094BCBA34D309C368B09D</key>
+		<string>https://github.com/kavyatewari/Final-STEMinist-World.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TheSTEMinistWorld.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>321A69F4DA47236B4B98AA9718494AFCDDC8A5B3</key>
+		<string>../..</string>
+		<key>C1D941FFFDF1A71D360094BCBA34D309C368B09D</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kavyatewari/Final-STEMinist-World.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C1D941FFFDF1A71D360094BCBA34D309C368B09D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>321A69F4DA47236B4B98AA9718494AFCDDC8A5B3</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C1D941FFFDF1A71D360094BCBA34D309C368B09D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TheSTEMinistWorld</string>
+		</dict>
+	</array>
+</dict>
+</plist>

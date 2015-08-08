@@ -7,53 +7,75 @@
 //
 
 import UIKit
+import RealmSwift
 
 class ScienceViewController: UIViewController, UITabBarControllerDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
-    var imagePicker: UIImagePickerController!
-    
+    let imagePicker =  UIImagePickerController()
+    var userImage: UserImage?
     @IBOutlet var scienceView: UIImageView!
     @IBOutlet var scienceButton: UIButton!
-   
-    @IBOutlet var techButton: UIButton!
-    @IBOutlet var techView: UIImageView!
+    var index = 0
     
-    @IBOutlet var mathButton: UIButton!
-    @IBOutlet var mathView: UIImageView!
+//    var displayImage : UIImage?
     
-    @IBOutlet var engineeringButton: UIButton!
-    @IBOutlet var engineeringView: UIImageView!
-
-    @IBAction func takePhotos(sender: UIButton) {
-        self.takePicture(sender)
-    }
-    @IBAction func takeScienceViewController(sender: UIButton) {
-        self.takePicture(sender)
-    }
-    
-    @IBAction func takeTechPhoto(sender: UIButton) {
-        self.takePicture(sender)
-    }
-    
-    @IBAction func takeMathPhoto(sender: UIButton) {
-        self.takePicture(sender)
-    }
     func takePicture(sender: UIButton) {
-        imagePicker =  UIImagePickerController()
         imagePicker.delegate = self
         imagePicker.sourceType = .PhotoLibrary
         presentViewController(imagePicker, animated: true, completion: nil)
     }
     
-    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [NSObject : AnyObject]) {
-        self.imagePicker.dismissViewControllerAnimated(true, completion: nil)
-        self.scienceView.image = info[UIImagePickerControllerOriginalImage] as? UIImage
-        self.mathView.image = info[UIImagePickerControllerOriginalImage] as? UIImage
-        self.techView.image = info[UIImagePickerControllerOriginalImage] as? UIImage
-        self.engineeringView.image = info[UIImagePickerControllerOriginalImage] as? UIImage
+    @IBAction func takeScienceViewController(sender: UIButton) {
+        //let realm = Realm()
+        self.takePicture(sender)
     }
     
+    func getImageFromRealm ()
+    {
+        let realm = Realm()
+        
+        let results = realm.objects(UserImage).filter("tag == \(self.index)")
+        println ("RESULTS count: \(results.count)")
+        if results.count > 0
+        {
+            let myUser = results[0]
+            //         let myUser = results.
+            let myUserImage = myUser.image
+            self.scienceView.image = UIImage(data: myUserImage, scale: 1.0)
+        }
 
+    }
+    
+    func replaceImageInRealm ( image: UIImage ) {
+        let realm = Realm()
+        let results = realm.objects(UserImage).filter("tag == \(self.index)")
+        if results.count > 0
+        {
+            let object = results[0]
+//            realm.write() {
+//                let userImage = results[0]
+//                userImage.image = UIImagePNGRepresentation(image)
+//            }
+            realm.write { realm.delete(object) }
+        }
+        let newUserImage = UserImage()
+        newUserImage.image = UIImageJPEGRepresentation(image, 0.8)
+        newUserImage.tag = index
+        realm.write{realm.add(newUserImage)}
+    }
+    
+    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [NSObject : AnyObject]) {
+        self.imagePicker.dismissViewControllerAnimated(true, completion: nil)
+        let realm = Realm();
+        var chosenImage = info[UIImagePickerControllerOriginalImage] as? UIImage!
+        self.replaceImageInRealm(chosenImage!)
+            //self.scienceView.image = chosenImage
+//            userImage = UserImage()
+//            userImage!.setUserImage(chosenImage!)
+//            userImage!.tag = self.index
+//            
+//            realm.write{realm.add(self.userImage!)}
+    }
     
     enum discipline {
         
@@ -70,25 +92,23 @@ class ScienceViewController: UIViewController, UITabBarControllerDelegate, UIIma
     @IBOutlet weak var roleModel2Button: UIButton!
     @IBOutlet weak var roleModel3Button: UIButton!
     @IBOutlet weak var roleModel4Button: UIButton!
-    @IBOutlet weak var selfieButton: UIButton!
     
     //General Lines/Hook
     @IBOutlet weak var Line1: UILabel!
     @IBOutlet weak var Line2: UILabel!
     @IBOutlet weak var Line3: UILabel!
     
-    @IBOutlet weak var disciplineDetector: UITabBarItem!
-    
-    override func viewDidDisappear(animated: Bool) {
-        UITabBar.appearance().tintColor = UIColor.greenColor()
-    }
-    
     func tabBarController(tabBarController: UITabBarController, didSelectViewController viewController: UIViewController) {
-        
+
+        let realm = Realm()
         var selectedIndex = tabBarController.selectedIndex
+        index = tabBarController.selectedIndex
+        
         
         if selectedIndex == 0 {
             currentDiscipline = "Science"
+//            realm.objects(UserImage).filter("scienceTag == 0")
+//            userImage!.tag = 0
             
             Line1.text = "Scientists are curious and want to know all the answers."
             Line2.text = "Does this sound like you?"
@@ -104,13 +124,17 @@ class ScienceViewController: UIViewController, UITabBarControllerDelegate, UIIma
             roleModel3Button.setImage(image3, forState: .Normal)
             
             let image4 = UIImage(named: "DorothyHodgkin") as UIImage!
-            roleModel3Button.setImage(image4, forState: .Normal)
+            roleModel4Button.setImage(image4, forState: .Normal)
             
+            //self.scienceView.image = UIImage(data: realm.objects(UserImage))!
+//            let results = realm.objects(UserImage)
         }
         
         else if selectedIndex == 1 {
             println("THE CURRENT INDEX IS \(selectedIndex)")
             currentDiscipline = "Tech"
+//            realm.objects(UserImage).filter("techTag == 1")
+//            userImage!.tag = 1
     
             Line1.text = "Technologists are ________________"
             Line2.text = "Does this sound like you?"
@@ -131,6 +155,8 @@ class ScienceViewController: UIViewController, UITabBarControllerDelegate, UIIma
         
         else if selectedIndex == 2 { 
             currentDiscipline = "Engineering"
+//            realm.objects(UserImage).filter("engineeringTag == 2")
+//            userImage!.tag = 2
             
             Line1.text = "Engineers are ____________"
             Line2.text = "Does this sound like you?"
@@ -147,10 +173,13 @@ class ScienceViewController: UIViewController, UITabBarControllerDelegate, UIIma
             
             let image4 = UIImage(named: "MarissaMayer") as UIImage!
             roleModel4Button.setImage(image4, forState: .Normal)
+            
         }
         
         else if selectedIndex == 3 {
             currentDiscipline = "Math"
+//            realm.objects(UserImage).filter("mathTag == 3")
+//            userImage!.tag = 3
             
             Line1.text = "Mathematicians are ____________"
             Line2.text = "Does this sound like you?"
@@ -168,7 +197,7 @@ class ScienceViewController: UIViewController, UITabBarControllerDelegate, UIIma
             let image4 = UIImage(named: "ShakuntalaDevi") as UIImage!
             roleModel4Button.setImage(image4, forState: .Normal)
         }
-//        tabBarController.viewControllers[selectedIndex].refreshView(NSNotification())
+
     }
     
     override func viewDidLoad() {
@@ -188,10 +217,13 @@ class ScienceViewController: UIViewController, UITabBarControllerDelegate, UIIma
         self.roleModel4Button.layer.cornerRadius = 42
         self.roleModel4Button.clipsToBounds = true
         
-        self.selfieButton.layer.cornerRadius = 25
-        self.selfieButton.clipsToBounds = true
+        self.scienceView.layer.cornerRadius = 42
+        self.scienceView.clipsToBounds = true
+        
+        let realm = Realm()
         
         
+       
         // Do any additional setup after loading the view.
     }
 
@@ -200,69 +232,8 @@ class ScienceViewController: UIViewController, UITabBarControllerDelegate, UIIma
         // Dispose of any resources that can be recreated.
     }
     
-//    self.profileImageView.layer.cornerRadius = self.profileImageView.frame.size.width / 2;
-//    self.profileImageView.clipsToBounds = YES;
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        self.getImageFromRealm()
     }
-    */
-
 }
-
-//class PhotoTakingHelper : NSObject {
-//    
-//      var photoTakingHelper: PhotoTakingHelper?
-//    
-//    /** View controller on which AlertViewController and UIImagePickerController are presented */
-//    weak var viewController: UIViewController!
-//    var callback: PhotoTakingHelperCallback
-//    var imagePickerController: UIImagePickerController?
-//    
-//    init(viewController: UIViewController, callback: PhotoTakingHelperCallback) {
-//        self.viewController = viewController
-//        self.callback = callback
-//        
-//        super.init()
-//        
-//        showPhotoSourceSelection()
-//    }
-//    
-//        func showPhotoSourceSelection() {
-//            // Allow user to choose between photo library and camera
-//            let alertController = UIAlertController(title: nil, message: "Where do you want to get your picture from?", preferredStyle: .ActionSheet)
-//            
-//            let cancelAction = UIAlertAction(title: "Cancel", style: .Cancel, handler: nil)
-//            alertController.addAction(cancelAction)
-//            
-//            // Only show camera option if rear camera is available
-//            if (UIImagePickerController.isCameraDeviceAvailable(.Rear)) {
-//                let cameraAction = UIAlertAction(title: "Photo from Camera", style: .Default) { (action) in
-//                    // do nothing yet...
-//                }
-//                
-//                alertController.addAction(cameraAction)
-//            }
-//            
-//            let photoLibraryAction = UIAlertAction(title: "Photo from Library", style: .Default) { (action) in
-//                // do nothing yet...
-//            }
-//            
-//            alertController.addAction(photoLibraryAction)
-//            
-//            viewController.presentViewController(alertController, animated: true, completion: nil)
-//        }
-//    
-////    func takePhoto() {
-////        // instantiate photo taking class, provide callback for when photo  is selected
-////        photoTakingHelper = PhotoTakingHelper(viewController: self.!) { (image: UIImage?) in
-////            // don't do anything, yet...
-//        }
-//    }
-//    
-//}

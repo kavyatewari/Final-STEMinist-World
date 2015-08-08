@@ -54,7 +54,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="80" id="ffX-Le-HFL"/>
                                                 </constraints>
-                                                <state key="normal" image="RosalindFranklin-1">
+                                                <state key="normal" image="RosalindFranklin">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
@@ -183,7 +183,6 @@
                         <outlet property="roleModel4Button" destination="vfc-Zf-SaF" id="ruA-s8-iHE"/>
                         <outlet property="scienceButton" destination="iNk-Vn-uak" id="ApY-No-J0d"/>
                         <outlet property="scienceView" destination="8OI-iU-Ixe" id="CGM-S8-kH2"/>
-                        <outlet property="selfieButton" destination="iNk-Vn-uak" id="mPh-aK-DdH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cul-Zo-ev5" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -235,23 +234,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tq7-Vt-xIk" userLabel="Let's Get Started! &gt;">
-                                <rect key="frame" x="283" y="443" width="169" height="30"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Click here to get started!">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="u1c-zb-NT7" kind="show" id="By4-4I-KOr"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Welcome to The STEMinist World!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C0y-Nx-ch7">
                                 <rect key="frame" x="203" y="121" width="260" height="21"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tq7-Vt-xIk" userLabel="Let's Get Started! &gt;">
+                                <rect key="frame" x="216" y="421" width="169" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Click here to get started!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickButtonTapped:" destination="u35-py-psU" eventType="touchUpInside" id="Bja-oA-tM9"/>
+                                    <segue destination="u1c-zb-NT7" kind="show" id="kIi-MR-eZe"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.077167182662538678" green="0.45490196078431372" blue="0.68627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -362,7 +362,7 @@
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
                                                 <state key="normal" image="purple"/>
                                                 <connections>
-                                                    <action selector="takeTechPhoto:" destination="yLC-Rw-kKc" eventType="touchUpInside" id="ZOY-7E-FsX"/>
+                                                    <action selector="takeScienceViewController:" destination="yLC-Rw-kKc" eventType="touchUpInside" id="8DN-CY-qVX"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Explore the Science field to learn more!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="BFg-9d-acD">
@@ -471,9 +471,8 @@
                         <outlet property="roleModel2Button" destination="LbV-0r-oxF" id="yJ9-IJ-xfm"/>
                         <outlet property="roleModel3Button" destination="oVL-jX-rM1" id="d1W-j9-FGv"/>
                         <outlet property="roleModel4Button" destination="ACh-sI-aTh" id="ak7-N7-Kuj"/>
-                        <outlet property="selfieButton" destination="39m-og-yV6" id="iAd-G9-6Ub"/>
-                        <outlet property="techButton" destination="39m-og-yV6" id="Spo-Ka-zri"/>
-                        <outlet property="techView" destination="i8Z-ej-pXp" id="5Zc-c4-3Md"/>
+                        <outlet property="scienceButton" destination="39m-og-yV6" id="dH6-1P-amj"/>
+                        <outlet property="scienceView" destination="i8Z-ej-pXp" id="tn8-Fl-ewG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="phU-k3-LXZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -528,7 +527,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="80" id="wBA-Qr-tE4"/>
                                                 </constraints>
-                                                <state key="normal" image="RosalindFranklin-1">
+                                                <state key="normal" image="RosalindFranklin">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
@@ -555,7 +554,7 @@
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
                                                 <state key="normal" image="yellow"/>
                                                 <connections>
-                                                    <action selector="takePhotos:" destination="S8Z-jg-FHH" eventType="touchUpInside" id="4mV-ux-PGZ"/>
+                                                    <action selector="takeScienceViewController:" destination="S8Z-jg-FHH" eventType="touchUpInside" id="Dov-Qn-Ege"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Explore the Science field to learn more!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="5eu-nR-RoN">
@@ -656,13 +655,12 @@
                         <outlet property="Line1" destination="jox-WR-jo6" id="ix0-Nt-0bG"/>
                         <outlet property="Line2" destination="Xyp-6a-UqD" id="GaD-Ej-alh"/>
                         <outlet property="Line3" destination="5eu-nR-RoN" id="mhM-ca-TR4"/>
-                        <outlet property="engineeringButton" destination="o2d-Od-cbx" id="FUa-vb-Su0"/>
-                        <outlet property="engineeringView" destination="5hj-6j-TZQ" id="Ewr-mG-GK1"/>
                         <outlet property="roleModel1Button" destination="VaZ-6u-GQs" id="b9F-6l-Qkg"/>
                         <outlet property="roleModel2Button" destination="5hz-i3-2ia" id="FkM-YM-ctG"/>
                         <outlet property="roleModel3Button" destination="y8r-Xz-1Ed" id="uWS-yz-Niv"/>
                         <outlet property="roleModel4Button" destination="5w0-Xt-Fmi" id="hiw-c3-uey"/>
-                        <outlet property="selfieButton" destination="o2d-Od-cbx" id="RP4-ih-Thg"/>
+                        <outlet property="scienceButton" destination="o2d-Od-cbx" id="zW9-2L-xmw"/>
+                        <outlet property="scienceView" destination="5hj-6j-TZQ" id="Spy-aX-Q7T"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="POV-Pq-NsL" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -704,7 +702,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="80" id="fNE-RU-S3z"/>
                                                 </constraints>
-                                                <state key="normal" image="RosalindFranklin-1">
+                                                <state key="normal" image="RosalindFranklin">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
@@ -731,7 +729,7 @@
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
                                                 <state key="normal" image="orange"/>
                                                 <connections>
-                                                    <action selector="takeMathPhoto:" destination="7GC-57-L3Q" eventType="touchUpInside" id="83W-SZ-xln"/>
+                                                    <action selector="takeScienceViewController:" destination="7GC-57-L3Q" eventType="touchUpInside" id="BbZ-yt-5H9"/>
                                                 </connections>
                                             </button>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dAe-ba-LuX">
@@ -837,13 +835,12 @@
                         <outlet property="Line1" destination="5yk-fs-fnQ" id="McA-oS-lrd"/>
                         <outlet property="Line2" destination="i56-i9-BOF" id="B7F-lU-ySO"/>
                         <outlet property="Line3" destination="sNM-9y-xCd" id="GCP-EZ-xfS"/>
-                        <outlet property="mathButton" destination="HIP-5N-Qp0" id="WMT-4b-IEb"/>
-                        <outlet property="mathView" destination="dAe-ba-LuX" id="HFW-Cw-EyH"/>
                         <outlet property="roleModel1Button" destination="tpS-Dz-eJq" id="X2s-V4-WLe"/>
                         <outlet property="roleModel2Button" destination="7XX-hj-xuJ" id="6tc-uq-PX0"/>
                         <outlet property="roleModel3Button" destination="gFt-bH-4HO" id="fo5-Fe-Gma"/>
                         <outlet property="roleModel4Button" destination="Vgz-eL-RzZ" id="OFd-9l-1Mf"/>
-                        <outlet property="selfieButton" destination="HIP-5N-Qp0" id="neG-T7-WK3"/>
+                        <outlet property="scienceButton" destination="HIP-5N-Qp0" id="5TD-hF-riu"/>
+                        <outlet property="scienceView" destination="dAe-ba-LuX" id="oea-bS-bq8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pJP-Ga-w16" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1356,7 +1353,7 @@
         <image name="MarieCurie" width="140" height="198"/>
         <image name="MarissaMayer" width="800" height="1048"/>
         <image name="Math" width="32" height="32"/>
-        <image name="RosalindFranklin-1" width="360" height="336"/>
+        <image name="RosalindFranklin" width="360" height="336"/>
         <image name="Science" width="42" height="42"/>
         <image name="Technology" width="32" height="32"/>
         <image name="X" width="32" height="32"/>
