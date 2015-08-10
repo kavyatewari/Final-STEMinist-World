@@ -110,7 +110,7 @@ class ScienceViewController: UIViewController, UITabBarControllerDelegate, UIIma
 //            realm.objects(UserImage).filter("scienceTag == 0")
 //            userImage!.tag = 0
             
-            Line1.text = "Scientists are curious and want to know answers."
+            Line1.text = "Scientists are curious and find the answers."
             Line2.text = "Does this sound like you?"
             Line3.text = "Explore the Science field to learn more!"
             
@@ -136,7 +136,7 @@ class ScienceViewController: UIViewController, UITabBarControllerDelegate, UIIma
 //            realm.objects(UserImage).filter("techTag == 1")
 //            userImage!.tag = 1
     
-            Line1.text = "Technologists use creativity and knowledge to solve needs."
+            Line1.text = "Technologists use creativity to solve needs."
             Line2.text = "Does this sound like you?"
             Line3.text = "Explore the Technology field to learn more!"
             
@@ -158,7 +158,7 @@ class ScienceViewController: UIViewController, UITabBarControllerDelegate, UIIma
 //            realm.objects(UserImage).filter("engineeringTag == 2")
 //            userImage!.tag = 2
             
-            Line1.text = "Engineers design and create products to fix issues."
+            Line1.text = "Engineers design products to fix issues."
             Line2.text = "Does this sound like you?"
             Line3.text = "Explore the Engineering field to learn more!"
             
@@ -181,7 +181,7 @@ class ScienceViewController: UIViewController, UITabBarControllerDelegate, UIIma
 //            realm.objects(UserImage).filter("mathTag == 3")
 //            userImage!.tag = 3
             
-            Line1.text = "Mathematicians look for patterns and ways to understand the world through numbers."
+            Line1.text = "Mathematicians find patterns around them."
             Line2.text = "Does this sound like you?"
             Line3.text = "Explore the Mathematics field to learn more!"
             
@@ -219,8 +219,7 @@ class ScienceViewController: UIViewController, UITabBarControllerDelegate, UIIma
         
         self.scienceView.layer.cornerRadius = 42
         self.scienceView.clipsToBounds = true
-        
-        let realm = Realm()
+
         
         
        

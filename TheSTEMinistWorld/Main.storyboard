@@ -24,8 +24,8 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fST-OF-ax2" userLabel="content view">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="601"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="txl-zF-noN" userLabel="Elizabeth Blackwell">
-                                                <rect key="frame" x="10" y="107" width="78" height="80"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="txl-zF-noN" userLabel="Elizabeth Blackwell">
+                                                <rect key="frame" x="10" y="105" width="80" height="80"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="80" id="Sk8-Im-blh"/>
                                                     <constraint firstAttribute="height" constant="80" id="m7O-pj-XRa"/>
@@ -37,8 +37,8 @@
                                                     <segue destination="vKg-Qn-CSV" kind="presentation" id="BMR-7l-P8J"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pn2-z7-1DE" userLabel="Marie Curie">
-                                                <rect key="frame" x="10" y="197" width="78" height="80"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pn2-z7-1DE" userLabel="Marie Curie">
+                                                <rect key="frame" x="10" y="195" width="80" height="80"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="80" id="Gei-y3-0hG"/>
                                                 </constraints>
@@ -49,8 +49,8 @@
                                                     <segue destination="MMj-5V-T1d" kind="presentation" id="nxw-rS-QUh"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0pT-Kx-XO0" userLabel="Rosalind Franklin">
-                                                <rect key="frame" x="10" y="287" width="78" height="80"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0pT-Kx-XO0" userLabel="Rosalind Franklin">
+                                                <rect key="frame" x="10" y="285" width="80" height="80"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="80" id="ffX-Le-HFL"/>
                                                 </constraints>
@@ -61,8 +61,8 @@
                                                     <segue destination="btN-gp-Fcw" kind="presentation" id="UvO-p3-WdO"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vfc-Zf-SaF" userLabel="Dorothy Hodgkin">
-                                                <rect key="frame" x="10" y="377" width="78" height="80"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vfc-Zf-SaF" userLabel="Dorothy Hodgkin">
+                                                <rect key="frame" x="10" y="375" width="80" height="80"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="80" id="9Vf-ok-4dy"/>
                                                 </constraints>
@@ -73,8 +73,8 @@
                                                     <segue destination="xXR-Wt-s8T" kind="presentation" id="anm-M2-R7D"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iNk-Vn-uak">
-                                                <rect key="frame" x="10" y="467" width="78" height="78"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iNk-Vn-uak">
+                                                <rect key="frame" x="10" y="465" width="80" height="80"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="iNk-Vn-uak" secondAttribute="height" multiplier="1:1" id="Vyw-HU-lcE"/>
                                                 </constraints>
@@ -84,26 +84,26 @@
                                                     <action selector="takeScienceViewController:" destination="AdG-qJ-V5j" eventType="touchUpInside" id="M7v-eN-Nqx"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Explore the Science field to learn more!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="Wjx-OW-nOO">
-                                                <rect key="frame" x="170" y="79" width="263" height="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Explore the Science field to learn more!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="Wjx-OW-nOO">
+                                                <rect key="frame" x="170" y="77" width="263" height="17"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Does this sound like you? " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AeC-QV-j1W">
-                                                <rect key="frame" x="214" y="51" width="175" height="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Does this sound like you? " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AeC-QV-j1W">
+                                                <rect key="frame" x="214" y="49" width="175" height="17"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scientists are curious and want to know all the answers. " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mnR-EA-V1i">
-                                                <rect key="frame" x="10" y="25" width="580" height="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Scientists are curious and find the answers. " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mnR-EA-V1i">
+                                                <rect key="frame" x="133" y="25" width="296" height="17"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8OI-iU-Ixe">
-                                                <rect key="frame" x="10" y="467" width="78" height="78"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8OI-iU-Ixe">
+                                                <rect key="frame" x="10" y="465" width="80" height="80"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bPs-ri-zfh">
                                                 <rect key="frame" x="100" y="104" width="264" height="80"/>
@@ -116,7 +116,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="dTg-Vc-fp3">
-                                                <rect key="frame" x="100" y="194" width="270" height="80"/>
+                                                <rect key="frame" x="100" y="194" width="281" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Marie Curie: first woman to win a Nobel Prize">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -126,7 +126,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Ggv-T4-kD7">
-                                                <rect key="frame" x="100" y="282" width="280" height="80"/>
+                                                <rect key="frame" x="100" y="286" width="280" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Rosalind Franklin: pioneer in X-ray diffraction">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -135,7 +135,7 @@
                                                     <segue destination="btN-gp-Fcw" kind="presentation" id="YeN-ax-JHD"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="yGO-lN-1xJ">
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="yGO-lN-1xJ">
                                                 <rect key="frame" x="100" y="376" width="333" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Dorothy Hodgkin: discovered structure of vitamin B12">
@@ -167,14 +167,14 @@
                                             <constraint firstItem="Pn2-z7-1DE" firstAttribute="leading" secondItem="txl-zF-noN" secondAttribute="leading" id="Dt5-WW-kcS"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="yGO-lN-1xJ" secondAttribute="trailing" constant="10" id="EEW-4o-ChC"/>
                                             <constraint firstItem="0pT-Kx-XO0" firstAttribute="leading" secondItem="vfc-Zf-SaF" secondAttribute="leading" id="Eqf-fl-4Ks"/>
-                                            <constraint firstItem="mnR-EA-V1i" firstAttribute="leading" secondItem="fST-OF-ax2" secondAttribute="leading" constant="10" id="FOV-hL-Y1k"/>
+                                            <constraint firstItem="mnR-EA-V1i" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="fST-OF-ax2" secondAttribute="leading" constant="10" id="FOV-hL-Y1k"/>
                                             <constraint firstItem="8OI-iU-Ixe" firstAttribute="trailing" secondItem="iNk-Vn-uak" secondAttribute="trailing" id="Gq9-9S-R28"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="dTg-Vc-fp3" secondAttribute="trailing" constant="10" id="Gv6-qM-AjO"/>
                                             <constraint firstItem="0pT-Kx-XO0" firstAttribute="centerY" secondItem="Ggv-T4-kD7" secondAttribute="centerY" constant="-1" id="IcS-3L-ibc"/>
                                             <constraint firstItem="vfc-Zf-SaF" firstAttribute="centerY" secondItem="yGO-lN-1xJ" secondAttribute="centerY" constant="-1" id="JFO-Vz-X3e"/>
                                             <constraint firstItem="8OI-iU-Ixe" firstAttribute="height" secondItem="iWA-sS-EfB" secondAttribute="height" id="Jo1-ys-tGD"/>
                                             <constraint firstItem="bPs-ri-zfh" firstAttribute="height" secondItem="txl-zF-noN" secondAttribute="height" id="KSI-aX-Ses"/>
-                                            <constraint firstItem="AeC-QV-j1W" firstAttribute="top" secondItem="mnR-EA-V1i" secondAttribute="bottom" priority="100" constant="9" id="Kc3-Xg-mfL"/>
+                                            <constraint firstItem="AeC-QV-j1W" firstAttribute="top" secondItem="mnR-EA-V1i" secondAttribute="bottom" constant="9" id="Kc3-Xg-mfL"/>
                                             <constraint firstItem="vfc-Zf-SaF" firstAttribute="height" secondItem="yGO-lN-1xJ" secondAttribute="height" id="KrL-qA-L5v"/>
                                             <constraint firstItem="mnR-EA-V1i" firstAttribute="top" secondItem="fST-OF-ax2" secondAttribute="top" constant="25" id="Me6-gb-yDj"/>
                                             <constraint firstItem="iNk-Vn-uak" firstAttribute="leading" secondItem="vfc-Zf-SaF" secondAttribute="leading" id="NQz-3I-ils"/>
@@ -203,6 +203,7 @@
                                             <constraint firstItem="8OI-iU-Ixe" firstAttribute="centerY" secondItem="iWA-sS-EfB" secondAttribute="centerY" constant="-1" id="mYm-en-1nP"/>
                                             <constraint firstItem="0pT-Kx-XO0" firstAttribute="top" secondItem="Pn2-z7-1DE" secondAttribute="bottom" constant="10" id="orv-WO-5Te"/>
                                             <constraint firstAttribute="centerX" secondItem="Wjx-OW-nOO" secondAttribute="centerX" constant="-1.5" id="pZh-gE-hPv"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="mnR-EA-V1i" secondAttribute="trailing" constant="10" id="pnq-fW-zhG"/>
                                             <constraint firstItem="dTg-Vc-fp3" firstAttribute="centerY" secondItem="Pn2-z7-1DE" secondAttribute="centerY" constant="-1" id="qU6-SE-kZy"/>
                                             <constraint firstItem="txl-zF-noN" firstAttribute="top" secondItem="mnR-EA-V1i" secondAttribute="bottom" constant="76" id="rIb-QF-Coh"/>
                                             <constraint firstItem="0pT-Kx-XO0" firstAttribute="trailing" secondItem="vfc-Zf-SaF" secondAttribute="trailing" id="soi-6l-rV7"/>
@@ -495,7 +496,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="nUF-gu-Zv8">
                                                 <rect key="frame" x="183" y="286" width="407" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
-                                                <state key="normal" title="Anita Borg: created Systers mailing list to promote women in tech">
+                                                <state key="normal" title="Anita Borg: champion and mentor of women in computer science">
                                                     <color key="titleColor" red="0.62516703119999995" green="0.85933216000000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -756,7 +757,7 @@
                                                     <segue destination="sxv-GG-P9t" kind="presentation" id="7HW-rU-VAj"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="dgb-Pu-gZl">
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="dgb-Pu-gZl">
                                                 <rect key="frame" x="100" y="376" width="326" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Marissa Mayer: current president and CEO of Yahoo!">

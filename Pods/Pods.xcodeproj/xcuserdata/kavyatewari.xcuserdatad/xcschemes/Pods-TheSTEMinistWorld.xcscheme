@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "63A47288F950C0EB830EB8AE"
+               BlueprintIdentifier = "1C206C6D7B771A5E7C9F0901"
                BuildableName = "Pods_TheSTEMinistWorld.framework"
                BlueprintName = "Pods-TheSTEMinistWorld"
                ReferencedContainer = "container:Pods.xcodeproj">

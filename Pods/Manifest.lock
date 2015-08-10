@@ -6,7 +6,7 @@ PODS:
     - Realm (= 0.94.0)
 
 DEPENDENCIES:
-  - RealmSwift (~> 0.94.0)
+  - RealmSwift (>= 0.94.0)
 
 SPEC CHECKSUMS:
   Realm: a046149653e0ca220b65b5783da907aa5b74d86c
