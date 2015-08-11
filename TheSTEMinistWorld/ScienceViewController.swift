@@ -181,7 +181,7 @@ class ScienceViewController: UIViewController, UITabBarControllerDelegate, UIIma
 //            realm.objects(UserImage).filter("mathTag == 3")
 //            userImage!.tag = 3
             
-            Line1.text = "Mathematicians find patterns around them."
+            Line1.text = "Mathematicians find patterns in nature."
             Line2.text = "Does this sound like you?"
             Line3.text = "Explore the Mathematics field to learn more!"
             

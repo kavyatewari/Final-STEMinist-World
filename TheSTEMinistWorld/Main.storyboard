@@ -46,7 +46,7 @@
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="MMj-5V-T1d" kind="presentation" id="nxw-rS-QUh"/>
+                                                    <segue destination="IpI-Jn-UmW" kind="presentation" id="5Xr-fQ-pbP"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0pT-Kx-XO0" userLabel="Rosalind Franklin">
@@ -58,7 +58,7 @@
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="btN-gp-Fcw" kind="presentation" id="UvO-p3-WdO"/>
+                                                    <segue destination="Cwa-F8-8eV" kind="presentation" id="XJ6-fB-Uig"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vfc-Zf-SaF" userLabel="Dorothy Hodgkin">
@@ -70,7 +70,7 @@
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="xXR-Wt-s8T" kind="presentation" id="anm-M2-R7D"/>
+                                                    <segue destination="bgw-Bx-pIQ" kind="presentation" id="dJ5-gQ-Tzp"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iNk-Vn-uak">
@@ -105,7 +105,7 @@
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8OI-iU-Ixe">
                                                 <rect key="frame" x="10" y="465" width="80" height="80"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bPs-ri-zfh">
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bPs-ri-zfh">
                                                 <rect key="frame" x="100" y="104" width="264" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Elizabeth Blackwell: first woman physician">
@@ -122,30 +122,30 @@
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="MMj-5V-T1d" kind="presentation" id="m9W-wR-6uU"/>
+                                                    <segue destination="IpI-Jn-UmW" kind="presentation" id="XQ7-Uu-eKM"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Ggv-T4-kD7">
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Ggv-T4-kD7">
                                                 <rect key="frame" x="100" y="286" width="280" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Rosalind Franklin: pioneer in X-ray diffraction">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="btN-gp-Fcw" kind="presentation" id="YeN-ax-JHD"/>
+                                                    <segue destination="Cwa-F8-8eV" kind="presentation" id="VF6-fc-Orp"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="yGO-lN-1xJ">
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="yGO-lN-1xJ">
                                                 <rect key="frame" x="100" y="376" width="333" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Dorothy Hodgkin: discovered structure of vitamin B12">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="xXR-Wt-s8T" kind="presentation" id="c11-qA-7wR"/>
+                                                    <segue destination="bgw-Bx-pIQ" kind="presentation" id="thC-qP-Z0s"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="iWA-sS-EfB">
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="iWA-sS-EfB">
                                                 <rect key="frame" x="222" y="466" width="368" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="You are a current STEMinist, and a future leader in Science!">
@@ -228,6 +228,7 @@
                                                 <exclude reference="dOa-4k-fdF"/>
                                                 <exclude reference="lU4-hl-PrQ"/>
                                                 <exclude reference="vUk-Fn-ld6"/>
+                                                <exclude reference="98I-PN-1AR"/>
                                             </mask>
                                         </variation>
                                     </view>
@@ -295,17 +296,37 @@
                                     <action selector="Dismiss:" destination="vKg-Qn-CSV" eventType="touchUpInside" id="e1f-Pw-afs"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dvh-Ff-Eeb">
+                                <rect key="frame" x="48" y="338" width="492" height="183"/>
+                                <string key="text">Elizabeth Blackwell was a pioneer for women in science because of her determination to become the first woman doctor in the United States. She was denied admission to most leading schools, but this didn’t stop her. She was finally accepted by Geneva Medical College. She graduated first in her class on January 23, 1849, becoming the first woman doctor of medicine in the modern era. After the Civil War, she opened her own college to promote and train women in the medical field.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ElizabethBlackwell" translatesAutoresizingMaskIntoConstraints="NO" id="hHe-q0-nQH">
+                                <rect key="frame" x="152" y="40" width="297" height="208"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="208" id="Vrx-tS-zMM"/>
+                                    <constraint firstAttribute="width" constant="297" id="YQX-hS-3CI"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="mcZ-AL-vOv" firstAttribute="top" secondItem="r4L-5a-Uml" secondAttribute="bottom" constant="8" id="ATh-a9-9LR"/>
+                            <constraint firstItem="hHe-q0-nQH" firstAttribute="top" secondItem="r4L-5a-Uml" secondAttribute="bottom" constant="20" id="H9B-Ix-nHC"/>
                             <constraint firstAttribute="trailingMargin" secondItem="mcZ-AL-vOv" secondAttribute="trailing" constant="15" id="L8G-zQ-xxM"/>
+                            <constraint firstItem="Dvh-Ff-Eeb" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="IuL-eT-Un6" secondAttribute="leadingMargin" constant="32" id="NKe-KE-izl"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="Dvh-Ff-Eeb" secondAttribute="trailing" constant="44" id="Y0K-5f-gQ6"/>
+                            <constraint firstAttribute="centerX" secondItem="hHe-q0-nQH" secondAttribute="centerX" id="bqO-4G-8G4"/>
+                            <constraint firstItem="qd4-bf-GS0" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Dvh-Ff-Eeb" secondAttribute="bottom" constant="79" id="mdE-7b-lRP"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jjf-DF-I4l" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2316" y="-3788"/>
+            <point key="canvasLocation" x="2250" y="-3788"/>
         </scene>
         <!--Welcome View Controller-->
         <scene sceneID="zGG-ub-Y1q">
@@ -757,7 +778,7 @@
                                                     <segue destination="sxv-GG-P9t" kind="presentation" id="7HW-rU-VAj"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="dgb-Pu-gZl">
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="dgb-Pu-gZl">
                                                 <rect key="frame" x="100" y="376" width="326" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Marissa Mayer: current president and CEO of Yahoo!">
@@ -1148,105 +1169,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pJP-Ga-w16" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="365" y="1518"/>
-        </scene>
-        <!--Marie Curie View Controller-->
-        <scene sceneID="bKc-ZB-aeu">
-            <objects>
-                <viewController id="MMj-5V-T1d" userLabel="Marie Curie View Controller" customClass="ModalViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="q7i-8O-nM9"/>
-                        <viewControllerLayoutGuide type="bottom" id="pn9-s8-ymH"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="zZh-EV-eda">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zK1-kT-T83">
-                                <rect key="frame" x="537" y="28" width="32" height="32"/>
-                                <state key="normal" image="X">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="Dismiss:" destination="MMj-5V-T1d" eventType="touchUpInside" id="T4P-IQ-MCW"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="zK1-kT-T83" firstAttribute="top" secondItem="q7i-8O-nM9" secondAttribute="bottom" constant="8" id="GOj-wd-6I6"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="zK1-kT-T83" secondAttribute="trailing" constant="15" id="Yhf-CO-lOV"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="brA-dG-aXQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2272" y="-3090"/>
-        </scene>
-        <!--Rosalind Franklin View Controller-->
-        <scene sceneID="8qJ-B1-jOw">
-            <objects>
-                <viewController id="btN-gp-Fcw" userLabel="Rosalind Franklin View Controller" customClass="ModalViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="csc-WF-Zwb"/>
-                        <viewControllerLayoutGuide type="bottom" id="5Cl-1z-no7"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="goW-sm-AhA">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cjU-fV-pK6">
-                                <rect key="frame" x="537" y="28" width="32" height="32"/>
-                                <state key="normal" image="X">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="Dismiss:" destination="btN-gp-Fcw" eventType="touchUpInside" id="Ude-0v-6q0"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="cjU-fV-pK6" firstAttribute="top" secondItem="csc-WF-Zwb" secondAttribute="bottom" constant="8" id="Z7d-eD-Gev"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="cjU-fV-pK6" secondAttribute="trailing" constant="15" id="wUG-0i-8bb"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="NOe-qI-pcI" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2948" y="-3788"/>
-        </scene>
-        <!--Dorothy Hodgkin View Controller-->
-        <scene sceneID="Gcv-JN-Aol">
-            <objects>
-                <viewController id="xXR-Wt-s8T" userLabel="Dorothy Hodgkin View Controller" customClass="ModalViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="xQg-wB-QJb"/>
-                        <viewControllerLayoutGuide type="bottom" id="pSv-1E-1cG"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="woJ-sC-KyQ">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VQ4-uZ-hOo">
-                                <rect key="frame" x="537" y="28" width="32" height="32"/>
-                                <state key="normal" image="X">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="Dismiss:" destination="xXR-Wt-s8T" eventType="touchUpInside" id="gdt-Cr-xMe"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="VQ4-uZ-hOo" firstAttribute="top" secondItem="xQg-wB-QJb" secondAttribute="bottom" constant="8" id="2hM-Uu-Rzj"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="VQ4-uZ-hOo" secondAttribute="trailing" constant="15" id="mOK-6d-3KI"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Phd-Yn-xw7" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2948" y="-3058"/>
         </scene>
         <!--Ada Lovelace View Controller-->
         <scene sceneID="3eB-hH-mbJ">
@@ -1644,6 +1566,162 @@
             </objects>
             <point key="canvasLocation" x="2998" y="1968"/>
         </scene>
+        <!--Marie Curie View Controller-->
+        <scene sceneID="q80-8d-Gy2">
+            <objects>
+                <viewController id="IpI-Jn-UmW" userLabel="Marie Curie View Controller" customClass="ModalViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HiR-ck-R3F"/>
+                        <viewControllerLayoutGuide type="bottom" id="cJN-8v-JGy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cbR-Ju-Omw">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pAL-iv-Z2H">
+                                <rect key="frame" x="537" y="28" width="32" height="32"/>
+                                <state key="normal" image="X">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Dismiss:" destination="IpI-Jn-UmW" eventType="touchUpInside" id="XeF-R0-qxs"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g9f-Fz-CKm">
+                                <rect key="frame" x="48" y="358" width="492" height="163"/>
+                                <string key="text">Marie Curie is the only person who ever won Nobel Prizes in both Chemistry and Physics. She discovered two new chemical elements -- radium and polonium. Marie turned her scientific efforts to World War I in 1914, creating portable X-ray machines that could be used by doctors on the warfront to help wounded soldiers and save lives. She worked fearlessly to advance scientific knowledge and paved the way for women scientists throughout the late 19th century. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MarieCurie" translatesAutoresizingMaskIntoConstraints="NO" id="6yV-WU-e5u">
+                                <rect key="frame" x="152" y="40" width="297" height="208"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="297" id="qO6-KI-En8"/>
+                                    <constraint firstAttribute="height" constant="208" id="xPu-ar-tV3"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cJN-8v-JGy" firstAttribute="top" relation="greaterThanOrEqual" secondItem="g9f-Fz-CKm" secondAttribute="bottom" constant="79" id="0gb-kN-L0F"/>
+                            <constraint firstAttribute="centerX" secondItem="6yV-WU-e5u" secondAttribute="centerX" id="Dxz-fA-gwl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pAL-iv-Z2H" secondAttribute="trailing" constant="15" id="IJ9-oF-ssb"/>
+                            <constraint firstItem="6yV-WU-e5u" firstAttribute="top" secondItem="HiR-ck-R3F" secondAttribute="bottom" constant="20" id="jNN-39-bn3"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="g9f-Fz-CKm" secondAttribute="trailing" constant="44" id="ptL-W7-GV6"/>
+                            <constraint firstItem="pAL-iv-Z2H" firstAttribute="top" secondItem="HiR-ck-R3F" secondAttribute="bottom" constant="8" id="tYg-V3-JyG"/>
+                            <constraint firstItem="g9f-Fz-CKm" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="cbR-Ju-Omw" secondAttribute="leadingMargin" constant="32" id="xj5-35-qo4"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bHA-CY-QLR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2250" y="-3136"/>
+        </scene>
+        <!--Rosalind Franklin View Controller-->
+        <scene sceneID="Fse-5U-uE1">
+            <objects>
+                <viewController id="Cwa-F8-8eV" userLabel="Rosalind Franklin View Controller" customClass="ModalViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OHt-AA-VL7"/>
+                        <viewControllerLayoutGuide type="bottom" id="BCj-mV-gnX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AwV-PU-t2d">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rwO-29-5dP">
+                                <rect key="frame" x="537" y="28" width="32" height="32"/>
+                                <state key="normal" image="X">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Dismiss:" destination="Cwa-F8-8eV" eventType="touchUpInside" id="xgs-Fk-Z8e"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nB8-H5-f6b">
+                                <rect key="frame" x="48" y="338" width="492" height="183"/>
+                                <string key="text">Rosalind Franklin was critical to the discovery of DNA structure. She made remarkable advances in X-ray diffraction techniques. Her photograph, labelled 51, captured B-DNA in 1952 and was the first proof of the DNA double helix. It served as the foundation to Crick and Watson’s model of DNA structure, though she was largely unacknowledged for her contributions during her life. Despite this, she continued pursuing discoveries in science, paving the way for structural virology with her 17 papers. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RosalindFranklin" translatesAutoresizingMaskIntoConstraints="NO" id="GUS-Bk-7xU">
+                                <rect key="frame" x="152" y="40" width="297" height="208"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="208" id="20I-SB-TYM"/>
+                                    <constraint firstAttribute="width" constant="297" id="N2p-w5-mlC"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rwO-29-5dP" firstAttribute="top" secondItem="OHt-AA-VL7" secondAttribute="bottom" constant="8" id="2en-xp-HV6"/>
+                            <constraint firstAttribute="centerX" secondItem="GUS-Bk-7xU" secondAttribute="centerX" id="48H-3K-iQZ"/>
+                            <constraint firstItem="nB8-H5-f6b" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="AwV-PU-t2d" secondAttribute="leadingMargin" constant="32" id="NOV-Ab-keI"/>
+                            <constraint firstItem="BCj-mV-gnX" firstAttribute="top" relation="greaterThanOrEqual" secondItem="nB8-H5-f6b" secondAttribute="bottom" constant="79" id="Xsc-up-pty"/>
+                            <constraint firstItem="GUS-Bk-7xU" firstAttribute="top" secondItem="OHt-AA-VL7" secondAttribute="bottom" constant="20" id="fim-tg-qdW"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="nB8-H5-f6b" secondAttribute="trailing" constant="44" id="jor-K0-9ws"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rwO-29-5dP" secondAttribute="trailing" constant="15" id="lNW-XX-xBn"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5PG-HS-kdx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2870" y="-3782"/>
+        </scene>
+        <!--Elizabeth Blackwell View Controller-->
+        <scene sceneID="gkF-mK-xfg">
+            <objects>
+                <viewController id="bgw-Bx-pIQ" userLabel="Elizabeth Blackwell View Controller" customClass="ModalViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BDt-zv-EZV"/>
+                        <viewControllerLayoutGuide type="bottom" id="90h-VV-b7z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="35h-je-CMJ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LDs-xp-uw6">
+                                <rect key="frame" x="537" y="28" width="32" height="32"/>
+                                <state key="normal" image="X">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Dismiss:" destination="bgw-Bx-pIQ" eventType="touchUpInside" id="fts-mU-bRp"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OE6-gI-wXn">
+                                <rect key="frame" x="48" y="338" width="492" height="183"/>
+                                <string key="text">Dorothy Hodgkin pioneered X-ray diffraction techniques to determine structures of complex organic molecules, like steroids, antibiotics, and proteins. Her discovery of the structure of vitamin B12 in 1956 won her the Nobel Prize for Chemistry in 1964.  She also worked to discover the structure of insulin. Hodgkin received Britain’s highest civil honor, the Order of Merit, in 1965, becoming the second woman in history to do so. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DorothyHodgkin" translatesAutoresizingMaskIntoConstraints="NO" id="Hv5-HE-vxC">
+                                <rect key="frame" x="152" y="40" width="297" height="208"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="297" id="Wp3-Qa-ZwE"/>
+                                    <constraint firstAttribute="height" constant="208" id="zTg-az-IM2"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="LDs-xp-uw6" secondAttribute="trailing" constant="15" id="D2B-nf-4Xf"/>
+                            <constraint firstItem="LDs-xp-uw6" firstAttribute="top" secondItem="BDt-zv-EZV" secondAttribute="bottom" constant="8" id="PO2-WM-NjE"/>
+                            <constraint firstItem="Hv5-HE-vxC" firstAttribute="top" secondItem="BDt-zv-EZV" secondAttribute="bottom" constant="20" id="T5e-aj-IMX"/>
+                            <constraint firstItem="90h-VV-b7z" firstAttribute="top" relation="greaterThanOrEqual" secondItem="OE6-gI-wXn" secondAttribute="bottom" constant="79" id="Xsl-WF-4RK"/>
+                            <constraint firstAttribute="centerX" secondItem="Hv5-HE-vxC" secondAttribute="centerX" id="byM-PF-wJg"/>
+                            <constraint firstItem="OE6-gI-wXn" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="35h-je-CMJ" secondAttribute="leadingMargin" constant="32" id="ngW-R7-XV8"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="OE6-gI-wXn" secondAttribute="trailing" constant="44" id="qbY-Av-j66"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1n4-G2-WcI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2870" y="-3128"/>
+        </scene>
     </scenes>
     <resources>
         <image name="AdaLovelace" width="600" height="600"/>
@@ -1665,20 +1743,20 @@
         <image name="yellow" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="oFN-b7-kRb"/>
-        <segue reference="NVC-vf-9GQ"/>
+        <segue reference="gRf-xA-teg"/>
+        <segue reference="zq7-7v-rAf"/>
         <segue reference="Pp8-ot-oUH"/>
         <segue reference="doz-bP-OvC"/>
-        <segue reference="zq7-7v-rAf"/>
-        <segue reference="anm-M2-R7D"/>
-        <segue reference="UvO-p3-WdO"/>
+        <segue reference="NVC-vf-9GQ"/>
+        <segue reference="XQ7-Uu-eKM"/>
         <segue reference="BMR-7l-P8J"/>
-        <segue reference="nxw-rS-QUh"/>
-        <segue reference="se0-PJ-GqL"/>
+        <segue reference="XJ6-fB-Uig"/>
+        <segue reference="thC-qP-Z0s"/>
         <segue reference="vVZ-Bl-Q3f"/>
+        <segue reference="se0-PJ-GqL"/>
         <segue reference="nEY-Mb-HA6"/>
-        <segue reference="gRf-xA-teg"/>
         <segue reference="Y9F-1g-3Yh"/>
+        <segue reference="oFN-b7-kRb"/>
         <segue reference="TC8-Dt-BQk"/>
     </inferredMetricsTieBreakers>
 </document>
