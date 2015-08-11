@@ -112,7 +112,7 @@ class ScienceViewController: UIViewController, UITabBarControllerDelegate, UIIma
             
             Line1.text = "Scientists are curious and find the answers."
             Line2.text = "Does this sound like you?"
-            Line3.text = "Explore the Science field to learn more!"
+            Line3.text = "Click on the images below to learn more!"
             
             let image = UIImage(named: "ElizabethBlackwell") as UIImage!
             roleModel1Button.setImage(image, forState: .Normal)
@@ -138,7 +138,7 @@ class ScienceViewController: UIViewController, UITabBarControllerDelegate, UIIma
     
             Line1.text = "Technologists use creativity to solve needs."
             Line2.text = "Does this sound like you?"
-            Line3.text = "Explore the Technology field to learn more!"
+            Line3.text = "Click on the images below to learn more!"
             
             let image = UIImage(named: "AdaLovelace") as UIImage!
             roleModel1Button.setImage(image, forState: .Normal)
@@ -160,7 +160,7 @@ class ScienceViewController: UIViewController, UITabBarControllerDelegate, UIIma
             
             Line1.text = "Engineers design products to fix issues."
             Line2.text = "Does this sound like you?"
-            Line3.text = "Explore the Engineering field to learn more!"
+            Line3.text = "Click on the images below to learn more!"
             
             let image = UIImage(named: "BeulahLouiseHenry") as UIImage!
             roleModel1Button.setImage(image, forState: .Normal)
@@ -183,7 +183,7 @@ class ScienceViewController: UIViewController, UITabBarControllerDelegate, UIIma
             
             Line1.text = "Mathematicians find patterns in nature."
             Line2.text = "Does this sound like you?"
-            Line3.text = "Explore the Mathematics field to learn more!"
+            Line3.text = "Click on the images below to learn more!"
             
             let image = UIImage(named: "MariaGaetanaAgnesi") as UIImage!
             roleModel1Button.setImage(image, forState: .Normal)

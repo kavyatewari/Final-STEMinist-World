@@ -79,25 +79,25 @@
                                                     <constraint firstAttribute="width" secondItem="iNk-Vn-uak" secondAttribute="height" multiplier="1:1" id="Vyw-HU-lcE"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
-                                                <state key="normal" image="blue"/>
+                                                <state key="normal" image="blue@1x"/>
                                                 <connections>
                                                     <action selector="takeScienceViewController:" destination="AdG-qJ-V5j" eventType="touchUpInside" id="M7v-eN-Nqx"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Explore the Science field to learn more!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="Wjx-OW-nOO">
-                                                <rect key="frame" x="170" y="77" width="263" height="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click on the images below to learn more!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="Wjx-OW-nOO">
+                                                <rect key="frame" x="165" y="79" width="274" height="17"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Does this sound like you? " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AeC-QV-j1W">
-                                                <rect key="frame" x="214" y="49" width="175" height="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Does this sound like you? " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AeC-QV-j1W">
+                                                <rect key="frame" x="214" y="51" width="175" height="17"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Scientists are curious and find the answers. " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mnR-EA-V1i">
-                                                <rect key="frame" x="133" y="25" width="296" height="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scientists are curious and find the answers. " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mnR-EA-V1i">
+                                                <rect key="frame" x="152" y="25" width="296" height="17"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
@@ -105,55 +105,60 @@
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8OI-iU-Ixe">
                                                 <rect key="frame" x="10" y="465" width="80" height="80"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bPs-ri-zfh">
-                                                <rect key="frame" x="100" y="104" width="264" height="80"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bPs-ri-zfh">
+                                                <rect key="frame" x="100" y="106" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Elizabeth Blackwell: first woman physician">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="2Nb-8n-lwE" kind="presentation" id="dUZ-R4-g6l"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="dTg-Vc-fp3">
-                                                <rect key="frame" x="100" y="194" width="281" height="80"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="dTg-Vc-fp3">
+                                                <rect key="frame" x="100" y="196" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Marie Curie: first woman to win a Nobel Prize">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="jXc-IE-rlN" kind="presentation" id="pz7-xX-iU4"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Ggv-T4-kD7">
-                                                <rect key="frame" x="100" y="286" width="280" height="80"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Ggv-T4-kD7">
+                                                <rect key="frame" x="100" y="286" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Rosalind Franklin: pioneer in X-ray diffraction">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="Lqa-6W-iwP" kind="presentation" id="GxN-pB-GLf"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="yGO-lN-1xJ">
-                                                <rect key="frame" x="100" y="376" width="333" height="80"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="yGO-lN-1xJ">
+                                                <rect key="frame" x="100" y="376" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Dorothy Hodgkin: discovered structure of vitamin B12">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="uqL-To-MWO" kind="presentation" id="TQu-Vi-1tP"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="iWA-sS-EfB">
-                                                <rect key="frame" x="222" y="466" width="368" height="80"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="iWA-sS-EfB">
+                                                <rect key="frame" x="100" y="466" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
-                                                <state key="normal" title="You are a current STEMinist, and a future leader in Science!">
+                                                <state key="normal" title="You are a current STEMinist, and can be a future leader in Science too!">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.18431372549019609" green="0.90196078431372551" blue="0.81568627450980391" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.098039215686274508" green="0.70980392156862748" blue="0.99607843137254903" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="centerX" secondItem="AeC-QV-j1W" secondAttribute="centerX" constant="-1.5" id="1jC-ip-nL5"/>
                                             <constraint firstItem="Pn2-z7-1DE" firstAttribute="leading" secondItem="0pT-Kx-XO0" secondAttribute="leading" id="1ws-Z9-x16"/>
@@ -163,13 +168,13 @@
                                             <constraint firstItem="txl-zF-noN" firstAttribute="top" secondItem="mnR-EA-V1i" secondAttribute="bottom" priority="100" constant="76" id="9HR-Ie-7qm"/>
                                             <constraint firstItem="txl-zF-noN" firstAttribute="leading" secondItem="fST-OF-ax2" secondAttribute="leading" constant="10" id="9HZ-62-HYr"/>
                                             <constraint firstItem="AeC-QV-j1W" firstAttribute="centerX" secondItem="Wjx-OW-nOO" secondAttribute="centerX" id="AfF-e9-a64"/>
-                                            <constraint firstItem="iWA-sS-EfB" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8OI-iU-Ixe" secondAttribute="trailing" constant="10" id="BpZ-vZ-d1D"/>
+                                            <constraint firstItem="iWA-sS-EfB" firstAttribute="leading" secondItem="8OI-iU-Ixe" secondAttribute="trailing" constant="10" id="BpZ-vZ-d1D"/>
                                             <constraint firstItem="Pn2-z7-1DE" firstAttribute="leading" secondItem="txl-zF-noN" secondAttribute="leading" id="Dt5-WW-kcS"/>
-                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="yGO-lN-1xJ" secondAttribute="trailing" constant="10" id="EEW-4o-ChC"/>
+                                            <constraint firstAttribute="trailing" secondItem="yGO-lN-1xJ" secondAttribute="trailing" constant="10" id="EEW-4o-ChC"/>
                                             <constraint firstItem="0pT-Kx-XO0" firstAttribute="leading" secondItem="vfc-Zf-SaF" secondAttribute="leading" id="Eqf-fl-4Ks"/>
                                             <constraint firstItem="mnR-EA-V1i" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="fST-OF-ax2" secondAttribute="leading" constant="10" id="FOV-hL-Y1k"/>
                                             <constraint firstItem="8OI-iU-Ixe" firstAttribute="trailing" secondItem="iNk-Vn-uak" secondAttribute="trailing" id="Gq9-9S-R28"/>
-                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="dTg-Vc-fp3" secondAttribute="trailing" constant="10" id="Gv6-qM-AjO"/>
+                                            <constraint firstAttribute="trailing" secondItem="dTg-Vc-fp3" secondAttribute="trailing" constant="10" id="Gv6-qM-AjO"/>
                                             <constraint firstItem="0pT-Kx-XO0" firstAttribute="centerY" secondItem="Ggv-T4-kD7" secondAttribute="centerY" constant="-1" id="IcS-3L-ibc"/>
                                             <constraint firstItem="vfc-Zf-SaF" firstAttribute="centerY" secondItem="yGO-lN-1xJ" secondAttribute="centerY" constant="-1" id="JFO-Vz-X3e"/>
                                             <constraint firstItem="8OI-iU-Ixe" firstAttribute="height" secondItem="iWA-sS-EfB" secondAttribute="height" id="Jo1-ys-tGD"/>
@@ -181,24 +186,25 @@
                                             <constraint firstItem="vfc-Zf-SaF" firstAttribute="top" secondItem="0pT-Kx-XO0" secondAttribute="bottom" constant="10" id="NcZ-8g-RrY"/>
                                             <constraint firstAttribute="height" constant="601" id="Nyc-xb-w8d"/>
                                             <constraint firstItem="txl-zF-noN" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Wjx-OW-nOO" secondAttribute="bottom" constant="5" id="R1x-GP-IFt"/>
-                                            <constraint firstItem="dTg-Vc-fp3" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Pn2-z7-1DE" secondAttribute="trailing" constant="10" id="Sz0-z7-eIz"/>
-                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="bPs-ri-zfh" secondAttribute="trailing" constant="10" id="Uyh-rW-HOJ"/>
+                                            <constraint firstAttribute="trailing" secondItem="Ggv-T4-kD7" secondAttribute="trailing" constant="10" id="SIT-1x-fOo"/>
+                                            <constraint firstItem="dTg-Vc-fp3" firstAttribute="leading" secondItem="Pn2-z7-1DE" secondAttribute="trailing" constant="10" id="Sz0-z7-eIz"/>
+                                            <constraint firstAttribute="trailing" secondItem="bPs-ri-zfh" secondAttribute="trailing" constant="10" id="Uyh-rW-HOJ"/>
                                             <constraint firstItem="txl-zF-noN" firstAttribute="top" secondItem="Wjx-OW-nOO" secondAttribute="bottom" constant="19" id="V0H-MX-7Nb"/>
                                             <constraint firstItem="bPs-ri-zfh" firstAttribute="centerY" secondItem="txl-zF-noN" secondAttribute="centerY" constant="-26" id="V8N-Bs-uRK"/>
-                                            <constraint firstItem="dTg-Vc-fp3" firstAttribute="top" relation="greaterThanOrEqual" secondItem="bPs-ri-zfh" secondAttribute="bottom" constant="10" id="YYC-A4-5IZ"/>
-                                            <constraint firstItem="Ggv-T4-kD7" firstAttribute="top" relation="greaterThanOrEqual" secondItem="dTg-Vc-fp3" secondAttribute="bottom" constant="10" id="Yry-xe-IC0"/>
+                                            <constraint firstItem="dTg-Vc-fp3" firstAttribute="top" secondItem="bPs-ri-zfh" secondAttribute="bottom" constant="10" id="YYC-A4-5IZ"/>
+                                            <constraint firstItem="Ggv-T4-kD7" firstAttribute="top" secondItem="dTg-Vc-fp3" secondAttribute="bottom" constant="10" id="Yry-xe-IC0"/>
                                             <constraint firstItem="8OI-iU-Ixe" firstAttribute="leading" secondItem="iNk-Vn-uak" secondAttribute="leading" id="aDu-Y9-DkK"/>
                                             <constraint firstAttribute="bottom" secondItem="iNk-Vn-uak" secondAttribute="bottom" constant="56" id="aJ1-Qn-KKQ"/>
                                             <constraint firstItem="8OI-iU-Ixe" firstAttribute="top" secondItem="vfc-Zf-SaF" secondAttribute="bottom" constant="10" id="bd3-YB-MFE"/>
                                             <constraint firstItem="dTg-Vc-fp3" firstAttribute="centerX" secondItem="bPs-ri-zfh" secondAttribute="centerX" constant="3" id="dOa-4k-fdF"/>
-                                            <constraint firstItem="bPs-ri-zfh" firstAttribute="centerY" secondItem="txl-zF-noN" secondAttribute="centerY" constant="-1" id="eIt-zI-11A"/>
+                                            <constraint firstItem="bPs-ri-zfh" firstAttribute="centerY" secondItem="txl-zF-noN" secondAttribute="centerY" id="eIt-zI-11A"/>
                                             <constraint firstAttribute="bottom" secondItem="8OI-iU-Ixe" secondAttribute="bottom" constant="56" id="egb-Mw-kRj"/>
                                             <constraint firstItem="iNk-Vn-uak" firstAttribute="top" secondItem="vfc-Zf-SaF" secondAttribute="bottom" constant="10" id="f7z-pO-jVA"/>
-                                            <constraint firstItem="bPs-ri-zfh" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Wjx-OW-nOO" secondAttribute="bottom" constant="10" id="fIE-99-shh"/>
+                                            <constraint firstItem="bPs-ri-zfh" firstAttribute="top" secondItem="Wjx-OW-nOO" secondAttribute="bottom" constant="10" id="fIE-99-shh"/>
                                             <constraint firstItem="Wjx-OW-nOO" firstAttribute="top" secondItem="AeC-QV-j1W" secondAttribute="bottom" constant="11" id="h3B-Gt-wuj"/>
-                                            <constraint firstItem="yGO-lN-1xJ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="vfc-Zf-SaF" secondAttribute="trailing" constant="10" id="ijr-ok-sF7"/>
+                                            <constraint firstItem="yGO-lN-1xJ" firstAttribute="leading" secondItem="vfc-Zf-SaF" secondAttribute="trailing" constant="10" id="ijr-ok-sF7"/>
                                             <constraint firstItem="0pT-Kx-XO0" firstAttribute="trailing" secondItem="Pn2-z7-1DE" secondAttribute="trailing" id="kFL-uV-qBC"/>
-                                            <constraint firstItem="iWA-sS-EfB" firstAttribute="top" relation="greaterThanOrEqual" secondItem="yGO-lN-1xJ" secondAttribute="bottom" constant="10" id="kKT-xj-g0b"/>
+                                            <constraint firstItem="iWA-sS-EfB" firstAttribute="top" secondItem="yGO-lN-1xJ" secondAttribute="bottom" constant="10" id="kKT-xj-g0b"/>
                                             <constraint firstItem="dTg-Vc-fp3" firstAttribute="centerX" secondItem="bPs-ri-zfh" secondAttribute="centerX" constant="3" id="lU4-hl-PrQ"/>
                                             <constraint firstItem="8OI-iU-Ixe" firstAttribute="centerY" secondItem="iWA-sS-EfB" secondAttribute="centerY" constant="-1" id="mYm-en-1nP"/>
                                             <constraint firstItem="0pT-Kx-XO0" firstAttribute="top" secondItem="Pn2-z7-1DE" secondAttribute="bottom" constant="10" id="orv-WO-5Te"/>
@@ -208,15 +214,16 @@
                                             <constraint firstItem="txl-zF-noN" firstAttribute="top" secondItem="mnR-EA-V1i" secondAttribute="bottom" constant="76" id="rIb-QF-Coh"/>
                                             <constraint firstItem="0pT-Kx-XO0" firstAttribute="trailing" secondItem="vfc-Zf-SaF" secondAttribute="trailing" id="soi-6l-rV7"/>
                                             <constraint firstItem="iNk-Vn-uak" firstAttribute="trailing" secondItem="vfc-Zf-SaF" secondAttribute="trailing" id="sz6-T8-zRJ"/>
-                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="iWA-sS-EfB" secondAttribute="trailing" constant="10" id="t9M-c4-JtC"/>
+                                            <constraint firstAttribute="trailing" secondItem="iWA-sS-EfB" secondAttribute="trailing" constant="10" id="t9M-c4-JtC"/>
                                             <constraint firstItem="txl-zF-noN" firstAttribute="trailing" secondItem="Pn2-z7-1DE" secondAttribute="trailing" id="tXT-7k-2DB"/>
-                                            <constraint firstItem="bPs-ri-zfh" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="txl-zF-noN" secondAttribute="trailing" constant="10" id="tbJ-Ap-O6M"/>
+                                            <constraint firstItem="bPs-ri-zfh" firstAttribute="leading" secondItem="txl-zF-noN" secondAttribute="trailing" constant="10" id="tbJ-Ap-O6M"/>
                                             <constraint firstItem="dTg-Vc-fp3" firstAttribute="height" secondItem="Pn2-z7-1DE" secondAttribute="height" id="uZj-C6-eMx"/>
                                             <constraint firstItem="mnR-EA-V1i" firstAttribute="centerX" secondItem="fST-OF-ax2" secondAttribute="centerX" id="ukY-0y-awP"/>
+                                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="iWA-sS-EfB" secondAttribute="bottom" constant="10" id="vHw-YM-fei"/>
                                             <constraint firstItem="dTg-Vc-fp3" firstAttribute="height" secondItem="bPs-ri-zfh" secondAttribute="height" id="vUk-Fn-ld6"/>
                                             <constraint firstItem="Pn2-z7-1DE" firstAttribute="top" secondItem="txl-zF-noN" secondAttribute="bottom" constant="10" id="vWw-Tl-JGf"/>
-                                            <constraint firstItem="yGO-lN-1xJ" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Ggv-T4-kD7" secondAttribute="bottom" constant="10" id="vfn-bd-wLb"/>
-                                            <constraint firstItem="Ggv-T4-kD7" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="0pT-Kx-XO0" secondAttribute="trailing" constant="10" id="wdX-p5-1p8"/>
+                                            <constraint firstItem="yGO-lN-1xJ" firstAttribute="top" secondItem="Ggv-T4-kD7" secondAttribute="bottom" constant="10" id="vfn-bd-wLb"/>
+                                            <constraint firstItem="Ggv-T4-kD7" firstAttribute="leading" secondItem="0pT-Kx-XO0" secondAttribute="trailing" constant="10" id="wdX-p5-1p8"/>
                                         </constraints>
                                         <variation key="default">
                                             <mask key="constraints">
@@ -225,15 +232,20 @@
                                                 <exclude reference="rIb-QF-Coh"/>
                                                 <exclude reference="8hT-Wu-KZq"/>
                                                 <exclude reference="V8N-Bs-uRK"/>
+                                                <exclude reference="eIt-zI-11A"/>
                                                 <exclude reference="dOa-4k-fdF"/>
                                                 <exclude reference="lU4-hl-PrQ"/>
+                                                <exclude reference="qU6-SE-kZy"/>
                                                 <exclude reference="vUk-Fn-ld6"/>
+                                                <exclude reference="IcS-3L-ibc"/>
                                                 <exclude reference="98I-PN-1AR"/>
+                                                <exclude reference="JFO-Vz-X3e"/>
+                                                <exclude reference="mYm-en-1nP"/>
                                             </mask>
                                         </variation>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" red="0.18431372549019609" green="0.90196078431372551" blue="0.81568627450980391" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.098039215686274508" green="0.70980392156862748" blue="0.99607843137254903" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="fST-OF-ax2" firstAttribute="top" secondItem="Acl-fL-PJm" secondAttribute="top" id="3SK-oy-BEF"/>
                                     <constraint firstItem="fST-OF-ax2" firstAttribute="leading" secondItem="Acl-fL-PJm" secondAttribute="leading" id="B0E-or-Rpf"/>
@@ -254,7 +266,7 @@
                     <tabBarItem key="tabBarItem" title="" image="Science" id="3AE-T9-AGs">
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
-                                <color key="value" red="0.18431372549019609" green="0.90196078431372551" blue="0.81568627450980391" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="value" red="0.098039215686274508" green="0.70980392156862748" blue="0.99607843137254903" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </tabBarItem>
@@ -287,14 +299,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Welcome to The STEMinist World!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C0y-Nx-ch7">
-                                <rect key="frame" x="203" y="121" width="260" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to the STEMinist World!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C0y-Nx-ch7">
+                                <rect key="frame" x="176" y="121" width="249" height="20"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tq7-Vt-xIk" userLabel="Let's Get Started! &gt;">
-                                <rect key="frame" x="216" y="421" width="169" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tq7-Vt-xIk" userLabel="Let's Get Started! &gt;">
+                                <rect key="frame" x="214" y="420" width="173" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Click here to get started!">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -305,14 +317,42 @@
                                     <segue destination="u1c-zb-NT7" kind="show" id="kIi-MR-eZe"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iI3-nS-IcN">
+                                <rect key="frame" x="223" y="165" width="155" height="224"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="224" id="IOX-UG-WSs"/>
+                                    <constraint firstAttribute="width" constant="155" id="fst-ij-z80"/>
+                                </constraints>
+                                <state key="normal" image="TheSTEMinistWorldIcon">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="u1c-zb-NT7" kind="show" id="Ctu-Gv-WkO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.077167182662538678" green="0.45490196078431372" blue="0.68627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="iI3-nS-IcN" firstAttribute="leading" secondItem="6Hs-vw-hjo" secondAttribute="leadingMargin" constant="207" id="2LV-JZ-iQk"/>
+                            <constraint firstItem="iI3-nS-IcN" firstAttribute="top" secondItem="C0y-Nx-ch7" secondAttribute="bottom" constant="24" id="6Xs-7Y-l4C"/>
+                            <constraint firstAttribute="centerX" secondItem="iI3-nS-IcN" secondAttribute="centerX" constant="-0.5" id="O2z-oz-Cvs"/>
+                            <constraint firstItem="Tq7-Vt-xIk" firstAttribute="top" secondItem="iI3-nS-IcN" secondAttribute="bottom" constant="31" id="RoW-Mj-d2Z"/>
                             <constraint firstAttribute="centerX" secondItem="C0y-Nx-ch7" secondAttribute="centerX" id="Vvy-bi-425"/>
                             <constraint firstAttribute="centerX" secondItem="Tq7-Vt-xIk" secondAttribute="centerX" id="ZGO-d5-eSr"/>
                             <constraint firstAttribute="centerX" secondItem="C0y-Nx-ch7" secondAttribute="centerX" id="bp8-Hm-kEt"/>
-                            <constraint firstItem="uZm-pl-MWj" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Tq7-Vt-xIk" secondAttribute="bottom" constant="150" id="vQe-sm-oNb"/>
+                            <constraint firstItem="C0y-Nx-ch7" firstAttribute="centerY" secondItem="Tq7-Vt-xIk" secondAttribute="centerY" constant="-304.5" id="noP-aF-055"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="iI3-nS-IcN" secondAttribute="trailing" constant="206" id="upq-yk-uro"/>
+                            <constraint firstItem="uZm-pl-MWj" firstAttribute="top" secondItem="Tq7-Vt-xIk" secondAttribute="bottom" constant="150" id="vQe-sm-oNb"/>
+                            <constraint firstAttribute="centerY" secondItem="iI3-nS-IcN" secondAttribute="centerY" constant="23" id="x22-gi-Tzg"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="2LV-JZ-iQk"/>
+                                <exclude reference="6Xs-7Y-l4C"/>
+                                <exclude reference="upq-yk-uro"/>
+                                <exclude reference="RoW-Mj-d2Z"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sbN-a2-axm" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -403,6 +443,9 @@
                                                 <state key="normal" image="MarissaMayer">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="b19-CC-v7F" kind="presentation" id="Y2p-wq-J2G"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="39m-og-yV6">
                                                 <rect key="frame" x="10" y="465" width="80" height="80"/>
@@ -410,7 +453,7 @@
                                                     <constraint firstAttribute="width" secondItem="39m-og-yV6" secondAttribute="height" multiplier="1:1" id="Vd1-w4-Jq8"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
-                                                <state key="normal" image="purple"/>
+                                                <state key="normal" image="newpurple"/>
                                                 <connections>
                                                     <action selector="takeScienceViewController:" destination="yLC-Rw-kKc" eventType="touchUpInside" id="8DN-CY-qVX"/>
                                                 </connections>
@@ -421,8 +464,8 @@
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Does this sound like you? " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Pc-Sd-VEs">
-                                                <rect key="frame" x="214" y="51" width="175" height="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Does this sound like you? " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Pc-Sd-VEs">
+                                                <rect key="frame" x="214" y="50" width="175" height="17"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
@@ -436,33 +479,33 @@
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="i8Z-ej-pXp">
                                                 <rect key="frame" x="10" y="465" width="80" height="80"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="zWS-5x-J88">
-                                                <rect key="frame" x="292" y="132" width="298" height="28"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="zWS-5x-J88">
+                                                <rect key="frame" x="100" y="105" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Ada Lovelace: first computer programmer">
-                                                    <color key="titleColor" red="0.62516703119999995" green="0.85933216000000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="bxY-rR-EPZ" kind="presentation" id="jqS-WA-T8M"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="whB-uk-WDI">
-                                                <rect key="frame" x="100" y="194" width="220" height="80"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="whB-uk-WDI">
+                                                <rect key="frame" x="100" y="195" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Grace Hopper: developed the COBOL computer programming language">
-                                                    <color key="titleColor" red="0.62516703119999995" green="0.85933216000000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="sVN-7m-JUo" kind="presentation" id="G3C-N5-Yfz"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="nUF-gu-Zv8">
-                                                <rect key="frame" x="183" y="286" width="407" height="80"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="nUF-gu-Zv8">
+                                                <rect key="frame" x="100" y="285" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Anita Borg: champion and mentor of women in computer science">
-                                                    <color key="titleColor" red="0.62516703119999995" green="0.85933216000000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
@@ -470,26 +513,27 @@
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.60784313725490191" green="0.18431372549019609" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.60392156862745094" green="0.070588235294117646" blue="0.70196078431372544" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstItem="39m-og-yV6" firstAttribute="top" secondItem="i8Z-ej-pXp" secondAttribute="top" id="0F7-M2-0jQ"/>
                                             <constraint firstItem="39m-og-yV6" firstAttribute="leading" secondItem="i8Z-ej-pXp" secondAttribute="trailing" constant="-80" id="0fg-OP-d98"/>
-                                            <constraint firstItem="whB-uk-WDI" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="LbV-0r-oxF" secondAttribute="trailing" constant="10" id="2V9-2y-lOR"/>
-                                            <constraint firstItem="nUF-gu-Zv8" firstAttribute="top" relation="greaterThanOrEqual" secondItem="whB-uk-WDI" secondAttribute="bottom" constant="10" id="33P-if-yRb"/>
+                                            <constraint firstItem="whB-uk-WDI" firstAttribute="leading" secondItem="LbV-0r-oxF" secondAttribute="trailing" constant="10" id="2V9-2y-lOR"/>
+                                            <constraint firstItem="nUF-gu-Zv8" firstAttribute="top" secondItem="whB-uk-WDI" secondAttribute="bottom" constant="10" id="33P-if-yRb"/>
                                             <constraint firstItem="39m-og-yV6" firstAttribute="width" secondItem="i8Z-ej-pXp" secondAttribute="height" multiplier="1:1" id="36Y-rK-T8k"/>
+                                            <constraint firstItem="whB-uk-WDI" firstAttribute="top" secondItem="zWS-5x-J88" secondAttribute="bottom" constant="10" id="4xj-f9-EBk"/>
                                             <constraint firstAttribute="height" constant="601" id="5s4-MH-3Oc"/>
                                             <constraint firstItem="zWS-5x-J88" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="whB-uk-WDI" secondAttribute="trailing" constant="10" id="68Z-4m-cfx"/>
                                             <constraint firstItem="39m-og-yV6" firstAttribute="top" secondItem="ACh-sI-aTh" secondAttribute="bottom" constant="10" id="6c6-rC-Faq"/>
                                             <constraint firstItem="0vJ-tA-sfh" firstAttribute="trailing" secondItem="LbV-0r-oxF" secondAttribute="trailing" id="7wk-DJ-5V8"/>
                                             <constraint firstItem="0vJ-tA-sfh" firstAttribute="top" relation="greaterThanOrEqual" secondItem="BFg-9d-acD" secondAttribute="bottom" constant="10" id="8vm-Sk-pP9"/>
-                                            <constraint firstItem="nUF-gu-Zv8" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="oVL-jX-rM1" secondAttribute="trailing" constant="10" id="96X-8X-cMP"/>
+                                            <constraint firstItem="nUF-gu-Zv8" firstAttribute="leading" secondItem="oVL-jX-rM1" secondAttribute="trailing" constant="10" id="96X-8X-cMP"/>
                                             <constraint firstItem="rva-Dw-rjB" firstAttribute="top" secondItem="cZc-iz-ezV" secondAttribute="top" constant="25" id="974-jt-I42"/>
                                             <constraint firstItem="rva-Dw-rjB" firstAttribute="centerX" secondItem="cZc-iz-ezV" secondAttribute="centerX" id="BH2-37-ONe"/>
                                             <constraint firstAttribute="centerX" secondItem="7Pc-Sd-VEs" secondAttribute="centerX" constant="-1.5" id="BUE-mD-hi4"/>
                                             <constraint firstItem="BFg-9d-acD" firstAttribute="top" secondItem="7Pc-Sd-VEs" secondAttribute="bottom" constant="11" id="GTs-eb-aks"/>
                                             <constraint firstItem="0vJ-tA-sfh" firstAttribute="centerY" secondItem="zWS-5x-J88" secondAttribute="centerY" constant="-1" id="I9Y-Bd-W28"/>
                                             <constraint firstItem="7Pc-Sd-VEs" firstAttribute="centerX" secondItem="BFg-9d-acD" secondAttribute="centerX" id="IC3-BY-pB1"/>
-                                            <constraint firstItem="zWS-5x-J88" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="0vJ-tA-sfh" secondAttribute="trailing" constant="10" id="IR4-tG-IbB"/>
+                                            <constraint firstItem="zWS-5x-J88" firstAttribute="leading" secondItem="0vJ-tA-sfh" secondAttribute="trailing" constant="10" id="IR4-tG-IbB"/>
                                             <constraint firstItem="oVL-jX-rM1" firstAttribute="trailing" secondItem="LbV-0r-oxF" secondAttribute="trailing" id="J3r-LE-1aR"/>
                                             <constraint firstItem="0vJ-tA-sfh" firstAttribute="leading" secondItem="cZc-iz-ezV" secondAttribute="leading" constant="10" id="JNI-ct-92J"/>
                                             <constraint firstItem="oVL-jX-rM1" firstAttribute="leading" secondItem="ACh-sI-aTh" secondAttribute="leading" id="KKw-Yf-thU"/>
@@ -509,12 +553,12 @@
                                             <constraint firstAttribute="trailing" secondItem="whB-uk-WDI" secondAttribute="trailing" constant="438" id="aOK-3Q-6dv"/>
                                             <constraint firstItem="0vJ-tA-sfh" firstAttribute="top" secondItem="rva-Dw-rjB" secondAttribute="bottom" priority="100" constant="76" id="azL-EG-1l7"/>
                                             <constraint firstItem="i8Z-ej-pXp" firstAttribute="top" secondItem="ACh-sI-aTh" secondAttribute="bottom" constant="10" id="bED-YS-pnk"/>
-                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="whB-uk-WDI" secondAttribute="trailing" constant="10" id="bZc-Zp-mRH"/>
+                                            <constraint firstAttribute="trailing" secondItem="whB-uk-WDI" secondAttribute="trailing" constant="10" id="bZc-Zp-mRH"/>
                                             <constraint firstItem="whB-uk-WDI" firstAttribute="centerY" secondItem="LbV-0r-oxF" secondAttribute="centerY" constant="-1" id="bfL-g9-8NU"/>
                                             <constraint firstItem="LbV-0r-oxF" firstAttribute="top" secondItem="0vJ-tA-sfh" secondAttribute="bottom" constant="10" id="eSC-tR-j3A"/>
                                             <constraint firstItem="whB-uk-WDI" firstAttribute="top" secondItem="zWS-5x-J88" secondAttribute="top" constant="80" id="fRq-w9-ndS"/>
                                             <constraint firstItem="whB-uk-WDI" firstAttribute="baseline" secondItem="zWS-5x-J88" secondAttribute="baseline" constant="104" id="fTu-pG-5hM"/>
-                                            <constraint firstItem="zWS-5x-J88" firstAttribute="top" relation="greaterThanOrEqual" secondItem="BFg-9d-acD" secondAttribute="bottom" constant="10" id="h5f-8w-xhW"/>
+                                            <constraint firstItem="zWS-5x-J88" firstAttribute="top" secondItem="BFg-9d-acD" secondAttribute="bottom" constant="10" id="h5f-8w-xhW"/>
                                             <constraint firstItem="39m-og-yV6" firstAttribute="bottom" secondItem="i8Z-ej-pXp" secondAttribute="bottom" id="hiA-ns-qcY"/>
                                             <constraint firstItem="39m-og-yV6" firstAttribute="trailing" secondItem="i8Z-ej-pXp" secondAttribute="trailing" id="i3o-E7-O28"/>
                                             <constraint firstItem="LbV-0r-oxF" firstAttribute="leading" secondItem="0vJ-tA-sfh" secondAttribute="leading" id="jfv-6F-ihj"/>
@@ -523,9 +567,9 @@
                                             <constraint firstItem="rva-Dw-rjB" firstAttribute="leading" secondItem="cZc-iz-ezV" secondAttribute="leading" constant="10" id="ljW-iE-r9b"/>
                                             <constraint firstItem="oVL-jX-rM1" firstAttribute="trailing" secondItem="ACh-sI-aTh" secondAttribute="trailing" id="sjT-pE-Drp"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="whB-uk-WDI" secondAttribute="trailing" constant="10" id="uoR-pZ-wbZ"/>
-                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="zWS-5x-J88" secondAttribute="trailing" constant="10" id="vfD-AN-oKB"/>
+                                            <constraint firstAttribute="trailing" secondItem="zWS-5x-J88" secondAttribute="trailing" constant="10" id="vfD-AN-oKB"/>
                                             <constraint firstItem="whB-uk-WDI" firstAttribute="height" secondItem="LbV-0r-oxF" secondAttribute="height" id="w3R-tn-bld"/>
-                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="nUF-gu-Zv8" secondAttribute="trailing" constant="10" id="zgk-Pa-KSL"/>
+                                            <constraint firstAttribute="trailing" secondItem="nUF-gu-Zv8" secondAttribute="trailing" constant="10" id="zgk-Pa-KSL"/>
                                         </constraints>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
@@ -534,13 +578,16 @@
                                         </userDefinedRuntimeAttributes>
                                         <variation key="default">
                                             <mask key="constraints">
-                                                <exclude reference="aOK-3Q-6dv"/>
-                                                <exclude reference="fRq-w9-ndS"/>
-                                                <exclude reference="fTu-pG-5hM"/>
-                                                <exclude reference="uoR-pZ-wbZ"/>
+                                                <exclude reference="I9Y-Bd-W28"/>
                                                 <exclude reference="68Z-4m-cfx"/>
                                                 <exclude reference="NQy-EY-U34"/>
                                                 <exclude reference="krU-qk-5ch"/>
+                                                <exclude reference="aOK-3Q-6dv"/>
+                                                <exclude reference="bfL-g9-8NU"/>
+                                                <exclude reference="fRq-w9-ndS"/>
+                                                <exclude reference="fTu-pG-5hM"/>
+                                                <exclude reference="uoR-pZ-wbZ"/>
+                                                <exclude reference="TNF-9y-Nvq"/>
                                                 <exclude reference="0F7-M2-0jQ"/>
                                                 <exclude reference="0fg-OP-d98"/>
                                                 <exclude reference="36Y-rK-T8k"/>
@@ -549,7 +596,7 @@
                                         </variation>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" red="0.60784313729999995" green="0.1843137255" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.60392156862745094" green="0.070588235294117646" blue="0.70196078431372544" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="cZc-iz-ezV" firstAttribute="leading" secondItem="gMx-dx-Iu4" secondAttribute="leading" id="17P-nd-ETe"/>
                                     <constraint firstItem="cZc-iz-ezV" firstAttribute="centerX" secondItem="gMx-dx-Iu4" secondAttribute="centerX" id="7fD-uQ-cLq"/>
@@ -570,7 +617,7 @@
                     <tabBarItem key="tabBarItem" title="" image="Technology" id="7gb-H4-XDB">
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
-                                <color key="value" red="0.60784313725490191" green="0.18431372549019609" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="value" red="0.60392156862745094" green="0.070588235294117646" blue="0.70196078431372544" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </tabBarItem>
@@ -609,8 +656,8 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dIo-lB-Zv6" userLabel="content view">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="601"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VaZ-6u-GQs" userLabel="Elizabeth Blackwell">
-                                                <rect key="frame" x="10" y="117" width="80" height="80"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VaZ-6u-GQs" userLabel="Elizabeth Blackwell">
+                                                <rect key="frame" x="10" y="105" width="80" height="80"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="80" id="ekG-a6-PA8"/>
                                                     <constraint firstAttribute="height" constant="80" id="soK-6t-c3P"/>
@@ -622,8 +669,8 @@
                                                     <segue destination="YIM-W1-g7Q" kind="presentation" id="I5V-Oc-kKn"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5hz-i3-2ia" userLabel="Marie Curie">
-                                                <rect key="frame" x="10" y="207" width="80" height="80"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5hz-i3-2ia" userLabel="Marie Curie">
+                                                <rect key="frame" x="10" y="195" width="80" height="80"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="80" id="Xbd-lb-Fjd"/>
                                                 </constraints>
@@ -634,8 +681,8 @@
                                                     <segue destination="jQX-tC-4Se" kind="presentation" id="XGR-pg-ief"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y8r-Xz-1Ed" userLabel="Rosalind Franklin">
-                                                <rect key="frame" x="10" y="297" width="80" height="80"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y8r-Xz-1Ed" userLabel="Rosalind Franklin">
+                                                <rect key="frame" x="10" y="285" width="80" height="80"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="80" id="wBA-Qr-tE4"/>
                                                 </constraints>
@@ -646,8 +693,8 @@
                                                     <segue destination="3Ky-fm-i1l" kind="presentation" id="KeN-62-gEJ"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5w0-Xt-Fmi" userLabel="Dorothy Hodgkin">
-                                                <rect key="frame" x="10" y="387" width="80" height="80"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5w0-Xt-Fmi" userLabel="Dorothy Hodgkin">
+                                                <rect key="frame" x="10" y="375" width="80" height="80"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="80" id="beK-PI-sqS"/>
                                                 </constraints>
@@ -658,96 +705,96 @@
                                                     <segue destination="5g0-Ag-Oa6" kind="presentation" id="0Mg-ad-p0u"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o2d-Od-cbx">
-                                                <rect key="frame" x="10" y="475" width="80" height="80"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o2d-Od-cbx">
+                                                <rect key="frame" x="10" y="465" width="80" height="80"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="o2d-Od-cbx" secondAttribute="height" multiplier="1:1" id="EEQ-8S-4KU"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
-                                                <state key="normal" image="yellow"/>
+                                                <state key="normal" image="green@1x"/>
                                                 <connections>
                                                     <action selector="takeScienceViewController:" destination="S8Z-jg-FHH" eventType="touchUpInside" id="Dov-Qn-Ege"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Explore the Science field to learn more!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="5eu-nR-RoN">
-                                                <rect key="frame" x="170" y="79" width="263" height="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Explore the Science field to learn more!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="5eu-nR-RoN">
+                                                <rect key="frame" x="170" y="78" width="263" height="17"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Does this sound like you? " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xyp-6a-UqD">
-                                                <rect key="frame" x="214" y="51" width="175" height="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Does this sound like you? " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xyp-6a-UqD">
+                                                <rect key="frame" x="214" y="50" width="175" height="17"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Scientists are curious and want to know all the answers. " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="jox-WR-jo6">
-                                                <rect key="frame" x="110" y="16" width="380" height="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scientists are curious and want to know all the answers. " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="jox-WR-jo6">
+                                                <rect key="frame" x="10" y="25" width="580" height="17"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5hj-6j-TZQ">
-                                                <rect key="frame" x="10" y="475" width="80" height="80"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5hj-6j-TZQ">
+                                                <rect key="frame" x="10" y="465" width="80" height="80"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="1jJ-iR-Dg4">
-                                                <rect key="frame" x="104" y="104" width="486" height="80"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="1jJ-iR-Dg4">
+                                                <rect key="frame" x="100" y="105" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Beulah Louise Henry: created at least 110 inventions and registered 49 patents">
-                                                    <color key="titleColor" red="0.88627450980392153" green="0.3843137254901961" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="YIM-W1-g7Q" kind="presentation" id="uH9-W9-kkN"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ZDn-ca-d0h">
-                                                <rect key="frame" x="100" y="196" width="311" height="80"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ZDn-ca-d0h">
+                                                <rect key="frame" x="100" y="195" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Hedy Lamarr: pioneer in wireless communications">
-                                                    <color key="titleColor" red="0.88627450980392153" green="0.3843137254901961" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="jQX-tC-4Se" kind="presentation" id="wQI-k4-bZN"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="dkp-y4-iJ1">
-                                                <rect key="frame" x="100" y="286" width="261" height="80"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="dkp-y4-iJ1">
+                                                <rect key="frame" x="100" y="285" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Sally Ride: first American woman in space">
-                                                    <color key="titleColor" red="0.88627450980392153" green="0.3843137254901961" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="3Ky-fm-i1l" kind="presentation" id="msz-PN-UYM"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="dgb-Pu-gZl">
-                                                <rect key="frame" x="100" y="376" width="326" height="80"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="dgb-Pu-gZl">
+                                                <rect key="frame" x="100" y="375" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Marissa Mayer: current president and CEO of Yahoo!">
-                                                    <color key="titleColor" red="0.88627450980392153" green="0.3843137254901961" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="5g0-Ag-Oa6" kind="presentation" id="zA9-we-uV0"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="aIX-9G-21u">
-                                                <rect key="frame" x="198" y="464" width="392" height="80"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="aIX-9G-21u">
+                                                <rect key="frame" x="100" y="465" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
-                                                <state key="normal" title="You are a current STEMinist, and a future leader in Engineering!">
-                                                    <color key="titleColor" red="0.8862745098" green="0.38431372549999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="You are a current STEMinist, and can be a future leader in Engineering too!">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.96078431372549022" green="0.87450980392156863" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.1803921568627451" green="0.80000000000000004" blue="0.44313725490196076" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="centerX" secondItem="5eu-nR-RoN" secondAttribute="centerX" constant="-1.5" id="1Oj-Ec-2hR"/>
-                                            <constraint firstItem="dkp-y4-iJ1" firstAttribute="top" relation="greaterThanOrEqual" secondItem="ZDn-ca-d0h" secondAttribute="bottom" constant="10" id="1uS-hD-BEH"/>
+                                            <constraint firstItem="dkp-y4-iJ1" firstAttribute="top" secondItem="ZDn-ca-d0h" secondAttribute="bottom" constant="10" id="1uS-hD-BEH"/>
                                             <constraint firstItem="5w0-Xt-Fmi" firstAttribute="centerY" secondItem="dgb-Pu-gZl" secondAttribute="centerY" constant="-1" id="24w-Vg-JCi"/>
-                                            <constraint firstItem="1jJ-iR-Dg4" firstAttribute="top" relation="greaterThanOrEqual" secondItem="5eu-nR-RoN" secondAttribute="bottom" constant="10" id="3BQ-Lz-shO"/>
+                                            <constraint firstItem="1jJ-iR-Dg4" firstAttribute="top" secondItem="5eu-nR-RoN" secondAttribute="bottom" constant="10" id="3BQ-Lz-shO"/>
                                             <constraint firstItem="y8r-Xz-1Ed" firstAttribute="top" secondItem="5hz-i3-2ia" secondAttribute="bottom" constant="10" id="42D-IE-RNA"/>
                                             <constraint firstItem="1jJ-iR-Dg4" firstAttribute="centerY" secondItem="VaZ-6u-GQs" secondAttribute="centerY" constant="-1" id="4qu-YM-Zzy"/>
                                             <constraint firstItem="aIX-9G-21u" firstAttribute="height" secondItem="5hj-6j-TZQ" secondAttribute="height" id="6BH-z9-MRv"/>
@@ -763,27 +810,28 @@
                                             <constraint firstItem="aIX-9G-21u" firstAttribute="centerY" secondItem="5hj-6j-TZQ" secondAttribute="centerY" constant="-1" id="Ehf-uK-VTg"/>
                                             <constraint firstItem="5eu-nR-RoN" firstAttribute="top" secondItem="Xyp-6a-UqD" secondAttribute="bottom" constant="11" id="Ehn-r0-zkw"/>
                                             <constraint firstItem="o2d-Od-cbx" firstAttribute="leading" secondItem="5w0-Xt-Fmi" secondAttribute="leading" id="FnB-cB-Rxy"/>
-                                            <constraint firstItem="dkp-y4-iJ1" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="y8r-Xz-1Ed" secondAttribute="trailing" constant="10" id="HQI-o0-NK5"/>
-                                            <constraint firstItem="aIX-9G-21u" firstAttribute="top" relation="greaterThanOrEqual" secondItem="dgb-Pu-gZl" secondAttribute="bottom" constant="10" id="IzW-Kt-kPn"/>
+                                            <constraint firstItem="dkp-y4-iJ1" firstAttribute="leading" secondItem="y8r-Xz-1Ed" secondAttribute="trailing" constant="10" id="HQI-o0-NK5"/>
+                                            <constraint firstItem="aIX-9G-21u" firstAttribute="top" secondItem="dgb-Pu-gZl" secondAttribute="bottom" constant="10" id="IzW-Kt-kPn"/>
                                             <constraint firstItem="VaZ-6u-GQs" firstAttribute="top" relation="greaterThanOrEqual" secondItem="5eu-nR-RoN" secondAttribute="bottom" constant="10" id="Jc1-jH-c3c"/>
-                                            <constraint firstItem="ZDn-ca-d0h" firstAttribute="top" relation="greaterThanOrEqual" secondItem="1jJ-iR-Dg4" secondAttribute="bottom" constant="10" id="K0H-tw-JTC"/>
-                                            <constraint firstItem="aIX-9G-21u" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="5hj-6j-TZQ" secondAttribute="trailing" constant="10" id="L2s-ij-hhu"/>
+                                            <constraint firstItem="ZDn-ca-d0h" firstAttribute="top" secondItem="1jJ-iR-Dg4" secondAttribute="bottom" constant="10" id="K0H-tw-JTC"/>
+                                            <constraint firstItem="aIX-9G-21u" firstAttribute="leading" secondItem="5hj-6j-TZQ" secondAttribute="trailing" constant="10" id="L2s-ij-hhu"/>
                                             <constraint firstItem="5hz-i3-2ia" firstAttribute="centerY" secondItem="ZDn-ca-d0h" secondAttribute="centerY" constant="-1" id="LMV-sj-K40"/>
                                             <constraint firstItem="5hj-6j-TZQ" firstAttribute="trailing" secondItem="o2d-Od-cbx" secondAttribute="trailing" id="MMe-qp-YCM"/>
                                             <constraint firstAttribute="trailing" secondItem="5hj-6j-TZQ" secondAttribute="trailing" constant="510" id="MkF-sa-aAY"/>
                                             <constraint firstItem="y8r-Xz-1Ed" firstAttribute="trailing" secondItem="5hz-i3-2ia" secondAttribute="trailing" id="MuB-Rh-Icg"/>
                                             <constraint firstItem="5hj-6j-TZQ" firstAttribute="leading" secondItem="dIo-lB-Zv6" secondAttribute="leading" constant="10" id="Q7g-ma-NBI"/>
                                             <constraint firstItem="jox-WR-jo6" firstAttribute="centerX" secondItem="dIo-lB-Zv6" secondAttribute="centerX" id="QBt-Kd-1vz"/>
-                                            <constraint firstItem="1jJ-iR-Dg4" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="VaZ-6u-GQs" secondAttribute="trailing" constant="10" id="SdR-q6-9VK"/>
+                                            <constraint firstItem="1jJ-iR-Dg4" firstAttribute="leading" secondItem="VaZ-6u-GQs" secondAttribute="trailing" constant="10" id="SdR-q6-9VK"/>
                                             <constraint firstItem="5w0-Xt-Fmi" firstAttribute="height" secondItem="dgb-Pu-gZl" secondAttribute="height" id="UHS-BV-duF"/>
-                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ZDn-ca-d0h" secondAttribute="trailing" constant="10" id="V7R-H5-peh"/>
-                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="dgb-Pu-gZl" secondAttribute="trailing" constant="10" id="Vni-6A-7EN"/>
-                                            <constraint firstItem="dgb-Pu-gZl" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="5w0-Xt-Fmi" secondAttribute="trailing" constant="10" id="Wjn-tZ-tJc"/>
-                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="1jJ-iR-Dg4" secondAttribute="trailing" constant="10" id="YcD-bb-Q0c"/>
+                                            <constraint firstAttribute="trailing" secondItem="ZDn-ca-d0h" secondAttribute="trailing" constant="10" id="V7R-H5-peh"/>
+                                            <constraint firstAttribute="trailing" secondItem="dgb-Pu-gZl" secondAttribute="trailing" constant="10" id="Vni-6A-7EN"/>
+                                            <constraint firstItem="dgb-Pu-gZl" firstAttribute="leading" secondItem="5w0-Xt-Fmi" secondAttribute="trailing" constant="10" id="Wjn-tZ-tJc"/>
+                                            <constraint firstAttribute="trailing" secondItem="1jJ-iR-Dg4" secondAttribute="trailing" constant="10" id="YcD-bb-Q0c"/>
                                             <constraint firstItem="o2d-Od-cbx" firstAttribute="trailing" secondItem="5w0-Xt-Fmi" secondAttribute="trailing" id="aLP-MC-GPg"/>
-                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="aIX-9G-21u" secondAttribute="trailing" constant="10" id="c24-vM-d0C"/>
+                                            <constraint firstAttribute="trailing" secondItem="aIX-9G-21u" secondAttribute="trailing" constant="10" id="c24-vM-d0C"/>
                                             <constraint firstItem="y8r-Xz-1Ed" firstAttribute="trailing" secondItem="5w0-Xt-Fmi" secondAttribute="trailing" id="d8Q-rD-HzO"/>
                                             <constraint firstItem="Xyp-6a-UqD" firstAttribute="top" secondItem="jox-WR-jo6" secondAttribute="bottom" priority="100" constant="9" id="frC-4X-KGj"/>
+                                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="aIX-9G-21u" secondAttribute="bottom" constant="10" id="hwz-Zl-n0q"/>
                                             <constraint firstItem="o2d-Od-cbx" firstAttribute="top" secondItem="5w0-Xt-Fmi" secondAttribute="bottom" constant="10" id="ibL-t4-xmy"/>
                                             <constraint firstAttribute="bottom" secondItem="5hj-6j-TZQ" secondAttribute="bottom" constant="56" id="icf-5U-Iib"/>
                                             <constraint firstItem="5w0-Xt-Fmi" firstAttribute="top" secondItem="y8r-Xz-1Ed" secondAttribute="bottom" constant="10" id="jbh-p9-GDK"/>
@@ -792,11 +840,11 @@
                                             <constraint firstItem="5hz-i3-2ia" firstAttribute="height" secondItem="ZDn-ca-d0h" secondAttribute="height" id="mCY-VM-B7b"/>
                                             <constraint firstItem="VaZ-6u-GQs" firstAttribute="leading" secondItem="dIo-lB-Zv6" secondAttribute="leading" constant="10" id="mJE-xf-Qtj"/>
                                             <constraint firstItem="5hz-i3-2ia" firstAttribute="leading" secondItem="y8r-Xz-1Ed" secondAttribute="leading" id="mfi-ez-kwI"/>
-                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="dkp-y4-iJ1" secondAttribute="trailing" constant="10" id="nw1-eV-YbF"/>
+                                            <constraint firstAttribute="trailing" secondItem="dkp-y4-iJ1" secondAttribute="trailing" constant="10" id="nw1-eV-YbF"/>
                                             <constraint firstItem="5hz-i3-2ia" firstAttribute="leading" secondItem="VaZ-6u-GQs" secondAttribute="leading" id="pzE-1D-xNS"/>
-                                            <constraint firstItem="dgb-Pu-gZl" firstAttribute="top" relation="greaterThanOrEqual" secondItem="dkp-y4-iJ1" secondAttribute="bottom" constant="10" id="rV2-z4-voE"/>
+                                            <constraint firstItem="dgb-Pu-gZl" firstAttribute="top" secondItem="dkp-y4-iJ1" secondAttribute="bottom" constant="10" id="rV2-z4-voE"/>
                                             <constraint firstItem="5hz-i3-2ia" firstAttribute="top" secondItem="VaZ-6u-GQs" secondAttribute="bottom" constant="10" id="t0S-gH-Gv9"/>
-                                            <constraint firstItem="ZDn-ca-d0h" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="5hz-i3-2ia" secondAttribute="trailing" constant="10" id="uhl-2s-Iim"/>
+                                            <constraint firstItem="ZDn-ca-d0h" firstAttribute="leading" secondItem="5hz-i3-2ia" secondAttribute="trailing" constant="10" id="uhl-2s-Iim"/>
                                             <constraint firstItem="VaZ-6u-GQs" firstAttribute="trailing" secondItem="5hz-i3-2ia" secondAttribute="trailing" id="xwc-JQ-vqV"/>
                                             <constraint firstItem="VaZ-6u-GQs" firstAttribute="top" secondItem="jox-WR-jo6" secondAttribute="bottom" priority="100" constant="76" id="z0b-Xg-CT2"/>
                                             <constraint firstItem="dkp-y4-iJ1" firstAttribute="height" secondItem="y8r-Xz-1Ed" secondAttribute="height" id="zvY-F4-4UC"/>
@@ -808,13 +856,18 @@
                                         </userDefinedRuntimeAttributes>
                                         <variation key="default">
                                             <mask key="constraints">
+                                                <exclude reference="4qu-YM-Zzy"/>
+                                                <exclude reference="LMV-sj-K40"/>
+                                                <exclude reference="765-5L-4fC"/>
+                                                <exclude reference="24w-Vg-JCi"/>
+                                                <exclude reference="Ehf-uK-VTg"/>
                                                 <exclude reference="MkF-sa-aAY"/>
                                                 <exclude reference="Q7g-ma-NBI"/>
                                             </mask>
                                         </variation>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" red="0.96078431369999995" green="0.87450980389999999" blue="0.1843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.1803921568627451" green="0.80000000000000004" blue="0.44313725490196076" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="dIo-lB-Zv6" secondAttribute="trailing" id="6VZ-3F-ThP"/>
                                     <constraint firstItem="dIo-lB-Zv6" firstAttribute="top" secondItem="okN-D1-mxR" secondAttribute="top" id="Hd0-Lc-STX"/>
@@ -835,7 +888,7 @@
                     <tabBarItem key="tabBarItem" title="" image="Engineering" id="rNM-pI-QYF">
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
-                                <color key="value" red="0.96078431369999995" green="0.87450980389999999" blue="0.1843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="value" red="0.1803921568627451" green="0.80000000000000004" blue="0.44313725490196076" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </tabBarItem>
@@ -872,10 +925,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="601"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sb8-2z-KYB" userLabel="content view">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="601"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="602"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7XX-hj-xuJ" userLabel="Marie Curie">
-                                                <rect key="frame" x="10" y="195" width="80" height="80"/>
+                                                <rect key="frame" x="10" y="196" width="80" height="80"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="80" id="wup-us-ZVJ"/>
                                                 </constraints>
@@ -887,7 +940,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gFt-bH-4HO" userLabel="Rosalind Franklin">
-                                                <rect key="frame" x="10" y="285" width="80" height="80"/>
+                                                <rect key="frame" x="10" y="286" width="80" height="80"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="80" id="fNE-RU-S3z"/>
                                                 </constraints>
@@ -899,7 +952,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vgz-eL-RzZ" userLabel="Dorothy Hodgkin">
-                                                <rect key="frame" x="10" y="375" width="80" height="80"/>
+                                                <rect key="frame" x="10" y="376" width="80" height="80"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="80" id="BTD-bM-S6n"/>
                                                 </constraints>
@@ -911,27 +964,27 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HIP-5N-Qp0">
-                                                <rect key="frame" x="10" y="465" width="80" height="80"/>
+                                                <rect key="frame" x="10" y="466" width="80" height="80"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="HIP-5N-Qp0" secondAttribute="height" multiplier="1:1" id="i4b-mL-7rE"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
-                                                <state key="normal" image="orange"/>
+                                                <state key="normal" image="newmagenta"/>
                                                 <connections>
                                                     <action selector="takeScienceViewController:" destination="7GC-57-L3Q" eventType="touchUpInside" id="BbZ-yt-5H9"/>
                                                 </connections>
                                             </button>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dAe-ba-LuX">
-                                                <rect key="frame" x="10" y="465" width="80" height="80"/>
+                                                <rect key="frame" x="10" y="466" width="80" height="80"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Explore the Science field to learn more!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="sNM-9y-xCd">
-                                                <rect key="frame" x="170" y="78" width="263" height="17"/>
+                                                <rect key="frame" x="170" y="79" width="263" height="17"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Does this sound like you? " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i56-i9-BOF">
-                                                <rect key="frame" x="214" y="50" width="175" height="17"/>
+                                                <rect key="frame" x="214" y="51" width="175" height="17"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
@@ -943,7 +996,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tpS-Dz-eJq" userLabel="Elizabeth Blackwell">
-                                                <rect key="frame" x="10" y="105" width="80" height="80"/>
+                                                <rect key="frame" x="10" y="106" width="80" height="80"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="80" id="l5a-zO-xLj"/>
                                                     <constraint firstAttribute="height" constant="80" id="xUh-mu-80C"/>
@@ -955,72 +1008,72 @@
                                                     <segue destination="Ras-go-Y2y" kind="presentation" id="vfQ-S8-7fa"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="7Dg-32-TS5">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="7Dg-32-TS5">
                                                 <rect key="frame" x="100" y="106" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Maria Gaetana Agnesi: first woman to write a mathematics handbook">
-                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="Ras-go-Y2y" kind="presentation" id="tcH-V1-PzB"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="zfp-XL-bUC">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="zfp-XL-bUC">
                                                 <rect key="frame" x="100" y="196" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Sofia Kovalevskaya: pioneer in the theory of partial differential equations">
-                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="7iN-fI-Hhe" kind="presentation" id="r7V-eR-BlU"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="WxQ-75-csM">
-                                                <rect key="frame" x="100" y="286" width="410" height="80"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="WxQ-75-csM">
+                                                <rect key="frame" x="100" y="286" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Emmy Noether: most creative abstract algebraist of modern times">
-                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="bbZ-nh-2ts" kind="presentation" id="lwJ-kV-w7W"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="sR5-pv-L2A">
-                                                <rect key="frame" x="278" y="376" width="312" height="80"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="sR5-pv-L2A">
+                                                <rect key="frame" x="100" y="376" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Shakuntala Devi: known as the &quot;human computer&quot;">
-                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="4r6-K9-qL5" kind="presentation" id="eTg-f7-Eeg"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenDisabled="NO" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Cqi-Zn-N5O">
-                                                <rect key="frame" x="240" y="466" width="350" height="80"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenDisabled="NO" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Cqi-Zn-N5O">
+                                                <rect key="frame" x="100" y="466" width="419" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
-                                                <state key="normal" title="You are a current STEMinist, and a future leader in Math!">
-                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="You are a current STEMinist, and can be a future leader in Math too!">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.96078431372549022" green="0.29019607843137257" blue="0.054901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.85882352941176465" green="0.039215686274509803" blue="0.35686274509803922" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstItem="Cqi-Zn-N5O" firstAttribute="top" relation="greaterThanOrEqual" secondItem="sR5-pv-L2A" secondAttribute="bottom" constant="10" id="6F8-9w-KUa"/>
+                                            <constraint firstItem="Cqi-Zn-N5O" firstAttribute="top" secondItem="sR5-pv-L2A" secondAttribute="bottom" constant="10" id="6F8-9w-KUa"/>
                                             <constraint firstItem="i56-i9-BOF" firstAttribute="centerX" secondItem="sNM-9y-xCd" secondAttribute="centerX" id="7Oh-Dd-Shj"/>
                                             <constraint firstItem="gFt-bH-4HO" firstAttribute="trailing" secondItem="7XX-hj-xuJ" secondAttribute="trailing" id="91A-yw-3WM"/>
-                                            <constraint firstItem="sR5-pv-L2A" firstAttribute="top" relation="greaterThanOrEqual" secondItem="WxQ-75-csM" secondAttribute="bottom" constant="10" id="9fH-gH-Y06"/>
+                                            <constraint firstItem="sR5-pv-L2A" firstAttribute="top" secondItem="WxQ-75-csM" secondAttribute="bottom" constant="10" id="9fH-gH-Y06"/>
                                             <constraint firstItem="5yk-fs-fnQ" firstAttribute="leading" secondItem="sb8-2z-KYB" secondAttribute="leading" constant="10" id="BCu-4f-P0t"/>
                                             <constraint firstItem="tpS-Dz-eJq" firstAttribute="trailing" secondItem="7XX-hj-xuJ" secondAttribute="trailing" id="CqL-Jf-M1O"/>
                                             <constraint firstItem="tpS-Dz-eJq" firstAttribute="centerY" secondItem="7Dg-32-TS5" secondAttribute="centerY" constant="-1" id="Dm9-tv-vii"/>
                                             <constraint firstItem="HIP-5N-Qp0" firstAttribute="trailing" secondItem="Vgz-eL-RzZ" secondAttribute="trailing" id="DzX-ca-E6W"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Cqi-Zn-N5O" secondAttribute="trailing" constant="10" id="EHw-ob-yl4"/>
                                             <constraint firstItem="HIP-5N-Qp0" firstAttribute="trailing" secondItem="dAe-ba-LuX" secondAttribute="trailing" id="EP4-C1-uBA"/>
-                                            <constraint firstItem="7Dg-32-TS5" firstAttribute="top" relation="greaterThanOrEqual" secondItem="sNM-9y-xCd" secondAttribute="bottom" constant="10" id="F3a-gA-y15"/>
+                                            <constraint firstItem="7Dg-32-TS5" firstAttribute="top" secondItem="sNM-9y-xCd" secondAttribute="bottom" constant="10" id="F3a-gA-y15"/>
                                             <constraint firstItem="HIP-5N-Qp0" firstAttribute="leading" secondItem="dAe-ba-LuX" secondAttribute="leading" id="FC9-wq-hb7"/>
                                             <constraint firstItem="dAe-ba-LuX" firstAttribute="top" secondItem="Vgz-eL-RzZ" secondAttribute="bottom" constant="10" id="GMo-7s-vqE"/>
                                             <constraint firstItem="WxQ-75-csM" firstAttribute="centerY" secondItem="gFt-bH-4HO" secondAttribute="centerY" constant="-1" id="GN8-ll-l0h"/>
@@ -1032,18 +1085,19 @@
                                             <constraint firstItem="tpS-Dz-eJq" firstAttribute="leading" secondItem="sb8-2z-KYB" secondAttribute="leading" constant="10" id="OIn-gi-hEN"/>
                                             <constraint firstItem="5yk-fs-fnQ" firstAttribute="top" secondItem="sb8-2z-KYB" secondAttribute="top" constant="25" id="ONA-hq-p9c"/>
                                             <constraint firstItem="gFt-bH-4HO" firstAttribute="leading" secondItem="Vgz-eL-RzZ" secondAttribute="leading" id="OdB-3W-Qhb"/>
-                                            <constraint firstItem="zfp-XL-bUC" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="7XX-hj-xuJ" secondAttribute="trailing" constant="10" id="QMe-oF-2nY"/>
-                                            <constraint firstItem="i56-i9-BOF" firstAttribute="top" secondItem="5yk-fs-fnQ" secondAttribute="bottom" priority="100" constant="9" id="QtS-xP-T0e"/>
+                                            <constraint firstItem="zfp-XL-bUC" firstAttribute="leading" secondItem="7XX-hj-xuJ" secondAttribute="trailing" constant="10" id="QMe-oF-2nY"/>
+                                            <constraint firstItem="i56-i9-BOF" firstAttribute="top" secondItem="5yk-fs-fnQ" secondAttribute="bottom" constant="9" id="QtS-xP-T0e"/>
                                             <constraint firstItem="7XX-hj-xuJ" firstAttribute="leading" secondItem="tpS-Dz-eJq" secondAttribute="leading" id="R5A-Z8-HY1"/>
-                                            <constraint firstItem="7Dg-32-TS5" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="tpS-Dz-eJq" secondAttribute="trailing" constant="10" id="Se6-ZL-SwE"/>
+                                            <constraint firstAttribute="bottom" secondItem="Cqi-Zn-N5O" secondAttribute="bottom" constant="55" id="RU2-Yr-3Yl"/>
+                                            <constraint firstItem="7Dg-32-TS5" firstAttribute="leading" secondItem="tpS-Dz-eJq" secondAttribute="trailing" constant="10" id="Se6-ZL-SwE"/>
                                             <constraint firstItem="sNM-9y-xCd" firstAttribute="top" secondItem="i56-i9-BOF" secondAttribute="bottom" constant="11" id="Sg7-sb-DLR"/>
                                             <constraint firstItem="7XX-hj-xuJ" firstAttribute="leading" secondItem="gFt-bH-4HO" secondAttribute="leading" id="U2M-vG-FiS"/>
                                             <constraint firstAttribute="centerX" secondItem="sNM-9y-xCd" secondAttribute="centerX" constant="-1.5" id="Ujb-ao-UpG"/>
                                             <constraint firstItem="5yk-fs-fnQ" firstAttribute="centerX" secondItem="sb8-2z-KYB" secondAttribute="centerX" id="WKm-mp-sH1"/>
-                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="7Dg-32-TS5" secondAttribute="trailing" constant="10" id="WML-gg-mw8"/>
-                                            <constraint firstItem="Cqi-Zn-N5O" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="dAe-ba-LuX" secondAttribute="trailing" constant="10" id="YCB-Fx-hTH"/>
-                                            <constraint firstItem="WxQ-75-csM" firstAttribute="top" relation="greaterThanOrEqual" secondItem="zfp-XL-bUC" secondAttribute="bottom" constant="10" id="Z2g-55-Fj7"/>
-                                            <constraint firstItem="WxQ-75-csM" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="gFt-bH-4HO" secondAttribute="trailing" constant="10" id="ZDQ-RE-uxj"/>
+                                            <constraint firstAttribute="trailing" secondItem="7Dg-32-TS5" secondAttribute="trailing" constant="10" id="WML-gg-mw8"/>
+                                            <constraint firstItem="Cqi-Zn-N5O" firstAttribute="leading" secondItem="dAe-ba-LuX" secondAttribute="trailing" constant="10" id="YCB-Fx-hTH"/>
+                                            <constraint firstItem="WxQ-75-csM" firstAttribute="top" secondItem="zfp-XL-bUC" secondAttribute="bottom" constant="10" id="Z2g-55-Fj7"/>
+                                            <constraint firstItem="WxQ-75-csM" firstAttribute="leading" secondItem="gFt-bH-4HO" secondAttribute="trailing" constant="10" id="ZDQ-RE-uxj"/>
                                             <constraint firstItem="zfp-XL-bUC" firstAttribute="height" secondItem="7XX-hj-xuJ" secondAttribute="height" id="Zdv-NO-nVk"/>
                                             <constraint firstAttribute="bottom" secondItem="HIP-5N-Qp0" secondAttribute="bottom" constant="56" id="e84-lo-EAB"/>
                                             <constraint firstItem="tpS-Dz-eJq" firstAttribute="top" secondItem="5yk-fs-fnQ" secondAttribute="bottom" priority="100" constant="76" id="ec9-gV-xce"/>
@@ -1051,28 +1105,39 @@
                                             <constraint firstItem="WxQ-75-csM" firstAttribute="height" secondItem="gFt-bH-4HO" secondAttribute="height" id="gGe-T7-K5U"/>
                                             <constraint firstItem="Vgz-eL-RzZ" firstAttribute="height" secondItem="sR5-pv-L2A" secondAttribute="height" id="gxi-ky-pj4"/>
                                             <constraint firstItem="HIP-5N-Qp0" firstAttribute="top" secondItem="Vgz-eL-RzZ" secondAttribute="bottom" constant="10" id="hVY-qi-Nmb"/>
-                                            <constraint firstItem="zfp-XL-bUC" firstAttribute="top" relation="greaterThanOrEqual" secondItem="7Dg-32-TS5" secondAttribute="bottom" constant="10" id="jf9-fS-HZq"/>
+                                            <constraint firstItem="zfp-XL-bUC" firstAttribute="top" secondItem="7Dg-32-TS5" secondAttribute="bottom" constant="10" id="jf9-fS-HZq"/>
                                             <constraint firstItem="gFt-bH-4HO" firstAttribute="top" secondItem="7XX-hj-xuJ" secondAttribute="bottom" constant="10" id="jt0-mG-rQs"/>
                                             <constraint firstItem="HIP-5N-Qp0" firstAttribute="leading" secondItem="Vgz-eL-RzZ" secondAttribute="leading" id="kOY-U2-7du"/>
                                             <constraint firstItem="Cqi-Zn-N5O" firstAttribute="height" secondItem="dAe-ba-LuX" secondAttribute="height" id="lYp-5Z-TWv"/>
-                                            <constraint firstItem="sR5-pv-L2A" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Vgz-eL-RzZ" secondAttribute="trailing" constant="10" id="oyJ-5V-A3J"/>
+                                            <constraint firstItem="sR5-pv-L2A" firstAttribute="leading" secondItem="Vgz-eL-RzZ" secondAttribute="trailing" constant="10" id="oyJ-5V-A3J"/>
                                             <constraint firstAttribute="centerX" secondItem="i56-i9-BOF" secondAttribute="centerX" constant="-1.5" id="pjm-31-Quc"/>
                                             <constraint firstAttribute="height" constant="601" id="qSv-bD-3A0"/>
-                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="zfp-XL-bUC" secondAttribute="trailing" constant="10" id="qlL-yu-dto"/>
+                                            <constraint firstAttribute="trailing" secondItem="zfp-XL-bUC" secondAttribute="trailing" constant="10" id="qlL-yu-dto"/>
                                             <constraint firstItem="7XX-hj-xuJ" firstAttribute="top" secondItem="tpS-Dz-eJq" secondAttribute="bottom" constant="10" id="seL-nT-gfP"/>
                                             <constraint firstItem="tpS-Dz-eJq" firstAttribute="height" secondItem="7Dg-32-TS5" secondAttribute="height" id="skr-Ly-IBr"/>
                                             <constraint firstItem="Cqi-Zn-N5O" firstAttribute="centerY" secondItem="dAe-ba-LuX" secondAttribute="centerY" constant="-1" id="trb-Ks-FY2"/>
-                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="WxQ-75-csM" secondAttribute="trailing" constant="10" id="wd4-vI-3Hr"/>
-                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="sR5-pv-L2A" secondAttribute="trailing" constant="10" id="xNb-l5-kjt"/>
+                                            <constraint firstAttribute="trailing" secondItem="WxQ-75-csM" secondAttribute="trailing" constant="10" id="wd4-vI-3Hr"/>
+                                            <constraint firstAttribute="trailing" secondItem="sR5-pv-L2A" secondAttribute="trailing" constant="10" id="xNb-l5-kjt"/>
                                         </constraints>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
                                                 <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="qSv-bD-3A0"/>
+                                                <exclude reference="Dm9-tv-vii"/>
+                                                <exclude reference="f1J-b9-KbB"/>
+                                                <exclude reference="GN8-ll-l0h"/>
+                                                <exclude reference="J2U-CO-lQ5"/>
+                                                <exclude reference="RU2-Yr-3Yl"/>
+                                                <exclude reference="trb-Ks-FY2"/>
+                                            </mask>
+                                        </variation>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" red="0.96078431369999995" green="0.2901960784" blue="0.054901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.85882352941176465" green="0.039215686274509803" blue="0.35686274509803922" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="sb8-2z-KYB" secondAttribute="trailing" id="8y4-3E-74r"/>
                                     <constraint firstItem="sb8-2z-KYB" firstAttribute="leading" secondItem="X5L-dT-6Hd" secondAttribute="leading" id="coE-gx-7IA"/>
@@ -1080,20 +1145,35 @@
                                     <constraint firstItem="sb8-2z-KYB" firstAttribute="top" secondItem="X5L-dT-6Hd" secondAttribute="top" id="lcz-Ds-B4u"/>
                                     <constraint firstItem="sb8-2z-KYB" firstAttribute="centerX" secondItem="X5L-dT-6Hd" secondAttribute="centerX" id="tFR-7A-Ftc"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="tFR-7A-Ftc"/>
+                                    </mask>
+                                </variation>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="X5L-dT-6Hd" secondAttribute="trailing" id="0yI-Rd-96B"/>
+                            <constraint firstItem="sb8-2z-KYB" firstAttribute="width" secondItem="WG3-ZK-uLU" secondAttribute="width" id="2CC-fQ-D8o"/>
                             <constraint firstItem="X5L-dT-6Hd" firstAttribute="centerY" secondItem="WG3-ZK-uLU" secondAttribute="centerY" id="f5u-zs-Vo4"/>
+                            <constraint firstItem="i4H-pA-e3d" firstAttribute="top" secondItem="X5L-dT-6Hd" secondAttribute="bottom" constant="-50" id="gn9-UC-1Wy"/>
+                            <constraint firstItem="sb8-2z-KYB" firstAttribute="height" secondItem="WG3-ZK-uLU" secondAttribute="height" priority="250" id="p2A-Y7-HnY"/>
+                            <constraint firstItem="i4H-pA-e3d" firstAttribute="top" secondItem="X5L-dT-6Hd" secondAttribute="bottom" constant="-50" id="r1W-RB-7SV"/>
                             <constraint firstItem="X5L-dT-6Hd" firstAttribute="top" secondItem="WG3-ZK-uLU" secondAttribute="top" id="sIL-6u-Dsa"/>
                             <constraint firstItem="X5L-dT-6Hd" firstAttribute="leading" secondItem="WG3-ZK-uLU" secondAttribute="leading" id="zqH-rj-Oov"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="f5u-zs-Vo4"/>
+                                <exclude reference="gn9-UC-1Wy"/>
+                            </mask>
+                        </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="Math" id="Vbc-sK-fiX">
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
-                                <color key="value" red="0.96078431372549022" green="0.29019607843137257" blue="0.054901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="value" red="0.85882352941176465" green="0.039215686274509803" blue="0.35686274509803922" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </tabBarItem>
@@ -1139,8 +1219,8 @@
                                                     <constraint firstAttribute="height" constant="208" id="Wad-XD-DDl"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4aC-0H-IyX">
-                                                <rect key="frame" x="536" y="30" width="32" height="32"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4aC-0H-IyX">
+                                                <rect key="frame" x="548" y="20" width="32" height="32"/>
                                                 <state key="normal" image="X">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -1153,11 +1233,10 @@
                                                 <string key="text">Elizabeth Blackwell was a pioneer for women in science because of her determination to become the first woman doctor in the United States. She was denied admission to most leading schools, but this didn’t stop her. She was finally accepted by Geneva Medical College. She graduated first in her class on January 23, 1849, becoming the first woman doctor of medicine in the modern era. After the Civil War, she opened her own college to promote and train women in the medical field.
 </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstItem="yjl-fI-te3" firstAttribute="top" relation="greaterThanOrEqual" secondItem="02x-8Q-02z" secondAttribute="top" constant="25" id="0SJ-Q3-HEB"/>
                                             <constraint firstItem="dg0-hg-U00" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="02x-8Q-02z" secondAttribute="leading" constant="10" id="5GL-39-EvX"/>
@@ -1192,6 +1271,7 @@
                                         </variation>
                                     </view>
                                 </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="02x-8Q-02z" firstAttribute="width" secondItem="XqG-oC-A4q" secondAttribute="width" id="1Nh-Fj-vsK"/>
                                     <constraint firstItem="02x-8Q-02z" firstAttribute="leading" secondItem="XqG-oC-A4q" secondAttribute="leading" id="1f8-gg-t0O"/>
@@ -1268,8 +1348,8 @@
                                                     <constraint firstAttribute="width" constant="297" id="ULj-Bm-yyE"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ETe-my-Lyk">
-                                                <rect key="frame" x="536" y="30" width="32" height="32"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ETe-my-Lyk">
+                                                <rect key="frame" x="548" y="20" width="32" height="32"/>
                                                 <state key="normal" image="X">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -1396,8 +1476,8 @@
                                                     <constraint firstAttribute="width" constant="297" id="1By-Gx-UbN"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gm0-Pw-b8P">
-                                                <rect key="frame" x="536" y="30" width="32" height="32"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gm0-Pw-b8P">
+                                                <rect key="frame" x="548" y="20" width="32" height="32"/>
                                                 <state key="normal" image="X">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -1525,8 +1605,8 @@
                                                     <constraint firstAttribute="height" constant="208" id="zKP-4P-2Ib"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v0B-Dh-5iJ">
-                                                <rect key="frame" x="536" y="30" width="32" height="32"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v0B-Dh-5iJ">
+                                                <rect key="frame" x="548" y="20" width="32" height="32"/>
                                                 <state key="normal" image="X">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -1534,8 +1614,8 @@
                                                     <action selector="Dismiss:" destination="uqL-To-MWO" eventType="touchUpInside" id="9Cq-l2-bpH"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5bN-GB-K1r">
-                                                <rect key="frame" x="30" y="263" width="540" height="183"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5bN-GB-K1r">
+                                                <rect key="frame" x="30" y="263" width="540" height="142"/>
                                                 <string key="text">Dorothy Hodgkin pioneered X-ray diffraction techniques to determine structures of complex organic molecules, like steroids, antibiotics, and proteins. Her discovery of the structure of vitamin B12 in 1956 won her the Nobel Prize for Chemistry in 1964. She received Britain’s highest civil honor, the Order of Merit, in 1965, becoming the second woman in history to do so. 
 </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -1654,8 +1734,8 @@
                                                     <constraint firstAttribute="height" constant="208" id="YQd-nb-DL5"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DcV-kC-3vU">
-                                                <rect key="frame" x="536" y="30" width="32" height="32"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DcV-kC-3vU">
+                                                <rect key="frame" x="548" y="20" width="32" height="32"/>
                                                 <state key="normal" image="X">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -1663,8 +1743,8 @@
                                                     <action selector="Dismiss:" destination="bxY-rR-EPZ" eventType="touchUpInside" id="vrY-ri-4ff"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ut8-hM-4dz">
-                                                <rect key="frame" x="30" y="263" width="540" height="183"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ut8-hM-4dz">
+                                                <rect key="frame" x="30" y="263" width="540" height="163"/>
                                                 <string key="text">Ada Lovelace was the first woman pioneer in the field of technology and regarded the world’s first computer programmer. She came up with a method for an analytical engine to repeat a series of instructions, a process that known as looping that is used by computer programs today. The machine was not built until 100 years later, but Ada had envisioned the possibility of using a machine for an unlimited number of tasks -- the world’s first computer.
 </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -1783,8 +1863,8 @@
                                                     <constraint firstAttribute="height" constant="208" id="XNT-kP-wHT"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AAj-ga-SZ8">
-                                                <rect key="frame" x="536" y="30" width="32" height="32"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AAj-ga-SZ8">
+                                                <rect key="frame" x="548" y="20" width="32" height="32"/>
                                                 <state key="normal" image="X">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -1912,8 +1992,8 @@
                                                     <constraint firstAttribute="height" constant="208" id="YDx-qQ-0NM"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EPF-A7-Cih">
-                                                <rect key="frame" x="536" y="30" width="32" height="32"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EPF-A7-Cih">
+                                                <rect key="frame" x="548" y="20" width="32" height="32"/>
                                                 <state key="normal" image="X">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -1921,8 +2001,8 @@
                                                     <action selector="Dismiss:" destination="q7G-12-aCc" eventType="touchUpInside" id="rSD-Uw-Wez"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E0o-7E-tej">
-                                                <rect key="frame" x="30" y="263" width="540" height="183"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E0o-7E-tej">
+                                                <rect key="frame" x="30" y="263" width="540" height="163"/>
                                                 <string key="text">Anita Borg paved the way to bridge the gender gap in computer science. She founded the Institute for Women and Technology (now the Anita Borg Institute for Women and Technology) and the Grace Hopper Celebration of Women in Computing to increase women’s impact on technology worldwide. She also created the Systers mailing list -- the world’s largest email community of women in technical roles in computing. 
 </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -2041,8 +2121,8 @@
                                                     <constraint firstAttribute="height" constant="208" id="hR4-2T-suw"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P9H-OB-vxZ">
-                                                <rect key="frame" x="536" y="30" width="32" height="32"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P9H-OB-vxZ">
+                                                <rect key="frame" x="548" y="20" width="32" height="32"/>
                                                 <state key="normal" image="X">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -2050,8 +2130,8 @@
                                                     <action selector="Dismiss:" destination="b19-CC-v7F" eventType="touchUpInside" id="M4H-Eu-tkS"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQh-mG-1QC">
-                                                <rect key="frame" x="30" y="263" width="540" height="183"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQh-mG-1QC">
+                                                <rect key="frame" x="30" y="263" width="540" height="163"/>
                                                 <string key="text">Anita Borg paved the way to bridge the gender gap in computer science. She founded the Institute for Women and Technology (now the Anita Borg Institute for Women and Technology) and the Grace Hopper Celebration of Women in Computing to increase women’s impact on technology worldwide. She also created the Systers mailing list -- the world’s largest email community of women in technical roles in computing. 
 </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -2143,7 +2223,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F6m-yX-xf5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2788" y="-1540"/>
+            <point key="canvasLocation" x="2925" y="-1545"/>
         </scene>
         <!--Beulah Louise Henry View Controller-->
         <scene sceneID="pFa-Xn-1QD">
@@ -2170,8 +2250,8 @@
                                                     <constraint firstAttribute="height" constant="208" id="NZ3-Fh-LfA"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZuM-RR-raS">
-                                                <rect key="frame" x="536" y="30" width="32" height="32"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZuM-RR-raS">
+                                                <rect key="frame" x="548" y="20" width="32" height="32"/>
                                                 <state key="normal" image="X">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -2179,8 +2259,8 @@
                                                     <action selector="Dismiss:" destination="YIM-W1-g7Q" eventType="touchUpInside" id="7B2-cR-Rx5"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qXU-gR-gyP">
-                                                <rect key="frame" x="30" y="263" width="540" height="183"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qXU-gR-gyP">
+                                                <rect key="frame" x="30" y="263" width="540" height="142"/>
                                                 <string key="text">Beulah Louise Henry was a self-taught inventor and entrepreneur. She registered her first patent when she was 25 for a vacuum-sealed ice cream freezer. Some of her other remarkable inventions include modified sewing machines, typewriters, cash registers, umbrellas, dolls, and other toys. She also founded two companies of her own, served as a consultant to others, and was inducted into the National Inventors Hall of Fame in 2006.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -2298,8 +2378,8 @@
                                                     <constraint firstAttribute="height" constant="208" id="Ilo-Mf-BQM"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OQC-fq-N15">
-                                                <rect key="frame" x="536" y="30" width="32" height="32"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OQC-fq-N15">
+                                                <rect key="frame" x="548" y="20" width="32" height="32"/>
                                                 <state key="normal" image="X">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -2307,8 +2387,8 @@
                                                     <action selector="Dismiss:" destination="jQX-tC-4Se" eventType="touchUpInside" id="8O6-6E-zSk"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uhN-n3-rGD">
-                                                <rect key="frame" x="30" y="263" width="540" height="183"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uhN-n3-rGD">
+                                                <rect key="frame" x="30" y="263" width="540" height="163"/>
                                                 <string key="text">Whenever you use bluetooth or Wi-Fi, you have Hedy Lamarr to thank! She patented an idea that became critical to both secure military communications and mobile phone technology, solving the problem of enemies blocking signals from radio-controlled missiles during WWII. She was always looking for solutions to problems on any scale. In addition to her remarkable intelligence, she was also a popular actress and Hollywood star.
 </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -2427,8 +2507,8 @@
                                                     <constraint firstAttribute="height" constant="208" id="TYa-Vv-6s2"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uMj-64-KHa">
-                                                <rect key="frame" x="536" y="30" width="32" height="32"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uMj-64-KHa">
+                                                <rect key="frame" x="548" y="20" width="32" height="32"/>
                                                 <state key="normal" image="X">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -2556,8 +2636,8 @@
                                                     <constraint firstAttribute="width" constant="297" id="XIs-aL-xNh"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oeB-nH-OUi">
-                                                <rect key="frame" x="536" y="30" width="32" height="32"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oeB-nH-OUi">
+                                                <rect key="frame" x="548" y="20" width="32" height="32"/>
                                                 <state key="normal" image="X">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -2565,8 +2645,8 @@
                                                     <action selector="Dismiss:" destination="5g0-Ag-Oa6" eventType="touchUpInside" id="Xuj-OM-AIQ"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WgH-EZ-DQA">
-                                                <rect key="frame" x="30" y="263" width="540" height="183"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WgH-EZ-DQA">
+                                                <rect key="frame" x="30" y="263" width="540" height="122"/>
                                                 <string key="text">Marissa Mayer is the current president and CEO of Yahoo! She was the first woman engineer at Google, though she grew up thinking she wanted to be a doctor. During her time at Google, she worked on some of the company’s most successful products, including Google Maps, Google Earth, and Gmail. She was also responsible for approving each Google “doodle” on the company’s homepage. </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -2684,8 +2764,8 @@
                                                     <constraint firstAttribute="height" constant="208" id="qRk-RT-5TD"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g9o-ui-Pni">
-                                                <rect key="frame" x="536" y="30" width="32" height="32"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g9o-ui-Pni">
+                                                <rect key="frame" x="548" y="20" width="32" height="32"/>
                                                 <state key="normal" image="X">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -2693,8 +2773,8 @@
                                                     <action selector="Dismiss:" destination="Ras-go-Y2y" eventType="touchUpInside" id="92h-53-K5C"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tuU-83-nny">
-                                                <rect key="frame" x="30" y="263" width="540" height="183"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tuU-83-nny">
+                                                <rect key="frame" x="30" y="263" width="540" height="163"/>
                                                 <string key="text">Maria Gaetana Agnesi was a famous woman mathematician, credited with writing the first book discussing both integral and differential calculus. She knew several different languages and was called the “oracle of seven tongues.” Since higher education was not available to women at her time, she published a Latin discourse defending education for women. She was later appointed by Pope Benedict XIV to the chair of mathematics at Bologna Academy of Sciences.
 </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -2813,8 +2893,8 @@
                                                     <constraint firstAttribute="height" constant="208" id="RdN-2P-e0u"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k0D-cD-1M8">
-                                                <rect key="frame" x="536" y="30" width="32" height="32"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k0D-cD-1M8">
+                                                <rect key="frame" x="548" y="20" width="32" height="32"/>
                                                 <state key="normal" image="X">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -2941,8 +3021,8 @@
                                                     <constraint firstAttribute="height" constant="208" id="lYW-Ck-CUV"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HqH-5S-ojp">
-                                                <rect key="frame" x="536" y="30" width="32" height="32"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HqH-5S-ojp">
+                                                <rect key="frame" x="548" y="20" width="32" height="32"/>
                                                 <state key="normal" image="X">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -3069,8 +3149,8 @@
                                                     <constraint firstAttribute="height" constant="208" id="acW-P3-7Vv"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sSo-fj-bzU">
-                                                <rect key="frame" x="536" y="30" width="32" height="32"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sSo-fj-bzU">
+                                                <rect key="frame" x="548" y="20" width="32" height="32"/>
                                                 <state key="normal" image="X">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -3194,13 +3274,15 @@
         <image name="ShakuntalaDevi" width="247" height="300"/>
         <image name="SofiaKovalevskaya" width="678" height="843"/>
         <image name="Technology" width="32" height="32"/>
+        <image name="TheSTEMinistWorldIcon" width="325" height="528"/>
         <image name="X" width="32" height="32"/>
-        <image name="blue" width="512" height="512"/>
-        <image name="orange" width="512" height="512"/>
-        <image name="purple" width="512" height="512"/>
-        <image name="yellow" width="512" height="512"/>
+        <image name="blue@1x" width="512" height="512"/>
+        <image name="green@1x" width="512" height="512"/>
+        <image name="newmagenta" width="512" height="512"/>
+        <image name="newpurple" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="kIi-MR-eZe"/>
         <segue reference="wQI-k4-bZN"/>
         <segue reference="msz-PN-UYM"/>
         <segue reference="uH9-W9-kkN"/>
