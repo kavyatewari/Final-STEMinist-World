@@ -34,7 +34,7 @@
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="vKg-Qn-CSV" kind="presentation" id="BMR-7l-P8J"/>
+                                                    <segue destination="2Nb-8n-lwE" kind="presentation" id="20e-xg-p7J"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pn2-z7-1DE" userLabel="Marie Curie">
@@ -105,14 +105,14 @@
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8OI-iU-Ixe">
                                                 <rect key="frame" x="10" y="465" width="80" height="80"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bPs-ri-zfh">
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bPs-ri-zfh">
                                                 <rect key="frame" x="100" y="104" width="264" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Elizabeth Blackwell: first woman physician">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="vKg-Qn-CSV" kind="presentation" id="JT1-Wx-2DP"/>
+                                                    <segue destination="2Nb-8n-lwE" kind="presentation" id="dUZ-R4-g6l"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="dTg-Vc-fp3">
@@ -275,59 +275,6 @@
             </objects>
             <point key="canvasLocation" x="301" y="-2144"/>
         </scene>
-        <!--Elizabeth Blackwell View Controller-->
-        <scene sceneID="d1h-Lb-HG7">
-            <objects>
-                <viewController id="vKg-Qn-CSV" userLabel="Elizabeth Blackwell View Controller" customClass="ModalViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="r4L-5a-Uml"/>
-                        <viewControllerLayoutGuide type="bottom" id="qd4-bf-GS0"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="IuL-eT-Un6">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mcZ-AL-vOv">
-                                <rect key="frame" x="537" y="28" width="32" height="32"/>
-                                <state key="normal" image="X">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="Dismiss:" destination="vKg-Qn-CSV" eventType="touchUpInside" id="e1f-Pw-afs"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dvh-Ff-Eeb">
-                                <rect key="frame" x="48" y="338" width="492" height="183"/>
-                                <string key="text">Elizabeth Blackwell was a pioneer for women in science because of her determination to become the first woman doctor in the United States. She was denied admission to most leading schools, but this didn’t stop her. She was finally accepted by Geneva Medical College. She graduated first in her class on January 23, 1849, becoming the first woman doctor of medicine in the modern era. After the Civil War, she opened her own college to promote and train women in the medical field.
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ElizabethBlackwell" translatesAutoresizingMaskIntoConstraints="NO" id="hHe-q0-nQH">
-                                <rect key="frame" x="152" y="40" width="297" height="208"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="208" id="Vrx-tS-zMM"/>
-                                    <constraint firstAttribute="width" constant="297" id="YQX-hS-3CI"/>
-                                </constraints>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="mcZ-AL-vOv" firstAttribute="top" secondItem="r4L-5a-Uml" secondAttribute="bottom" constant="8" id="ATh-a9-9LR"/>
-                            <constraint firstItem="hHe-q0-nQH" firstAttribute="top" secondItem="r4L-5a-Uml" secondAttribute="bottom" constant="20" id="H9B-Ix-nHC"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="mcZ-AL-vOv" secondAttribute="trailing" constant="15" id="L8G-zQ-xxM"/>
-                            <constraint firstItem="Dvh-Ff-Eeb" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="IuL-eT-Un6" secondAttribute="leadingMargin" constant="32" id="NKe-KE-izl"/>
-                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="Dvh-Ff-Eeb" secondAttribute="trailing" constant="44" id="Y0K-5f-gQ6"/>
-                            <constraint firstAttribute="centerX" secondItem="hHe-q0-nQH" secondAttribute="centerX" id="bqO-4G-8G4"/>
-                            <constraint firstItem="qd4-bf-GS0" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Dvh-Ff-Eeb" secondAttribute="bottom" constant="79" id="mdE-7b-lRP"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jjf-DF-I4l" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2250" y="-3788"/>
-        </scene>
         <!--Welcome View Controller-->
         <scene sceneID="zGG-ub-Y1q">
             <objects>
@@ -421,7 +368,7 @@
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="haa-so-nMo" kind="presentation" id="5UM-dr-8Zf"/>
+                                                    <segue destination="BeN-uw-ORs" kind="presentation" id="pPG-bZ-pcr"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LbV-0r-oxF" userLabel="Marie Curie">
@@ -433,7 +380,7 @@
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="KTy-PQ-rnY" kind="presentation" id="Yrd-Zr-Tex"/>
+                                                    <segue destination="NcZ-dX-Jf7" kind="presentation" id="EK4-vy-2Xj"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oVL-jX-rM1" userLabel="Rosalind Franklin">
@@ -445,7 +392,7 @@
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="Qh3-tb-vCM" kind="presentation" id="gIJ-qd-sJN"/>
+                                                    <segue destination="C6e-zZ-jFR" kind="presentation" id="xiA-LQ-MJ6"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ACh-sI-aTh" userLabel="Dorothy Hodgkin">
@@ -500,7 +447,7 @@
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="haa-so-nMo" kind="presentation" id="se0-PJ-GqL"/>
+                                                    <segue destination="BeN-uw-ORs" kind="presentation" id="DqX-sD-byE"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="whB-uk-WDI">
@@ -511,7 +458,7 @@
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="KTy-PQ-rnY" kind="presentation" id="nEY-Mb-HA6"/>
+                                                    <segue destination="NcZ-dX-Jf7" kind="presentation" id="c1r-Rd-6t2"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="nUF-gu-Zv8">
@@ -522,7 +469,7 @@
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="Qh3-tb-vCM" kind="presentation" id="vVZ-Bl-Q3f"/>
+                                                    <segue destination="C6e-zZ-jFR" kind="presentation" id="983-l6-kML"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -1044,7 +991,7 @@
                                                     <segue destination="4es-LY-NcA" kind="presentation" id="Y9F-1g-3Yh"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="sR5-pv-L2A">
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="sR5-pv-L2A">
                                                 <rect key="frame" x="278" y="376" width="312" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Shakuntala Devi: known as the &quot;human computer&quot;">
@@ -1169,105 +1116,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pJP-Ga-w16" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="365" y="1518"/>
-        </scene>
-        <!--Ada Lovelace View Controller-->
-        <scene sceneID="3eB-hH-mbJ">
-            <objects>
-                <viewController id="haa-so-nMo" userLabel="Ada Lovelace View Controller" customClass="ModalViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="avm-la-92O"/>
-                        <viewControllerLayoutGuide type="bottom" id="O2J-b4-Ous"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="BhO-00-bbl">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jZc-VJ-utZ">
-                                <rect key="frame" x="537" y="28" width="32" height="32"/>
-                                <state key="normal" image="X">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="Dismiss:" destination="haa-so-nMo" eventType="touchUpInside" id="HaS-he-aHg"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="jZc-VJ-utZ" firstAttribute="top" secondItem="avm-la-92O" secondAttribute="bottom" constant="8" id="3N3-2K-jAu"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="jZc-VJ-utZ" secondAttribute="trailing" constant="15" id="B8B-L9-BPI"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ghn-bb-ox5" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2336" y="-2144"/>
-        </scene>
-        <!--Grace Hopper View Controller-->
-        <scene sceneID="ShJ-av-6ij">
-            <objects>
-                <viewController id="KTy-PQ-rnY" userLabel="Grace Hopper View Controller" customClass="ModalViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="0Fw-0x-jAE"/>
-                        <viewControllerLayoutGuide type="bottom" id="CBM-HP-LUf"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="YSc-Qn-2li">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7t1-kB-X4o">
-                                <rect key="frame" x="537" y="28" width="32" height="32"/>
-                                <state key="normal" image="X">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="Dismiss:" destination="KTy-PQ-rnY" eventType="touchUpInside" id="LS5-Jx-aFd"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="7t1-kB-X4o" firstAttribute="top" secondItem="0Fw-0x-jAE" secondAttribute="bottom" constant="8" id="krF-fJ-BlU"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="7t1-kB-X4o" secondAttribute="trailing" constant="15" id="q6y-zi-F8K"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="09h-qk-ZsQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2992" y="-1458"/>
-        </scene>
-        <!--Anita Borg View Controller-->
-        <scene sceneID="rBR-7w-s1B">
-            <objects>
-                <viewController id="Qh3-tb-vCM" userLabel="Anita Borg View Controller" customClass="ModalViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="J3o-V0-pqn"/>
-                        <viewControllerLayoutGuide type="bottom" id="rO7-Xk-yMe"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="job-aS-Dkb">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eTb-Be-Hcc">
-                                <rect key="frame" x="537" y="28" width="32" height="32"/>
-                                <state key="normal" image="X">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="Dismiss:" destination="Qh3-tb-vCM" eventType="touchUpInside" id="ZYm-vr-ftW"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="eTb-Be-Hcc" secondAttribute="trailing" constant="15" id="Jm1-vH-4cj"/>
-                            <constraint firstItem="eTb-Be-Hcc" firstAttribute="top" secondItem="J3o-V0-pqn" secondAttribute="bottom" constant="8" id="LZa-0T-UoV"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="acb-kB-Opr" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2316" y="-1538"/>
         </scene>
         <!--Joanna Hoffman View Controller-->
         <scene sceneID="5pU-hm-fBl">
@@ -1722,6 +1570,348 @@
             </objects>
             <point key="canvasLocation" x="2870" y="-3128"/>
         </scene>
+        <!--Ada Lovelace View Controller-->
+        <scene sceneID="unF-LL-8PI">
+            <objects>
+                <viewController id="BeN-uw-ORs" userLabel="Ada Lovelace View Controller" customClass="ModalViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mp4-Dr-N5K"/>
+                        <viewControllerLayoutGuide type="bottom" id="MtC-au-UDr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jfm-UO-np1">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aun-uh-zvu">
+                                <rect key="frame" x="537" y="28" width="32" height="32"/>
+                                <state key="normal" image="X">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Dismiss:" destination="BeN-uw-ORs" eventType="touchUpInside" id="h61-ys-T1f"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tfC-BD-pea">
+                                <rect key="frame" x="58" y="358" width="482" height="163"/>
+                                <string key="text">Ada Lovelace was the first woman pioneer in the field of technology and regarded the world’s first computer programmer. She came up with a method for an analytical engine to repeat a series of instructions, a process that known as looping that is used by computer programs today. The machine was not built until 100 years later, but Ada had envisioned the possibility of using a machine for an unlimited number of tasks -- the world’s first computer.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AdaLovelace" translatesAutoresizingMaskIntoConstraints="NO" id="cbN-If-OaE">
+                                <rect key="frame" x="152" y="40" width="297" height="208"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="208" id="nmZ-Fy-8jN"/>
+                                    <constraint firstAttribute="width" constant="297" id="rUq-KU-lLl"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MtC-au-UDr" firstAttribute="top" relation="greaterThanOrEqual" secondItem="tfC-BD-pea" secondAttribute="bottom" constant="79" id="3G4-GY-NFx"/>
+                            <constraint firstItem="cbN-If-OaE" firstAttribute="top" secondItem="mp4-Dr-N5K" secondAttribute="bottom" constant="20" id="3Ug-hD-lMK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aun-uh-zvu" secondAttribute="trailing" constant="15" id="6BG-Og-uVD"/>
+                            <constraint firstAttribute="centerX" secondItem="cbN-If-OaE" secondAttribute="centerX" id="esk-Do-ZnZ"/>
+                            <constraint firstItem="aun-uh-zvu" firstAttribute="top" secondItem="mp4-Dr-N5K" secondAttribute="bottom" constant="8" id="hqq-xw-PGN"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="tfC-BD-pea" secondAttribute="trailing" constant="44" id="kLI-jc-Q76"/>
+                            <constraint firstItem="tfC-BD-pea" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="jfm-UO-np1" secondAttribute="leadingMargin" constant="32" id="lhr-jB-AgI"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CjU-BX-9Vq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2316" y="-2204"/>
+        </scene>
+        <!--Grace Hopper View Controller-->
+        <scene sceneID="C7w-nU-RC7">
+            <objects>
+                <viewController id="NcZ-dX-Jf7" userLabel="Grace Hopper View Controller" customClass="ModalViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uu5-9q-vh7"/>
+                        <viewControllerLayoutGuide type="bottom" id="XX7-fy-Vpk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="REN-i2-uZt">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oXe-up-Rzg">
+                                <rect key="frame" x="537" y="28" width="32" height="32"/>
+                                <state key="normal" image="X">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Dismiss:" destination="NcZ-dX-Jf7" eventType="touchUpInside" id="VMj-rn-yWZ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VMI-SB-NtK">
+                                <rect key="frame" x="48" y="318" width="492" height="203"/>
+                                <mutableString key="text">Grace Hopper paved the way for women technologists and was one of Harvard Mark I computer’s first programmers. She developed the first ever compiler used for computer programming, and even created COBOL, one of the first few modern programming languages. She popularized the term “debugging” when fixing computer glitches. Her many significant contributions in the field of computer science as well as in the navy as a United States Navy Rear Admiral are so important that she is known affectionately as “Amazing Grace.”
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GraceHopper" translatesAutoresizingMaskIntoConstraints="NO" id="37e-jw-6zY">
+                                <rect key="frame" x="152" y="40" width="297" height="208"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="297" id="1l9-sK-szE"/>
+                                    <constraint firstAttribute="height" constant="208" id="xEt-jk-B22"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="37e-jw-6zY" firstAttribute="top" secondItem="uu5-9q-vh7" secondAttribute="bottom" constant="20" id="1bq-Ug-yt3"/>
+                            <constraint firstAttribute="centerX" secondItem="37e-jw-6zY" secondAttribute="centerX" id="25l-Vt-DDx"/>
+                            <constraint firstItem="XX7-fy-Vpk" firstAttribute="top" relation="greaterThanOrEqual" secondItem="VMI-SB-NtK" secondAttribute="bottom" constant="79" id="5RN-nh-h7j"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="oXe-up-Rzg" secondAttribute="trailing" constant="15" id="S1j-Sz-t1U"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="VMI-SB-NtK" secondAttribute="trailing" constant="44" id="bCV-kc-GQ4"/>
+                            <constraint firstItem="oXe-up-Rzg" firstAttribute="top" secondItem="uu5-9q-vh7" secondAttribute="bottom" constant="8" id="iV3-Y9-odQ"/>
+                            <constraint firstItem="VMI-SB-NtK" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="REN-i2-uZt" secondAttribute="leadingMargin" constant="32" id="rgz-f6-JPB"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QfN-cx-0Wy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2986" y="-1478"/>
+        </scene>
+        <!--Anita Borg View Controller-->
+        <scene sceneID="jEB-6q-f5A">
+            <objects>
+                <viewController id="C6e-zZ-jFR" userLabel="Anita Borg View Controller" customClass="ModalViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FT1-Nf-FEd"/>
+                        <viewControllerLayoutGuide type="bottom" id="fjS-3Q-ahd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wls-sp-xUq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1XS-9S-oU2">
+                                <rect key="frame" x="537" y="28" width="32" height="32"/>
+                                <state key="normal" image="X">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Dismiss:" destination="C6e-zZ-jFR" eventType="touchUpInside" id="CHd-uC-ZLA"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kvb-Xd-8sQ">
+                                <rect key="frame" x="48" y="358" width="492" height="163"/>
+                                <string key="text">Anita Borg paved the way to bridge the gender gap in computer science. She founded the Institute for Women and Technology (now the Anita Borg Institute for Women and Technology) and the Grace Hopper Celebration of Women in Computing to increase women’s impact on technology worldwide. She also created the Systers mailing list -- the world’s largest email community of women in technical roles in computing. 
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AnitaBorg" translatesAutoresizingMaskIntoConstraints="NO" id="UCh-PZ-Re0">
+                                <rect key="frame" x="152" y="40" width="297" height="208"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="208" id="sCv-1q-ZUk"/>
+                                    <constraint firstAttribute="width" constant="297" id="vGp-JL-jvn"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fjS-3Q-ahd" firstAttribute="top" secondItem="Kvb-Xd-8sQ" secondAttribute="bottom" constant="79" id="CMf-pm-hic"/>
+                            <constraint firstItem="Kvb-Xd-8sQ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="wls-sp-xUq" secondAttribute="leadingMargin" constant="32" id="Npa-qv-J6p"/>
+                            <constraint firstAttribute="centerX" secondItem="UCh-PZ-Re0" secondAttribute="centerX" id="NvB-hB-bpc"/>
+                            <constraint firstItem="1XS-9S-oU2" firstAttribute="top" secondItem="FT1-Nf-FEd" secondAttribute="bottom" constant="8" id="Rek-FZ-wmh"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="Kvb-Xd-8sQ" secondAttribute="trailing" constant="44" id="dmf-7a-2R9"/>
+                            <constraint firstItem="UCh-PZ-Re0" firstAttribute="top" secondItem="FT1-Nf-FEd" secondAttribute="bottom" constant="20" id="hRE-LF-rf0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1XS-9S-oU2" secondAttribute="trailing" constant="15" id="sqi-v3-ibz"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SWa-1L-xDA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2299" y="-1558"/>
+        </scene>
+        <!--Elizabeth Blackwell Scroll View Controller-->
+        <scene sceneID="mKy-xL-S0a">
+            <objects>
+                <viewController id="2Nb-8n-lwE" userLabel="Elizabeth Blackwell Scroll View Controller" customClass="ModalViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zd2-y4-r6s"/>
+                        <viewControllerLayoutGuide type="bottom" id="u40-ba-sC8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Luf-EY-dCd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XqG-oC-A4q">
+                                <rect key="frame" x="1" y="8" width="600" height="600"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="02x-8Q-02z" userLabel="Content View">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ElizabethBlackwell" translatesAutoresizingMaskIntoConstraints="NO" id="yjl-fI-te3">
+                                                <rect key="frame" x="152" y="25" width="297" height="208"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="297" id="7V9-K2-zKd"/>
+                                                    <constraint firstAttribute="height" constant="208" id="Wad-XD-DDl"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4aC-0H-IyX">
+                                                <rect key="frame" x="536" y="30" width="32" height="32"/>
+                                                <state key="normal" image="X">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="Dismiss:" destination="2Nb-8n-lwE" eventType="touchUpInside" id="kcY-cx-eeL"/>
+                                                    <action selector="Dismiss:" destination="BWv-54-7AR" eventType="touchUpInside" id="wEy-v9-1zv"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dg0-hg-U00">
+                                                <rect key="frame" x="30" y="263" width="540" height="183"/>
+                                                <string key="text">Elizabeth Blackwell was a pioneer for women in science because of her determination to become the first woman doctor in the United States. She was denied admission to most leading schools, but this didn’t stop her. She was finally accepted by Geneva Medical College. She graduated first in her class on January 23, 1849, becoming the first woman doctor of medicine in the modern era. After the Civil War, she opened her own college to promote and train women in the medical field.
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="yjl-fI-te3" firstAttribute="top" relation="greaterThanOrEqual" secondItem="02x-8Q-02z" secondAttribute="top" constant="25" id="0SJ-Q3-HEB"/>
+                                            <constraint firstItem="dg0-hg-U00" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="02x-8Q-02z" secondAttribute="leading" constant="10" id="5GL-39-EvX"/>
+                                            <constraint firstItem="4aC-0H-IyX" firstAttribute="top" secondItem="02x-8Q-02z" secondAttribute="top" constant="20" id="A38-di-yIq"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="dg0-hg-U00" secondAttribute="trailing" constant="10" id="Kug-ZM-i00"/>
+                                            <constraint firstItem="dg0-hg-U00" firstAttribute="leading" secondItem="02x-8Q-02z" secondAttribute="leading" constant="30" id="TkB-Yz-hqj"/>
+                                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="dg0-hg-U00" secondAttribute="bottom" constant="10" id="UYR-ao-g34"/>
+                                            <constraint firstAttribute="trailing" secondItem="dg0-hg-U00" secondAttribute="trailing" constant="30" id="Uqc-XH-uDR"/>
+                                            <constraint firstItem="dg0-hg-U00" firstAttribute="top" relation="greaterThanOrEqual" secondItem="yjl-fI-te3" secondAttribute="bottom" constant="10" id="WPp-0B-aaZ"/>
+                                            <constraint firstItem="yjl-fI-te3" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="02x-8Q-02z" secondAttribute="leading" constant="10" id="cpO-sq-ipJ"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="yjl-fI-te3" secondAttribute="trailing" constant="10" id="fvY-mw-C9q"/>
+                                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="dg0-hg-U00" secondAttribute="bottom" constant="10" id="hGt-HM-wDX"/>
+                                            <constraint firstAttribute="trailing" secondItem="4aC-0H-IyX" secondAttribute="trailing" constant="20" id="lxN-eB-oUZ"/>
+                                            <constraint firstItem="yjl-fI-te3" firstAttribute="top" secondItem="02x-8Q-02z" secondAttribute="top" constant="25" id="mPX-5W-G6b"/>
+                                            <constraint firstItem="dg0-hg-U00" firstAttribute="top" secondItem="yjl-fI-te3" secondAttribute="bottom" constant="30" id="oQP-Hb-XE5"/>
+                                            <constraint firstAttribute="centerX" secondItem="yjl-fI-te3" secondAttribute="centerX" id="pPK-8F-8aV"/>
+                                            <constraint firstItem="yjl-fI-te3" firstAttribute="top" secondItem="02x-8Q-02z" secondAttribute="top" constant="25" id="qCp-da-zqr"/>
+                                            <constraint firstAttribute="centerX" secondItem="yjl-fI-te3" secondAttribute="centerX" id="wAb-PZ-Leg"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="0SJ-Q3-HEB"/>
+                                                <exclude reference="cpO-sq-ipJ"/>
+                                                <exclude reference="fvY-mw-C9q"/>
+                                                <exclude reference="mPX-5W-G6b"/>
+                                                <exclude reference="pPK-8F-8aV"/>
+                                                <exclude reference="5GL-39-EvX"/>
+                                                <exclude reference="Kug-ZM-i00"/>
+                                                <exclude reference="WPp-0B-aaZ"/>
+                                                <exclude reference="hGt-HM-wDX"/>
+                                            </mask>
+                                        </variation>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="02x-8Q-02z" firstAttribute="width" secondItem="XqG-oC-A4q" secondAttribute="width" id="1Nh-Fj-vsK"/>
+                                    <constraint firstItem="02x-8Q-02z" firstAttribute="leading" secondItem="XqG-oC-A4q" secondAttribute="leading" id="1f8-gg-t0O"/>
+                                    <constraint firstAttribute="centerY" secondItem="02x-8Q-02z" secondAttribute="centerY" id="DYk-Ah-Fjx"/>
+                                    <constraint firstItem="02x-8Q-02z" firstAttribute="top" secondItem="XqG-oC-A4q" secondAttribute="top" id="EjC-QB-VXX"/>
+                                    <constraint firstAttribute="trailing" secondItem="02x-8Q-02z" secondAttribute="trailing" id="LQr-IY-jbc"/>
+                                    <constraint firstAttribute="centerX" secondItem="02x-8Q-02z" secondAttribute="centerX" id="lNV-FX-lcV"/>
+                                    <constraint firstItem="02x-8Q-02z" firstAttribute="height" secondItem="XqG-oC-A4q" secondAttribute="height" id="xGt-34-eBb"/>
+                                    <constraint firstAttribute="bottom" secondItem="02x-8Q-02z" secondAttribute="bottom" id="y09-AA-mo0"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1Nh-Fj-vsK"/>
+                                        <exclude reference="DYk-Ah-Fjx"/>
+                                        <exclude reference="lNV-FX-lcV"/>
+                                        <exclude reference="xGt-34-eBb"/>
+                                    </mask>
+                                </variation>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="u40-ba-sC8" firstAttribute="top" secondItem="XqG-oC-A4q" secondAttribute="bottom" constant="-8" id="46p-9z-f43"/>
+                            <constraint firstAttribute="width" secondItem="XqG-oC-A4q" secondAttribute="width" id="7My-px-j43"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="XqG-oC-A4q" secondAttribute="trailing" constant="-17" id="BVx-Zd-Ukf"/>
+                            <constraint firstAttribute="centerY" secondItem="XqG-oC-A4q" secondAttribute="centerY" constant="-7.5" id="Nuh-9V-HIT"/>
+                            <constraint firstAttribute="width" secondItem="02x-8Q-02z" secondAttribute="width" id="UNL-5l-EFJ"/>
+                            <constraint firstAttribute="height" secondItem="02x-8Q-02z" secondAttribute="height" priority="250" id="VaV-tF-IWq"/>
+                            <constraint firstAttribute="height" secondItem="02x-8Q-02z" secondAttribute="height" priority="250" id="Zw2-kA-WEu"/>
+                            <constraint firstAttribute="centerX" secondItem="XqG-oC-A4q" secondAttribute="centerX" constant="-0.5" id="nHa-Hj-zqO"/>
+                            <constraint firstAttribute="height" secondItem="XqG-oC-A4q" secondAttribute="height" id="naY-qd-QPr"/>
+                            <constraint firstAttribute="width" secondItem="02x-8Q-02z" secondAttribute="width" id="r8u-GZ-b0t"/>
+                            <constraint firstItem="XqG-oC-A4q" firstAttribute="leading" secondItem="Luf-EY-dCd" secondAttribute="leadingMargin" constant="-15" id="xel-oh-rNa"/>
+                            <constraint firstItem="XqG-oC-A4q" firstAttribute="top" secondItem="zd2-y4-r6s" secondAttribute="bottom" constant="-12" id="ylI-TE-1ei"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="UNL-5l-EFJ"/>
+                                <exclude reference="Zw2-kA-WEu"/>
+                                <exclude reference="7My-px-j43"/>
+                                <exclude reference="Nuh-9V-HIT"/>
+                                <exclude reference="nHa-Hj-zqO"/>
+                                <exclude reference="naY-qd-QPr"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2qE-gS-5h8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-426" y="-2489"/>
+        </scene>
+        <!--Elizabeth Blackwell View Controller-->
+        <scene sceneID="T5D-9v-Oe3">
+            <objects>
+                <viewController id="BWv-54-7AR" userLabel="Elizabeth Blackwell View Controller" customClass="ModalViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dAS-cG-fB2"/>
+                        <viewControllerLayoutGuide type="bottom" id="PW6-pj-zjK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7X4-Oi-eu5">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QAq-uz-3ba">
+                                <rect key="frame" x="48" y="338" width="492" height="183"/>
+                                <string key="text">Elizabeth Blackwell was a pioneer for women in science because of her determination to become the first woman doctor in the United States. She was denied admission to most leading schools, but this didn’t stop her. She was finally accepted by Geneva Medical College. She graduated first in her class on January 23, 1849, becoming the first woman doctor of medicine in the modern era. After the Civil War, she opened her own college to promote and train women in the medical field.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ElizabethBlackwell" translatesAutoresizingMaskIntoConstraints="NO" id="dWn-zb-RJp">
+                                <rect key="frame" x="152" y="40" width="297" height="208"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="297" id="4aH-8M-UTz"/>
+                                    <constraint firstAttribute="height" constant="208" id="Dv4-uY-FFs"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s1M-yd-FgG">
+                                <rect key="frame" x="537" y="28" width="32" height="32"/>
+                                <state key="normal" image="X">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Dismiss:" destination="BWv-54-7AR" eventType="touchUpInside" id="oSY-ot-dXE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QAq-uz-3ba" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="7X4-Oi-eu5" secondAttribute="leadingMargin" constant="32" id="8QG-KW-21L"/>
+                            <constraint firstItem="s1M-yd-FgG" firstAttribute="top" secondItem="dAS-cG-fB2" secondAttribute="bottom" constant="8" id="C6E-bx-3Wv"/>
+                            <constraint firstAttribute="centerX" secondItem="dWn-zb-RJp" secondAttribute="centerX" id="Lb3-O8-7cn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="s1M-yd-FgG" secondAttribute="trailing" constant="15" id="P5o-uJ-zSP"/>
+                            <constraint firstItem="PW6-pj-zjK" firstAttribute="top" relation="greaterThanOrEqual" secondItem="QAq-uz-3ba" secondAttribute="bottom" constant="10" id="Q5R-2K-6tG"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="QAq-uz-3ba" secondAttribute="trailing" constant="44" id="USj-fx-MRt"/>
+                            <constraint firstItem="QAq-uz-3ba" firstAttribute="top" relation="greaterThanOrEqual" secondItem="dWn-zb-RJp" secondAttribute="bottom" constant="10" id="kj2-3R-Aiu"/>
+                            <constraint firstItem="dWn-zb-RJp" firstAttribute="top" secondItem="dAS-cG-fB2" secondAttribute="bottom" constant="20" id="nR0-kC-Ub6"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Gu-SN-prF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2186" y="-4056"/>
+        </scene>
     </scenes>
     <resources>
         <image name="AdaLovelace" width="600" height="600"/>
@@ -1749,12 +1939,12 @@
         <segue reference="doz-bP-OvC"/>
         <segue reference="NVC-vf-9GQ"/>
         <segue reference="XQ7-Uu-eKM"/>
-        <segue reference="BMR-7l-P8J"/>
+        <segue reference="20e-xg-p7J"/>
         <segue reference="XJ6-fB-Uig"/>
         <segue reference="thC-qP-Z0s"/>
-        <segue reference="vVZ-Bl-Q3f"/>
-        <segue reference="se0-PJ-GqL"/>
-        <segue reference="nEY-Mb-HA6"/>
+        <segue reference="xiA-LQ-MJ6"/>
+        <segue reference="c1r-Rd-6t2"/>
+        <segue reference="pPG-bZ-pcr"/>
         <segue reference="Y9F-1g-3Yh"/>
         <segue reference="oFN-b7-kRb"/>
         <segue reference="TC8-Dt-BQk"/>
