@@ -105,7 +105,7 @@
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8OI-iU-Ixe">
                                                 <rect key="frame" x="10" y="465" width="80" height="80"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bPs-ri-zfh">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bPs-ri-zfh">
                                                 <rect key="frame" x="100" y="106" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Elizabeth Blackwell: first woman physician">
@@ -116,7 +116,7 @@
                                                     <segue destination="2Nb-8n-lwE" kind="presentation" id="dUZ-R4-g6l"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="dTg-Vc-fp3">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="dTg-Vc-fp3">
                                                 <rect key="frame" x="100" y="196" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Marie Curie: first woman to win a Nobel Prize">
@@ -127,7 +127,7 @@
                                                     <segue destination="jXc-IE-rlN" kind="presentation" id="pz7-xX-iU4"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Ggv-T4-kD7">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Ggv-T4-kD7">
                                                 <rect key="frame" x="100" y="286" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Rosalind Franklin: pioneer in X-ray diffraction">
@@ -138,7 +138,7 @@
                                                     <segue destination="Lqa-6W-iwP" kind="presentation" id="GxN-pB-GLf"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="yGO-lN-1xJ">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="yGO-lN-1xJ">
                                                 <rect key="frame" x="100" y="376" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Dorothy Hodgkin: discovered structure of vitamin B12">
@@ -149,7 +149,7 @@
                                                     <segue destination="uqL-To-MWO" kind="presentation" id="TQu-Vi-1tP"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="iWA-sS-EfB">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="iWA-sS-EfB">
                                                 <rect key="frame" x="100" y="466" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="You are a current STEMinist, and can be a future leader in Science too!">
@@ -479,7 +479,7 @@
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="i8Z-ej-pXp">
                                                 <rect key="frame" x="10" y="465" width="80" height="80"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="zWS-5x-J88">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="zWS-5x-J88">
                                                 <rect key="frame" x="100" y="105" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Ada Lovelace: first computer programmer">
@@ -490,7 +490,7 @@
                                                     <segue destination="bxY-rR-EPZ" kind="presentation" id="jqS-WA-T8M"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="whB-uk-WDI">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="whB-uk-WDI">
                                                 <rect key="frame" x="100" y="195" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Grace Hopper: developed the COBOL computer programming language">
@@ -501,7 +501,7 @@
                                                     <segue destination="sVN-7m-JUo" kind="presentation" id="G3C-N5-Yfz"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="nUF-gu-Zv8">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="nUF-gu-Zv8">
                                                 <rect key="frame" x="100" y="285" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Anita Borg: champion and mentor of women in computer science">
@@ -551,7 +551,6 @@
                                             <constraint firstItem="39m-og-yV6" firstAttribute="trailing" secondItem="ACh-sI-aTh" secondAttribute="trailing" id="ZJR-fN-P4l"/>
                                             <constraint firstAttribute="bottom" secondItem="39m-og-yV6" secondAttribute="bottom" constant="56" id="aMz-gf-ewA"/>
                                             <constraint firstAttribute="trailing" secondItem="whB-uk-WDI" secondAttribute="trailing" constant="438" id="aOK-3Q-6dv"/>
-                                            <constraint firstItem="0vJ-tA-sfh" firstAttribute="top" secondItem="rva-Dw-rjB" secondAttribute="bottom" priority="100" constant="76" id="azL-EG-1l7"/>
                                             <constraint firstItem="i8Z-ej-pXp" firstAttribute="top" secondItem="ACh-sI-aTh" secondAttribute="bottom" constant="10" id="bED-YS-pnk"/>
                                             <constraint firstAttribute="trailing" secondItem="whB-uk-WDI" secondAttribute="trailing" constant="10" id="bZc-Zp-mRH"/>
                                             <constraint firstItem="whB-uk-WDI" firstAttribute="centerY" secondItem="LbV-0r-oxF" secondAttribute="centerY" constant="-1" id="bfL-g9-8NU"/>
@@ -737,7 +736,7 @@
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5hj-6j-TZQ">
                                                 <rect key="frame" x="10" y="465" width="80" height="80"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="1jJ-iR-Dg4">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="1jJ-iR-Dg4">
                                                 <rect key="frame" x="100" y="105" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Beulah Louise Henry: created at least 110 inventions and registered 49 patents">
@@ -747,7 +746,7 @@
                                                     <segue destination="YIM-W1-g7Q" kind="presentation" id="uH9-W9-kkN"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ZDn-ca-d0h">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ZDn-ca-d0h">
                                                 <rect key="frame" x="100" y="195" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Hedy Lamarr: pioneer in wireless communications">
@@ -758,7 +757,7 @@
                                                     <segue destination="jQX-tC-4Se" kind="presentation" id="wQI-k4-bZN"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="dkp-y4-iJ1">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="dkp-y4-iJ1">
                                                 <rect key="frame" x="100" y="285" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Sally Ride: first American woman in space">
@@ -769,7 +768,7 @@
                                                     <segue destination="3Ky-fm-i1l" kind="presentation" id="msz-PN-UYM"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="dgb-Pu-gZl">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="dgb-Pu-gZl">
                                                 <rect key="frame" x="100" y="375" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Marissa Mayer: current president and CEO of Yahoo!">
@@ -780,7 +779,7 @@
                                                     <segue destination="5g0-Ag-Oa6" kind="presentation" id="zA9-we-uV0"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="aIX-9G-21u">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="aIX-9G-21u">
                                                 <rect key="frame" x="100" y="465" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="You are a current STEMinist, and can be a future leader in Engineering too!">
@@ -846,7 +845,6 @@
                                             <constraint firstItem="5hz-i3-2ia" firstAttribute="top" secondItem="VaZ-6u-GQs" secondAttribute="bottom" constant="10" id="t0S-gH-Gv9"/>
                                             <constraint firstItem="ZDn-ca-d0h" firstAttribute="leading" secondItem="5hz-i3-2ia" secondAttribute="trailing" constant="10" id="uhl-2s-Iim"/>
                                             <constraint firstItem="VaZ-6u-GQs" firstAttribute="trailing" secondItem="5hz-i3-2ia" secondAttribute="trailing" id="xwc-JQ-vqV"/>
-                                            <constraint firstItem="VaZ-6u-GQs" firstAttribute="top" secondItem="jox-WR-jo6" secondAttribute="bottom" priority="100" constant="76" id="z0b-Xg-CT2"/>
                                             <constraint firstItem="dkp-y4-iJ1" firstAttribute="height" secondItem="y8r-Xz-1Ed" secondAttribute="height" id="zvY-F4-4UC"/>
                                         </constraints>
                                         <userDefinedRuntimeAttributes>
@@ -927,6 +925,19 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sb8-2z-KYB" userLabel="content view">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="602"/>
                                         <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tpS-Dz-eJq" userLabel="Elizabeth Blackwell">
+                                                <rect key="frame" x="10" y="106" width="80" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="l5a-zO-xLj"/>
+                                                    <constraint firstAttribute="height" constant="80" id="xUh-mu-80C"/>
+                                                </constraints>
+                                                <state key="normal" image="ElizabethBlackwell">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="Ras-go-Y2y" kind="presentation" id="vfQ-S8-7fa"/>
+                                                </connections>
+                                            </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7XX-hj-xuJ" userLabel="Marie Curie">
                                                 <rect key="frame" x="10" y="196" width="80" height="80"/>
                                                 <constraints>
@@ -995,20 +1006,7 @@
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tpS-Dz-eJq" userLabel="Elizabeth Blackwell">
-                                                <rect key="frame" x="10" y="106" width="80" height="80"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="80" id="l5a-zO-xLj"/>
-                                                    <constraint firstAttribute="height" constant="80" id="xUh-mu-80C"/>
-                                                </constraints>
-                                                <state key="normal" image="ElizabethBlackwell">
-                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                </state>
-                                                <connections>
-                                                    <segue destination="Ras-go-Y2y" kind="presentation" id="vfQ-S8-7fa"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="7Dg-32-TS5">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="7Dg-32-TS5">
                                                 <rect key="frame" x="100" y="106" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Maria Gaetana Agnesi: first woman to write a mathematics handbook">
@@ -1019,7 +1017,7 @@
                                                     <segue destination="Ras-go-Y2y" kind="presentation" id="tcH-V1-PzB"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="zfp-XL-bUC">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="zfp-XL-bUC">
                                                 <rect key="frame" x="100" y="196" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Sofia Kovalevskaya: pioneer in the theory of partial differential equations">
@@ -1030,7 +1028,7 @@
                                                     <segue destination="7iN-fI-Hhe" kind="presentation" id="r7V-eR-BlU"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="WxQ-75-csM">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="WxQ-75-csM">
                                                 <rect key="frame" x="100" y="286" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Emmy Noether: most creative abstract algebraist of modern times">
@@ -1041,7 +1039,7 @@
                                                     <segue destination="bbZ-nh-2ts" kind="presentation" id="lwJ-kV-w7W"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="sR5-pv-L2A">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="sR5-pv-L2A">
                                                 <rect key="frame" x="100" y="376" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="Shakuntala Devi: known as the &quot;human computer&quot;">
@@ -1052,7 +1050,7 @@
                                                     <segue destination="4r6-K9-qL5" kind="presentation" id="eTg-f7-Eeg"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenDisabled="NO" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Cqi-Zn-N5O">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenDisabled="NO" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Cqi-Zn-N5O">
                                                 <rect key="frame" x="100" y="466" width="419" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                                 <state key="normal" title="You are a current STEMinist, and can be a future leader in Math too!">
@@ -1100,7 +1098,6 @@
                                             <constraint firstItem="WxQ-75-csM" firstAttribute="leading" secondItem="gFt-bH-4HO" secondAttribute="trailing" constant="10" id="ZDQ-RE-uxj"/>
                                             <constraint firstItem="zfp-XL-bUC" firstAttribute="height" secondItem="7XX-hj-xuJ" secondAttribute="height" id="Zdv-NO-nVk"/>
                                             <constraint firstAttribute="bottom" secondItem="HIP-5N-Qp0" secondAttribute="bottom" constant="56" id="e84-lo-EAB"/>
-                                            <constraint firstItem="tpS-Dz-eJq" firstAttribute="top" secondItem="5yk-fs-fnQ" secondAttribute="bottom" priority="100" constant="76" id="ec9-gV-xce"/>
                                             <constraint firstItem="zfp-XL-bUC" firstAttribute="centerY" secondItem="7XX-hj-xuJ" secondAttribute="centerY" constant="-1" id="f1J-b9-KbB"/>
                                             <constraint firstItem="WxQ-75-csM" firstAttribute="height" secondItem="gFt-bH-4HO" secondAttribute="height" id="gGe-T7-K5U"/>
                                             <constraint firstItem="Vgz-eL-RzZ" firstAttribute="height" secondItem="sR5-pv-L2A" secondAttribute="height" id="gxi-ky-pj4"/>
@@ -3276,7 +3273,7 @@
         <image name="Technology" width="32" height="32"/>
         <image name="TheSTEMinistWorldIcon" width="325" height="528"/>
         <image name="X" width="32" height="32"/>
-        <image name="blue@1x" width="512" height="512"/>
+        <image name="blue@1x" width="513" height="513"/>
         <image name="green@1x" width="512" height="512"/>
         <image name="newmagenta" width="512" height="512"/>
         <image name="newpurple" width="512" height="512"/>
