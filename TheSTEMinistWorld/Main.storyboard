@@ -300,13 +300,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to the STEMinist World!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C0y-Nx-ch7">
-                                <rect key="frame" x="176" y="121" width="249" height="20"/>
+                                <rect key="frame" x="176" y="117" width="249" height="46"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tq7-Vt-xIk" userLabel="Let's Get Started! &gt;">
-                                <rect key="frame" x="214" y="420" width="173" height="30"/>
+                                <rect key="frame" x="214" y="432" width="173" height="18"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Click here to get started!">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -318,7 +318,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iI3-nS-IcN">
-                                <rect key="frame" x="223" y="165" width="155" height="224"/>
+                                <rect key="frame" x="223" y="188" width="155" height="224"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="224" id="IOX-UG-WSs"/>
                                     <constraint firstAttribute="width" constant="155" id="fst-ij-z80"/>
@@ -335,21 +335,26 @@
                         <constraints>
                             <constraint firstItem="iI3-nS-IcN" firstAttribute="leading" secondItem="6Hs-vw-hjo" secondAttribute="leadingMargin" constant="207" id="2LV-JZ-iQk"/>
                             <constraint firstItem="iI3-nS-IcN" firstAttribute="top" secondItem="C0y-Nx-ch7" secondAttribute="bottom" constant="24" id="6Xs-7Y-l4C"/>
-                            <constraint firstAttribute="centerX" secondItem="iI3-nS-IcN" secondAttribute="centerX" constant="-0.5" id="O2z-oz-Cvs"/>
+                            <constraint firstItem="Tq7-Vt-xIk" firstAttribute="top" secondItem="iI3-nS-IcN" secondAttribute="bottom" constant="15" id="HF2-qM-vsc"/>
+                            <constraint firstItem="Tq7-Vt-xIk" firstAttribute="top" secondItem="iI3-nS-IcN" secondAttribute="bottom" constant="20" id="Lyc-Fr-idp"/>
+                            <constraint firstAttribute="centerX" secondItem="iI3-nS-IcN" secondAttribute="centerX" id="O2z-oz-Cvs"/>
                             <constraint firstItem="Tq7-Vt-xIk" firstAttribute="top" secondItem="iI3-nS-IcN" secondAttribute="bottom" constant="31" id="RoW-Mj-d2Z"/>
-                            <constraint firstAttribute="centerX" secondItem="C0y-Nx-ch7" secondAttribute="centerX" id="Vvy-bi-425"/>
+                            <constraint firstItem="iI3-nS-IcN" firstAttribute="top" secondItem="C0y-Nx-ch7" secondAttribute="bottom" constant="25" id="WcE-0E-99J"/>
                             <constraint firstAttribute="centerX" secondItem="Tq7-Vt-xIk" secondAttribute="centerX" id="ZGO-d5-eSr"/>
+                            <constraint firstAttribute="centerY" secondItem="C0y-Nx-ch7" secondAttribute="centerY" constant="160" id="ZYZ-qR-HkU"/>
                             <constraint firstAttribute="centerX" secondItem="C0y-Nx-ch7" secondAttribute="centerX" id="bp8-Hm-kEt"/>
-                            <constraint firstItem="C0y-Nx-ch7" firstAttribute="centerY" secondItem="Tq7-Vt-xIk" secondAttribute="centerY" constant="-304.5" id="noP-aF-055"/>
+                            <constraint firstItem="C0y-Nx-ch7" firstAttribute="centerY" secondItem="Tq7-Vt-xIk" secondAttribute="centerY" id="noP-aF-055"/>
                             <constraint firstAttribute="trailingMargin" secondItem="iI3-nS-IcN" secondAttribute="trailing" constant="206" id="upq-yk-uro"/>
                             <constraint firstItem="uZm-pl-MWj" firstAttribute="top" secondItem="Tq7-Vt-xIk" secondAttribute="bottom" constant="150" id="vQe-sm-oNb"/>
-                            <constraint firstAttribute="centerY" secondItem="iI3-nS-IcN" secondAttribute="centerY" constant="23" id="x22-gi-Tzg"/>
+                            <constraint firstAttribute="centerY" secondItem="iI3-nS-IcN" secondAttribute="centerY" id="x22-gi-Tzg"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="noP-aF-055"/>
                                 <exclude reference="2LV-JZ-iQk"/>
                                 <exclude reference="6Xs-7Y-l4C"/>
                                 <exclude reference="upq-yk-uro"/>
+                                <exclude reference="HF2-qM-vsc"/>
                                 <exclude reference="RoW-Mj-d2Z"/>
                             </mask>
                         </variation>
@@ -1115,7 +1120,7 @@
                                             <constraint firstItem="Vgz-eL-RzZ" firstAttribute="centerY" secondItem="sR5-pv-L2A" secondAttribute="centerY" constant="-1" id="J2U-CO-lQ5"/>
                                             <constraint firstItem="gFt-bH-4HO" firstAttribute="trailing" secondItem="Vgz-eL-RzZ" secondAttribute="trailing" id="Jtz-dn-GFv"/>
                                             <constraint firstAttribute="bottom" secondItem="dAe-ba-LuX" secondAttribute="bottom" constant="56" id="Kse-jd-eaX"/>
-                                            <constraint firstItem="tpS-Dz-eJq" firstAttribute="top" relation="greaterThanOrEqual" secondItem="sNM-9y-xCd" secondAttribute="bottom" constant="10" id="LSi-Hw-SZO"/>
+                                            <constraint firstItem="tpS-Dz-eJq" firstAttribute="top" secondItem="sNM-9y-xCd" secondAttribute="bottom" constant="10" id="LSi-Hw-SZO"/>
                                             <constraint firstItem="tpS-Dz-eJq" firstAttribute="leading" secondItem="sb8-2z-KYB" secondAttribute="leading" constant="10" id="OIn-gi-hEN"/>
                                             <constraint firstItem="5yk-fs-fnQ" firstAttribute="top" secondItem="sb8-2z-KYB" secondAttribute="top" constant="25" id="ONA-hq-p9c"/>
                                             <constraint firstItem="gFt-bH-4HO" firstAttribute="leading" secondItem="Vgz-eL-RzZ" secondAttribute="leading" id="OdB-3W-Qhb"/>
@@ -1394,7 +1399,7 @@
                                                 <rect key="frame" x="30" y="263" width="540" height="142"/>
                                                 <string key="text">Marie Curie is the only person who ever won Nobel Prizes in both Chemistry and Physics. She discovered two new chemical elements -- radium and polonium. Marie turned her scientific efforts to World War I in 1914, creating portable X-ray machines that could be used by doctors on the warfront to help wounded soldiers and save lives. She worked fearlessly to advance scientific knowledge and paved the way for women scientists throughout the late 19th century.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -1523,7 +1528,7 @@
                                                 <string key="text">Rosalind Franklin was critical to the discovery of DNA structure. She made remarkable advances in X-ray diffraction techniques. Her photograph, labelled 51, captured B-DNA in 1952 and was the first proof of the DNA double helix. It served as the foundation to Crick and Watson’s model of DNA structure, though she was largely unacknowledged for her contributions during her life. Despite this, she continued pursuing discoveries in science, paving the way for structural virology with her 17 papers. 
 </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -1652,7 +1657,7 @@
                                                 <string key="text">Dorothy Hodgkin pioneered X-ray diffraction techniques to determine structures of complex organic molecules, like steroids, antibiotics, and proteins. Her discovery of the structure of vitamin B12 in 1956 won her the Nobel Prize for Chemistry in 1964. She received Britain’s highest civil honor, the Order of Merit, in 1965, becoming the second woman in history to do so. 
 </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -1781,7 +1786,7 @@
                                                 <string key="text">Ada Lovelace was the first woman pioneer in the field of technology and regarded the world’s first computer programmer. She came up with a method for an analytical engine to repeat a series of instructions, a process that known as looping that is used by computer programs today. The machine was not built until 100 years later, but Ada had envisioned the possibility of using a machine for an unlimited number of tasks -- the world’s first computer.
 </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -1910,7 +1915,7 @@
                                                 <string key="text">Grace Hopper paved the way for women technologists and was one of Harvard Mark I computer’s first programmers. She developed the first ever compiler used for computer programming, and even created COBOL, one of the first few modern programming languages. She popularized the term “debugging” when fixing computer glitches. Her many significant contributions in the field of computer science as well as in the navy as a United States Navy Rear Admiral are so important that she is known affectionately as “Amazing Grace.”
 </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -2039,7 +2044,7 @@
                                                 <string key="text">Anita Borg paved the way to bridge the gender gap in computer science. She founded the Institute for Women and Technology (now the Anita Borg Institute for Women and Technology) and the Grace Hopper Celebration of Women in Computing to increase women’s impact on technology worldwide. She also created the Systers mailing list -- the world’s largest email community of women in technical roles in computing. 
 </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -2167,7 +2172,7 @@
                                                 <rect key="frame" x="30" y="263" width="540" height="142"/>
                                                 <string key="text">Joanna Hoffman is one of the original members of Macintosh and NeXT team. She helped write the first draft of Mac’s user interface guidelines. In both 1981 and 1982, she was awarded a satirical award at Apple for being “the person who did the best job of standing up to” Steve Jobs. Hoffman will be portrayed by Kate Winslet in the 2015 Steve Jobs film for her important contributions at Apple in its earliest days. </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -2295,7 +2300,7 @@
                                                 <rect key="frame" x="30" y="263" width="540" height="142"/>
                                                 <string key="text">Beulah Louise Henry was a self-taught inventor and entrepreneur. She registered her first patent when she was 25 for a vacuum-sealed ice cream freezer. Some of her other remarkable inventions include modified sewing machines, typewriters, cash registers, umbrellas, dolls, and other toys. She also founded two companies of her own, served as a consultant to others, and was inducted into the National Inventors Hall of Fame in 2006.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -2424,7 +2429,7 @@
                                                 <string key="text">Whenever you use bluetooth or Wi-Fi, you have Hedy Lamarr to thank! She patented an idea that became critical to both secure military communications and mobile phone technology, solving the problem of enemies blocking signals from radio-controlled missiles during WWII. She was always looking for solutions to problems on any scale. In addition to her remarkable intelligence, she was also a popular actress and Hollywood star.
 </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -2553,7 +2558,7 @@
                                                 <string key="text">Sally Ride was the first American woman to fly in space. Chosen out of thousands of applicants, and as one of 6 women selected, she was an astronaut on a space shuttle mission, with a job to work the robotic arm. She also looked for ways to help women and girls who wanted to study science and mathematics. She came up with the idea for NASA’s EarthKAM project, letting middle school students take and study pictures of Earth using a camera on the International Space Station.
 </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -2681,7 +2686,7 @@
                                                 <rect key="frame" x="30" y="263" width="540" height="122"/>
                                                 <string key="text">Marissa Mayer is the current president and CEO of Yahoo! She was the first woman engineer at Google, though she grew up thinking she wanted to be a doctor. During her time at Google, she worked on some of the company’s most successful products, including Google Maps, Google Earth, and Gmail. She was also responsible for approving each Google “doodle” on the company’s homepage. </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -2810,7 +2815,7 @@
                                                 <string key="text">Maria Gaetana Agnesi was a famous woman mathematician, credited with writing the first book discussing both integral and differential calculus. She knew several different languages and was called the “oracle of seven tongues.” Since higher education was not available to women at her time, she published a Latin discourse defending education for women. She was later appointed by Pope Benedict XIV to the chair of mathematics at Bologna Academy of Sciences.
 </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -2938,7 +2943,7 @@
                                                 <rect key="frame" x="30" y="263" width="540" height="183"/>
                                                 <string key="text">Sofia Kovalevskaya was a great mathematician, responsible for important original contributions to analysis, differential equations and mechanics, and the first woman to work for a scientific journal as an editor. She was also an advocate of women’s rights in the 19th century, promoting the best education opportunities available to open doors at universities to women. Her revolutionary work in mathematics won her the respect of her male counterparts, redefining their outdated notions of women's inferiority to men in such fields at the time.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -3066,7 +3071,7 @@
                                                 <rect key="frame" x="30" y="263" width="540" height="142"/>
                                                 <string key="text">Emmy Noether changed the way mathematicians think about their subject. As one of the leading mathematicians of her time, she made profound contributions to abstract algebra and paved the way to the discovery of new algebraic patterns, with special attention to ring theory. Noether published over 40 papers in her lifetime, and was also a teacher who inspired her students to leave their mark in the field of mathematics, just like she did. </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -3195,7 +3200,7 @@
                                                 <string key="text">Shakuntala Devi was a renowned mathematician and mental calculator, popularly known as the “human computer.” In 1980, she multiplied two 13-digit numbers—7,686,369,774,870 × 2,465,099,745,779—picked at random by the Computer Department of Imperial College, London. She correctly answered 18,947,668,177,995,426,462,773,730 in 28 seconds. She earned a place in the 1982 edition of The Guinness Book of World Records for her talents. 
 </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>

@@ -3,15 +3,17 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "SofiaKovalevskaya.png"
+      "filename" : "SofiaKovalevskaya@1x.png"
     },
     {
       "idiom" : "universal",
-      "scale" : "2x"
+      "scale" : "2x",
+      "filename" : "SofiaKovalevskaya@2x.png"
     },
     {
       "idiom" : "universal",
-      "scale" : "3x"
+      "scale" : "3x",
+      "filename" : "SofiaKovalevskaya@3x.png"
     }
   ],
   "info" : {

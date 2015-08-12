@@ -3,15 +3,17 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "1924710_10152280451717329_1631480807_n.jpg"
+      "filename" : "1924710_10152280451717329_1631480807_n@1x.png"
     },
     {
       "idiom" : "universal",
-      "scale" : "2x"
+      "scale" : "2x",
+      "filename" : "1924710_10152280451717329_1631480807_n@2x.png"
     },
     {
       "idiom" : "universal",
-      "scale" : "3x"
+      "scale" : "3x",
+      "filename" : "1924710_10152280451717329_1631480807_n@3x.png"
     }
   ],
   "info" : {

@@ -3,15 +3,17 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "BeulahLouiseHenry.png"
+      "filename" : "BeulahLouiseHenry@1x.png"
     },
     {
       "idiom" : "universal",
-      "scale" : "2x"
+      "scale" : "2x",
+      "filename" : "BeulahLouiseHenry@2x.png"
     },
     {
       "idiom" : "universal",
-      "scale" : "3x"
+      "scale" : "3x",
+      "filename" : "BeulahLouiseHenry@3x.png"
     }
   ],
   "info" : {

@@ -3,15 +3,17 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "MariaGaetanaAgnesi.jpg"
+      "filename" : "MariaGaetanaAgnesi@1x.png"
     },
     {
       "idiom" : "universal",
-      "scale" : "2x"
+      "scale" : "2x",
+      "filename" : "MariaGaetanaAgnesi@2x.png"
     },
     {
       "idiom" : "universal",
-      "scale" : "3x"
+      "scale" : "3x",
+      "filename" : "MariaGaetanaAgnesi@3x.png"
     }
   ],
   "info" : {

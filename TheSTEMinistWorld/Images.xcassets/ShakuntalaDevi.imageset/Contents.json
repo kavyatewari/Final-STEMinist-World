@@ -3,15 +3,17 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "ShakuntalaDevi.jpg"
+      "filename" : "ShakuntalaDevi@1x.png"
     },
     {
       "idiom" : "universal",
-      "scale" : "2x"
+      "scale" : "2x",
+      "filename" : "ShakuntalaDevi@2x.png"
     },
     {
       "idiom" : "universal",
-      "scale" : "3x"
+      "scale" : "3x",
+      "filename" : "ShakuntalaDevi@3x.png"
     }
   ],
   "info" : {
