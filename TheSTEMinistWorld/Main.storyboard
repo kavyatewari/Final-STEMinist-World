@@ -287,6 +287,68 @@
             </objects>
             <point key="canvasLocation" x="301" y="-2144"/>
         </scene>
+        <!--Attributions View Controller-->
+        <scene sceneID="Auf-ur-7Oa">
+            <objects>
+                <viewController id="YRe-L2-VCd" userLabel="Attributions View Controller" customClass="ModalViewController" customModule="TheSTEMinistWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L2e-MA-SjE"/>
+                        <viewControllerLayoutGuide type="bottom" id="jfz-U0-ZCw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fvg-fG-gbV">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yCg-QM-wm6">
+                                <rect key="frame" x="532" y="40" width="32" height="32"/>
+                                <state key="normal" image="X">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Dismiss:" destination="YRe-L2-VCd" eventType="touchUpInside" id="Ow5-ZF-Q1h"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All icons made by Icons8." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bqC-tf-VbP">
+                                <rect key="frame" x="202" y="290" width="197" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="3Pl-MY-38S"/>
+                                    <constraint firstAttribute="width" constant="197" id="sg1-Pt-bUZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5C8-0k-xxO">
+                                <rect key="frame" x="245" y="321" width="97" height="30"/>
+                                <state key="normal" title="Link to Icons8">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="linkToIcons:" destination="YRe-L2-VCd" eventType="touchUpInside" id="ri9-bZ-vTD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bqC-tf-VbP" firstAttribute="centerX" secondItem="5C8-0k-xxO" secondAttribute="centerX" constant="7.5" id="FfI-D6-sl0"/>
+                            <constraint firstAttribute="centerX" secondItem="bqC-tf-VbP" secondAttribute="centerX" id="LbX-tQ-W5G"/>
+                            <constraint firstItem="5C8-0k-xxO" firstAttribute="top" secondItem="bqC-tf-VbP" secondAttribute="bottom" constant="10" id="dRa-jZ-11U"/>
+                            <constraint firstItem="bqC-tf-VbP" firstAttribute="centerX" secondItem="5C8-0k-xxO" secondAttribute="centerX" constant="7.5" id="fRQ-tc-E7q"/>
+                            <constraint firstItem="yCg-QM-wm6" firstAttribute="top" secondItem="L2e-MA-SjE" secondAttribute="bottom" constant="20" id="oin-Y6-mPE"/>
+                            <constraint firstAttribute="centerY" secondItem="bqC-tf-VbP" secondAttribute="centerY" id="vC6-bZ-8Zg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yCg-QM-wm6" secondAttribute="trailing" constant="20" id="xfh-J1-cxg"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="FfI-D6-sl0"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cK7-8K-o8d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2188" y="-419"/>
+        </scene>
         <!--Welcome View Controller-->
         <scene sceneID="zGG-ub-Y1q">
             <objects>
@@ -330,6 +392,16 @@
                                     <segue destination="u1c-zb-NT7" kind="show" id="Ctu-Gv-WkO"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zOC-j1-id5">
+                                <rect key="frame" x="16" y="562" width="32" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                <state key="normal" image="Question Mark">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="YRe-L2-VCd" kind="presentation" id="KER-Tp-UCV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.077167182662538678" green="0.45490196078431372" blue="0.68627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -339,13 +411,17 @@
                             <constraint firstItem="Tq7-Vt-xIk" firstAttribute="top" secondItem="iI3-nS-IcN" secondAttribute="bottom" constant="20" id="Lyc-Fr-idp"/>
                             <constraint firstAttribute="centerX" secondItem="iI3-nS-IcN" secondAttribute="centerX" id="O2z-oz-Cvs"/>
                             <constraint firstItem="Tq7-Vt-xIk" firstAttribute="top" secondItem="iI3-nS-IcN" secondAttribute="bottom" constant="31" id="RoW-Mj-d2Z"/>
+                            <constraint firstItem="zOC-j1-id5" firstAttribute="leading" secondItem="6Hs-vw-hjo" secondAttribute="leadingMargin" id="Upm-UX-7Uh"/>
                             <constraint firstItem="iI3-nS-IcN" firstAttribute="top" secondItem="C0y-Nx-ch7" secondAttribute="bottom" constant="25" id="WcE-0E-99J"/>
                             <constraint firstAttribute="centerX" secondItem="Tq7-Vt-xIk" secondAttribute="centerX" id="ZGO-d5-eSr"/>
                             <constraint firstAttribute="centerY" secondItem="C0y-Nx-ch7" secondAttribute="centerY" constant="160" id="ZYZ-qR-HkU"/>
+                            <constraint firstItem="uZm-pl-MWj" firstAttribute="top" secondItem="zOC-j1-id5" secondAttribute="bottom" constant="10" id="ZmM-Lr-9Gp"/>
                             <constraint firstAttribute="centerX" secondItem="C0y-Nx-ch7" secondAttribute="centerX" id="bp8-Hm-kEt"/>
                             <constraint firstItem="C0y-Nx-ch7" firstAttribute="centerY" secondItem="Tq7-Vt-xIk" secondAttribute="centerY" id="noP-aF-055"/>
+                            <constraint firstItem="zOC-j1-id5" firstAttribute="leading" secondItem="6Hs-vw-hjo" secondAttribute="leadingMargin" id="qwY-ak-ASq"/>
                             <constraint firstAttribute="trailingMargin" secondItem="iI3-nS-IcN" secondAttribute="trailing" constant="206" id="upq-yk-uro"/>
                             <constraint firstItem="uZm-pl-MWj" firstAttribute="top" secondItem="Tq7-Vt-xIk" secondAttribute="bottom" constant="150" id="vQe-sm-oNb"/>
+                            <constraint firstItem="zOC-j1-id5" firstAttribute="leading" secondItem="6Hs-vw-hjo" secondAttribute="leadingMargin" id="wM2-r0-Hgz"/>
                             <constraint firstAttribute="centerY" secondItem="iI3-nS-IcN" secondAttribute="centerY" id="x22-gi-Tzg"/>
                         </constraints>
                         <variation key="default">
@@ -356,6 +432,8 @@
                                 <exclude reference="upq-yk-uro"/>
                                 <exclude reference="HF2-qM-vsc"/>
                                 <exclude reference="RoW-Mj-d2Z"/>
+                                <exclude reference="Upm-UX-7Uh"/>
+                                <exclude reference="qwY-ak-ASq"/>
                             </mask>
                         </variation>
                     </view>
@@ -1772,6 +1850,14 @@
                                                     <constraint firstAttribute="height" constant="208" id="YQd-nb-DL5"/>
                                                 </constraints>
                                             </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ut8-hM-4dz">
+                                                <rect key="frame" x="30" y="263" width="540" height="163"/>
+                                                <string key="text">Ada Lovelace was the first woman pioneer in the field of technology and regarded the world’s first computer programmer. She came up with a method for an analytical engine to repeat a series of instructions, a process that known as looping that is used by computer programs today. The machine was not built until 100 years later, but Ada had envisioned the possibility of using a machine for an unlimited number of tasks -- the world’s first computer.
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DcV-kC-3vU">
                                                 <rect key="frame" x="548" y="20" width="32" height="32"/>
                                                 <state key="normal" image="X">
@@ -1781,14 +1867,6 @@
                                                     <action selector="Dismiss:" destination="bxY-rR-EPZ" eventType="touchUpInside" id="vrY-ri-4ff"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ut8-hM-4dz">
-                                                <rect key="frame" x="30" y="263" width="540" height="163"/>
-                                                <string key="text">Ada Lovelace was the first woman pioneer in the field of technology and regarded the world’s first computer programmer. She came up with a method for an analytical engine to repeat a series of instructions, a process that known as looping that is used by computer programs today. The machine was not built until 100 years later, but Ada had envisioned the possibility of using a machine for an unlimited number of tasks -- the world’s first computer.
-</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -3306,6 +3384,7 @@
         <image name="MarieCurie" width="140" height="198"/>
         <image name="MarissaMayer" width="800" height="1048"/>
         <image name="Math" width="32" height="32"/>
+        <image name="Question Mark" width="32" height="32"/>
         <image name="RosalindFranklin" width="360" height="336"/>
         <image name="SallyRide" width="800" height="1016"/>
         <image name="Science" width="42" height="42"/>

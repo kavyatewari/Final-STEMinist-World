@@ -13,6 +13,11 @@ class ModalViewController: UIViewController {
     @IBAction func Dismiss(sender: AnyObject) {
         self.dismissViewControllerAnimated(true, completion: {});
         println("modal view is dismissed")
+    
+    }
+    
+    @IBAction func linkToIcons(sender: AnyObject) {
+        UIApplication.sharedApplication().openURL(NSURL(string: "https://icons8.com")!)
     }
 
     override func viewDidLoad() {
