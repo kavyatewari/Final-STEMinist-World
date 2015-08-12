@@ -444,7 +444,7 @@
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="b19-CC-v7F" kind="presentation" id="Y2p-wq-J2G"/>
+                                                    <segue destination="b19-CC-v7F" kind="presentation" id="iE5-L8-Jrh"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="39m-og-yV6">
@@ -493,7 +493,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="whB-uk-WDI">
                                                 <rect key="frame" x="100" y="195" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
-                                                <state key="normal" title="Grace Hopper: developed the COBOL computer programming language">
+                                                <state key="normal" title="Grace Hopper: developed COBOL programming language">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -504,13 +504,32 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="nUF-gu-Zv8">
                                                 <rect key="frame" x="100" y="285" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
-                                                <state key="normal" title="Anita Borg: champion and mentor of women in computer science">
+                                                <state key="normal" title="Anita Borg: mentor of women in computer science">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="q7G-12-aCc" kind="presentation" id="UWd-Dj-jrh"/>
                                                 </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="pdz-NO-1So">
+                                                <rect key="frame" x="100" y="375" width="490" height="80"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
+                                                <state key="normal" title="Joanna Hoffman: developed first Mac computer">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="b19-CC-v7F" kind="presentation" id="FJj-pl-cop"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="INO-AI-b56">
+                                                <rect key="frame" x="100" y="465" width="490" height="80"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
+                                                <state key="normal" title="You are a current STEMinist, and can be a future leader in Tech too!">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.60392156862745094" green="0.070588235294117646" blue="0.70196078431372544" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -520,16 +539,19 @@
                                             <constraint firstItem="whB-uk-WDI" firstAttribute="leading" secondItem="LbV-0r-oxF" secondAttribute="trailing" constant="10" id="2V9-2y-lOR"/>
                                             <constraint firstItem="nUF-gu-Zv8" firstAttribute="top" secondItem="whB-uk-WDI" secondAttribute="bottom" constant="10" id="33P-if-yRb"/>
                                             <constraint firstItem="39m-og-yV6" firstAttribute="width" secondItem="i8Z-ej-pXp" secondAttribute="height" multiplier="1:1" id="36Y-rK-T8k"/>
+                                            <constraint firstItem="pdz-NO-1So" firstAttribute="top" secondItem="nUF-gu-Zv8" secondAttribute="bottom" constant="10" id="3JK-Y5-JTc"/>
                                             <constraint firstItem="whB-uk-WDI" firstAttribute="top" secondItem="zWS-5x-J88" secondAttribute="bottom" constant="10" id="4xj-f9-EBk"/>
                                             <constraint firstAttribute="height" constant="601" id="5s4-MH-3Oc"/>
                                             <constraint firstItem="zWS-5x-J88" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="whB-uk-WDI" secondAttribute="trailing" constant="10" id="68Z-4m-cfx"/>
                                             <constraint firstItem="39m-og-yV6" firstAttribute="top" secondItem="ACh-sI-aTh" secondAttribute="bottom" constant="10" id="6c6-rC-Faq"/>
                                             <constraint firstItem="0vJ-tA-sfh" firstAttribute="trailing" secondItem="LbV-0r-oxF" secondAttribute="trailing" id="7wk-DJ-5V8"/>
-                                            <constraint firstItem="0vJ-tA-sfh" firstAttribute="top" relation="greaterThanOrEqual" secondItem="BFg-9d-acD" secondAttribute="bottom" constant="10" id="8vm-Sk-pP9"/>
+                                            <constraint firstItem="0vJ-tA-sfh" firstAttribute="top" secondItem="BFg-9d-acD" secondAttribute="bottom" constant="10" id="8vm-Sk-pP9"/>
                                             <constraint firstItem="nUF-gu-Zv8" firstAttribute="leading" secondItem="oVL-jX-rM1" secondAttribute="trailing" constant="10" id="96X-8X-cMP"/>
                                             <constraint firstItem="rva-Dw-rjB" firstAttribute="top" secondItem="cZc-iz-ezV" secondAttribute="top" constant="25" id="974-jt-I42"/>
                                             <constraint firstItem="rva-Dw-rjB" firstAttribute="centerX" secondItem="cZc-iz-ezV" secondAttribute="centerX" id="BH2-37-ONe"/>
                                             <constraint firstAttribute="centerX" secondItem="7Pc-Sd-VEs" secondAttribute="centerX" constant="-1.5" id="BUE-mD-hi4"/>
+                                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="INO-AI-b56" secondAttribute="bottom" constant="10" id="EBN-QT-rmP"/>
+                                            <constraint firstItem="pdz-NO-1So" firstAttribute="leading" secondItem="ACh-sI-aTh" secondAttribute="trailing" constant="10" id="Fov-Z4-c4h"/>
                                             <constraint firstItem="BFg-9d-acD" firstAttribute="top" secondItem="7Pc-Sd-VEs" secondAttribute="bottom" constant="11" id="GTs-eb-aks"/>
                                             <constraint firstItem="0vJ-tA-sfh" firstAttribute="centerY" secondItem="zWS-5x-J88" secondAttribute="centerY" constant="-1" id="I9Y-Bd-W28"/>
                                             <constraint firstItem="7Pc-Sd-VEs" firstAttribute="centerX" secondItem="BFg-9d-acD" secondAttribute="centerX" id="IC3-BY-pB1"/>
@@ -540,13 +562,17 @@
                                             <constraint firstAttribute="bottom" secondItem="i8Z-ej-pXp" secondAttribute="bottom" constant="56" id="KOK-9w-tkQ"/>
                                             <constraint firstItem="oVL-jX-rM1" firstAttribute="height" secondItem="nUF-gu-Zv8" secondAttribute="height" id="Luu-2w-OpA"/>
                                             <constraint firstItem="LbV-0r-oxF" firstAttribute="leading" secondItem="oVL-jX-rM1" secondAttribute="leading" id="ML5-3F-z5b"/>
+                                            <constraint firstItem="INO-AI-b56" firstAttribute="top" secondItem="pdz-NO-1So" secondAttribute="bottom" constant="10" id="MNT-yp-FUP"/>
                                             <constraint firstItem="zWS-5x-J88" firstAttribute="leading" secondItem="whB-uk-WDI" secondAttribute="trailing" constant="130" id="NQy-EY-U34"/>
                                             <constraint firstItem="0vJ-tA-sfh" firstAttribute="height" secondItem="zWS-5x-J88" secondAttribute="height" id="RFX-Kp-eo5"/>
                                             <constraint firstItem="oVL-jX-rM1" firstAttribute="centerY" secondItem="nUF-gu-Zv8" secondAttribute="centerY" constant="-1" id="TNF-9y-Nvq"/>
                                             <constraint firstItem="7Pc-Sd-VEs" firstAttribute="top" secondItem="rva-Dw-rjB" secondAttribute="bottom" priority="100" constant="9" id="UKk-1Y-E9U"/>
                                             <constraint firstAttribute="centerX" secondItem="BFg-9d-acD" secondAttribute="centerX" constant="-1.5" id="UT0-Sk-L9J"/>
                                             <constraint firstItem="39m-og-yV6" firstAttribute="leading" secondItem="i8Z-ej-pXp" secondAttribute="leading" id="We0-96-WBA"/>
+                                            <constraint firstItem="zWS-5x-J88" firstAttribute="top" secondItem="cZc-iz-ezV" secondAttribute="top" constant="105" id="Weq-34-c6B"/>
                                             <constraint firstItem="39m-og-yV6" firstAttribute="leading" secondItem="ACh-sI-aTh" secondAttribute="leading" id="XSN-vh-zI5"/>
+                                            <constraint firstItem="ACh-sI-aTh" firstAttribute="height" secondItem="pdz-NO-1So" secondAttribute="height" id="XjW-6L-FD0"/>
+                                            <constraint firstAttribute="trailing" secondItem="pdz-NO-1So" secondAttribute="trailing" constant="10" id="Xzy-2c-ncy"/>
                                             <constraint firstItem="oVL-jX-rM1" firstAttribute="top" secondItem="LbV-0r-oxF" secondAttribute="bottom" constant="10" id="Yed-zc-Ez1"/>
                                             <constraint firstItem="39m-og-yV6" firstAttribute="trailing" secondItem="ACh-sI-aTh" secondAttribute="trailing" id="ZJR-fN-P4l"/>
                                             <constraint firstAttribute="bottom" secondItem="39m-og-yV6" secondAttribute="bottom" constant="56" id="aMz-gf-ewA"/>
@@ -554,20 +580,26 @@
                                             <constraint firstItem="i8Z-ej-pXp" firstAttribute="top" secondItem="ACh-sI-aTh" secondAttribute="bottom" constant="10" id="bED-YS-pnk"/>
                                             <constraint firstAttribute="trailing" secondItem="whB-uk-WDI" secondAttribute="trailing" constant="10" id="bZc-Zp-mRH"/>
                                             <constraint firstItem="whB-uk-WDI" firstAttribute="centerY" secondItem="LbV-0r-oxF" secondAttribute="centerY" constant="-1" id="bfL-g9-8NU"/>
+                                            <constraint firstAttribute="bottom" secondItem="i8Z-ej-pXp" secondAttribute="bottom" constant="56" id="dhg-aW-fwD"/>
                                             <constraint firstItem="LbV-0r-oxF" firstAttribute="top" secondItem="0vJ-tA-sfh" secondAttribute="bottom" constant="10" id="eSC-tR-j3A"/>
                                             <constraint firstItem="whB-uk-WDI" firstAttribute="top" secondItem="zWS-5x-J88" secondAttribute="top" constant="80" id="fRq-w9-ndS"/>
                                             <constraint firstItem="whB-uk-WDI" firstAttribute="baseline" secondItem="zWS-5x-J88" secondAttribute="baseline" constant="104" id="fTu-pG-5hM"/>
+                                            <constraint firstAttribute="trailing" secondItem="INO-AI-b56" secondAttribute="trailing" constant="10" id="gTp-bN-NXj"/>
                                             <constraint firstItem="zWS-5x-J88" firstAttribute="top" secondItem="BFg-9d-acD" secondAttribute="bottom" constant="10" id="h5f-8w-xhW"/>
                                             <constraint firstItem="39m-og-yV6" firstAttribute="bottom" secondItem="i8Z-ej-pXp" secondAttribute="bottom" id="hiA-ns-qcY"/>
                                             <constraint firstItem="39m-og-yV6" firstAttribute="trailing" secondItem="i8Z-ej-pXp" secondAttribute="trailing" id="i3o-E7-O28"/>
+                                            <constraint firstItem="INO-AI-b56" firstAttribute="top" secondItem="pdz-NO-1So" secondAttribute="bottom" constant="10" id="j4c-GO-BlM"/>
                                             <constraint firstItem="LbV-0r-oxF" firstAttribute="leading" secondItem="0vJ-tA-sfh" secondAttribute="leading" id="jfv-6F-ihj"/>
                                             <constraint firstItem="zWS-5x-J88" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="whB-uk-WDI" secondAttribute="trailing" constant="10" id="krU-qk-5ch"/>
                                             <constraint firstItem="ACh-sI-aTh" firstAttribute="top" secondItem="oVL-jX-rM1" secondAttribute="bottom" constant="10" id="kuJ-cX-Vk3"/>
                                             <constraint firstItem="rva-Dw-rjB" firstAttribute="leading" secondItem="cZc-iz-ezV" secondAttribute="leading" constant="10" id="ljW-iE-r9b"/>
+                                            <constraint firstItem="INO-AI-b56" firstAttribute="height" secondItem="i8Z-ej-pXp" secondAttribute="height" id="nuA-eK-VWp"/>
                                             <constraint firstItem="oVL-jX-rM1" firstAttribute="trailing" secondItem="ACh-sI-aTh" secondAttribute="trailing" id="sjT-pE-Drp"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="whB-uk-WDI" secondAttribute="trailing" constant="10" id="uoR-pZ-wbZ"/>
+                                            <constraint firstItem="zWS-5x-J88" firstAttribute="top" secondItem="BFg-9d-acD" secondAttribute="bottom" constant="10" id="vHN-uI-tjy"/>
                                             <constraint firstAttribute="trailing" secondItem="zWS-5x-J88" secondAttribute="trailing" constant="10" id="vfD-AN-oKB"/>
                                             <constraint firstItem="whB-uk-WDI" firstAttribute="height" secondItem="LbV-0r-oxF" secondAttribute="height" id="w3R-tn-bld"/>
+                                            <constraint firstItem="INO-AI-b56" firstAttribute="leading" secondItem="i8Z-ej-pXp" secondAttribute="trailing" constant="10" id="wp6-SD-16y"/>
                                             <constraint firstAttribute="trailing" secondItem="nUF-gu-Zv8" secondAttribute="trailing" constant="10" id="zgk-Pa-KSL"/>
                                         </constraints>
                                         <userDefinedRuntimeAttributes>
@@ -580,6 +612,8 @@
                                                 <exclude reference="I9Y-Bd-W28"/>
                                                 <exclude reference="68Z-4m-cfx"/>
                                                 <exclude reference="NQy-EY-U34"/>
+                                                <exclude reference="Weq-34-c6B"/>
+                                                <exclude reference="h5f-8w-xhW"/>
                                                 <exclude reference="krU-qk-5ch"/>
                                                 <exclude reference="aOK-3Q-6dv"/>
                                                 <exclude reference="bfL-g9-8NU"/>
@@ -591,6 +625,8 @@
                                                 <exclude reference="0fg-OP-d98"/>
                                                 <exclude reference="36Y-rK-T8k"/>
                                                 <exclude reference="hiA-ns-qcY"/>
+                                                <exclude reference="KOK-9w-tkQ"/>
+                                                <exclude reference="j4c-GO-BlM"/>
                                             </mask>
                                         </variation>
                                     </view>
@@ -739,7 +775,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="1jJ-iR-Dg4">
                                                 <rect key="frame" x="100" y="105" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
-                                                <state key="normal" title="Beulah Louise Henry: created at least 110 inventions and registered 49 patents">
+                                                <state key="normal" title="Beulah Louise Henry: 110 inventions and 49 patents">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
@@ -771,7 +807,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="dgb-Pu-gZl">
                                                 <rect key="frame" x="100" y="375" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
-                                                <state key="normal" title="Marissa Mayer: current president and CEO of Yahoo!">
+                                                <state key="normal" title="Marissa Mayer: President and CEO of Yahoo!">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -858,9 +894,9 @@
                                                 <exclude reference="LMV-sj-K40"/>
                                                 <exclude reference="765-5L-4fC"/>
                                                 <exclude reference="24w-Vg-JCi"/>
-                                                <exclude reference="Ehf-uK-VTg"/>
                                                 <exclude reference="MkF-sa-aAY"/>
                                                 <exclude reference="Q7g-ma-NBI"/>
+                                                <exclude reference="Ehf-uK-VTg"/>
                                             </mask>
                                         </variation>
                                     </view>
@@ -1009,7 +1045,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="7Dg-32-TS5">
                                                 <rect key="frame" x="100" y="106" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
-                                                <state key="normal" title="Maria Gaetana Agnesi: first woman to write a mathematics handbook">
+                                                <state key="normal" title="Maria Gaetana Agnesi: first woman to write a math book">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -1020,7 +1056,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="zfp-XL-bUC">
                                                 <rect key="frame" x="100" y="196" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
-                                                <state key="normal" title="Sofia Kovalevskaya: pioneer in the theory of partial differential equations">
+                                                <state key="normal" title="Sofia Kovalevskaya: pioneer in theory of partial differential equations">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -1031,7 +1067,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="WxQ-75-csM">
                                                 <rect key="frame" x="100" y="286" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
-                                                <state key="normal" title="Emmy Noether: most creative abstract algebraist of modern times">
+                                                <state key="normal" title="Emmy Noether: renowned abstract algebraist ">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -1042,7 +1078,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="sR5-pv-L2A">
                                                 <rect key="frame" x="100" y="376" width="490" height="80"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
-                                                <state key="normal" title="Shakuntala Devi: known as the &quot;human computer&quot;">
+                                                <state key="normal" title="Shakuntala Devi: the &quot;human computer&quot;">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -1384,11 +1420,11 @@
                                         </constraints>
                                         <variation key="default">
                                             <mask key="constraints">
-                                                <exclude reference="sHR-ER-t2m"/>
-                                                <exclude reference="KGQ-IL-ztL"/>
                                                 <exclude reference="6yl-tn-71Q"/>
-                                                <exclude reference="sqj-U8-op7"/>
+                                                <exclude reference="KGQ-IL-ztL"/>
                                                 <exclude reference="XWi-T2-g62"/>
+                                                <exclude reference="sHR-ER-t2m"/>
+                                                <exclude reference="sqj-U8-op7"/>
                                                 <exclude reference="Kqw-b4-b3A"/>
                                                 <exclude reference="Y9y-A9-PJw"/>
                                                 <exclude reference="gGp-q9-1RO"/>
@@ -1434,12 +1470,12 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="RwZ-AX-FCp"/>
-                                <exclude reference="mgD-ws-suV"/>
+                                <exclude reference="0uy-E9-USg"/>
                                 <exclude reference="E1x-xA-0t1"/>
                                 <exclude reference="nc9-qE-q8L"/>
-                                <exclude reference="0uy-E9-USg"/>
                                 <exclude reference="xsH-km-AIt"/>
+                                <exclude reference="RwZ-AX-FCp"/>
+                                <exclude reference="mgD-ws-suV"/>
                             </mask>
                         </variation>
                     </view>
@@ -1516,10 +1552,10 @@
                                                 <exclude reference="05P-Rx-PK3"/>
                                                 <exclude reference="56G-7t-z2M"/>
                                                 <exclude reference="7sq-an-XOd"/>
-                                                <exclude reference="f9N-Bj-Egn"/>
                                                 <exclude reference="GVI-9W-Nac"/>
-                                                <exclude reference="VHz-nm-Feh"/>
+                                                <exclude reference="f9N-Bj-Egn"/>
                                                 <exclude reference="BaN-yc-RLj"/>
+                                                <exclude reference="VHz-nm-Feh"/>
                                                 <exclude reference="We4-5B-D2b"/>
                                                 <exclude reference="g7h-q6-zag"/>
                                             </mask>
@@ -1538,10 +1574,10 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="jq2-1g-S3h"/>
                                         <exclude reference="HhH-We-SVx"/>
-                                        <exclude reference="p5d-Ro-CpR"/>
                                         <exclude reference="bPC-a1-Igi"/>
+                                        <exclude reference="jq2-1g-S3h"/>
+                                        <exclude reference="p5d-Ro-CpR"/>
                                     </mask>
                                 </variation>
                             </scrollView>
@@ -1565,10 +1601,10 @@
                             <mask key="constraints">
                                 <exclude reference="F63-9d-T4A"/>
                                 <exclude reference="NK8-KW-QiO"/>
-                                <exclude reference="g6d-ys-XS2"/>
                                 <exclude reference="5Nq-H2-POO"/>
                                 <exclude reference="Llv-FR-aMV"/>
                                 <exclude reference="V71-jZ-jwv"/>
+                                <exclude reference="g6d-ys-XS2"/>
                             </mask>
                         </variation>
                     </view>
@@ -1642,15 +1678,15 @@
                                         </constraints>
                                         <variation key="default">
                                             <mask key="constraints">
-                                                <exclude reference="Hyu-Dq-YE9"/>
                                                 <exclude reference="AmD-XX-0F0"/>
-                                                <exclude reference="sM3-if-ntg"/>
-                                                <exclude reference="sCH-vd-GZb"/>
+                                                <exclude reference="Hyu-Dq-YE9"/>
                                                 <exclude reference="i8x-aT-hgD"/>
-                                                <exclude reference="AX9-cV-LYT"/>
+                                                <exclude reference="sCH-vd-GZb"/>
+                                                <exclude reference="sM3-if-ntg"/>
                                                 <exclude reference="42S-z4-Dj8"/>
-                                                <exclude reference="vrp-tN-lHN"/>
+                                                <exclude reference="AX9-cV-LYT"/>
                                                 <exclude reference="d3d-k5-vgh"/>
+                                                <exclude reference="vrp-tN-lHN"/>
                                             </mask>
                                         </variation>
                                     </view>
@@ -1667,10 +1703,10 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="Pdj-4i-yp4"/>
-                                        <exclude reference="PEw-rP-1U7"/>
-                                        <exclude reference="PlZ-dc-2r9"/>
                                         <exclude reference="IhV-Uj-Brv"/>
+                                        <exclude reference="PEw-rP-1U7"/>
+                                        <exclude reference="Pdj-4i-yp4"/>
+                                        <exclude reference="PlZ-dc-2r9"/>
                                     </mask>
                                 </variation>
                             </scrollView>
@@ -1692,12 +1728,12 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="obg-4Y-KMX"/>
-                                <exclude reference="eOW-UW-Pjs"/>
                                 <exclude reference="9rk-KE-7og"/>
+                                <exclude reference="HSm-0y-5hI"/>
                                 <exclude reference="ZNb-RN-t6v"/>
                                 <exclude reference="v9E-bH-eIR"/>
-                                <exclude reference="HSm-0y-5hI"/>
+                                <exclude reference="eOW-UW-Pjs"/>
+                                <exclude reference="obg-4Y-KMX"/>
                             </mask>
                         </variation>
                     </view>
@@ -1771,14 +1807,14 @@
                                         </constraints>
                                         <variation key="default">
                                             <mask key="constraints">
-                                                <exclude reference="RGL-J4-9H4"/>
-                                                <exclude reference="BYu-oC-4FW"/>
                                                 <exclude reference="0YC-QQ-Cbw"/>
-                                                <exclude reference="Kq4-cV-Ews"/>
                                                 <exclude reference="45x-u7-TKP"/>
+                                                <exclude reference="BYu-oC-4FW"/>
+                                                <exclude reference="Kq4-cV-Ews"/>
+                                                <exclude reference="RGL-J4-9H4"/>
                                                 <exclude reference="IZc-wZ-gqw"/>
-                                                <exclude reference="cee-ZZ-FQc"/>
                                                 <exclude reference="SGM-17-P8U"/>
+                                                <exclude reference="cee-ZZ-FQc"/>
                                                 <exclude reference="dGe-bE-7vo"/>
                                             </mask>
                                         </variation>
@@ -1796,10 +1832,10 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="uSe-eK-bdU"/>
                                         <exclude reference="KwC-Wv-YAc"/>
-                                        <exclude reference="RKL-cf-8Ma"/>
                                         <exclude reference="Met-Sd-DRp"/>
+                                        <exclude reference="RKL-cf-8Ma"/>
+                                        <exclude reference="uSe-eK-bdU"/>
                                     </mask>
                                 </variation>
                             </scrollView>
@@ -1823,10 +1859,10 @@
                             <mask key="constraints">
                                 <exclude reference="BAS-2H-wvQ"/>
                                 <exclude reference="ITD-QW-o0a"/>
+                                <exclude reference="QGU-lE-tGe"/>
                                 <exclude reference="daZ-sN-0yT"/>
                                 <exclude reference="ktz-Q5-7ia"/>
                                 <exclude reference="mBn-rg-NTl"/>
-                                <exclude reference="QGU-lE-tGe"/>
                             </mask>
                         </variation>
                     </view>
@@ -1871,8 +1907,8 @@
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vXg-pj-UnM">
                                                 <rect key="frame" x="30" y="263" width="540" height="183"/>
-                                                <mutableString key="text">Grace Hopper paved the way for women technologists and was one of Harvard Mark I computer’s first programmers. She developed the first ever compiler used for computer programming, and even created COBOL, one of the first few modern programming languages. She popularized the term “debugging” when fixing computer glitches. Her many significant contributions in the field of computer science as well as in the navy as a United States Navy Rear Admiral are so important that she is known affectionately as “Amazing Grace.”
-</mutableString>
+                                                <string key="text">Grace Hopper paved the way for women technologists and was one of Harvard Mark I computer’s first programmers. She developed the first ever compiler used for computer programming, and even created COBOL, one of the first few modern programming languages. She popularized the term “debugging” when fixing computer glitches. Her many significant contributions in the field of computer science as well as in the navy as a United States Navy Rear Admiral are so important that she is known affectionately as “Amazing Grace.”
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1900,11 +1936,11 @@
                                         </constraints>
                                         <variation key="default">
                                             <mask key="constraints">
+                                                <exclude reference="Evy-cd-krJ"/>
+                                                <exclude reference="Frq-i9-c2r"/>
                                                 <exclude reference="LYE-JF-yWS"/>
                                                 <exclude reference="dU3-sH-GeI"/>
                                                 <exclude reference="fw7-X3-3wk"/>
-                                                <exclude reference="Evy-cd-krJ"/>
-                                                <exclude reference="Frq-i9-c2r"/>
                                                 <exclude reference="Jnf-DC-W72"/>
                                                 <exclude reference="O8y-hS-mLC"/>
                                                 <exclude reference="mAs-N6-zcc"/>
@@ -1925,10 +1961,10 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="rHP-j2-cn6"/>
-                                        <exclude reference="K2I-3d-52O"/>
                                         <exclude reference="C6H-1V-jzS"/>
+                                        <exclude reference="K2I-3d-52O"/>
                                         <exclude reference="Loe-uw-6yJ"/>
+                                        <exclude reference="rHP-j2-cn6"/>
                                     </mask>
                                 </variation>
                             </scrollView>
@@ -1950,12 +1986,12 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="zNx-RA-JQ2"/>
                                 <exclude reference="9hy-gx-EzK"/>
-                                <exclude reference="raK-2D-7yH"/>
+                                <exclude reference="zNx-RA-JQ2"/>
                                 <exclude reference="VHW-kP-YVD"/>
-                                <exclude reference="sQK-Lp-auT"/>
                                 <exclude reference="X84-yH-eTG"/>
+                                <exclude reference="raK-2D-7yH"/>
+                                <exclude reference="sQK-Lp-auT"/>
                             </mask>
                         </variation>
                     </view>
@@ -2030,14 +2066,14 @@
                                         <variation key="default">
                                             <mask key="constraints">
                                                 <exclude reference="UnX-aV-N8a"/>
-                                                <exclude reference="o90-Nt-lgG"/>
-                                                <exclude reference="zNL-0Q-oZb"/>
                                                 <exclude reference="lXu-uf-KCd"/>
                                                 <exclude reference="nNc-uc-bU9"/>
+                                                <exclude reference="o90-Nt-lgG"/>
+                                                <exclude reference="zNL-0Q-oZb"/>
                                                 <exclude reference="588-rv-VK2"/>
-                                                <exclude reference="suQ-Nf-Q3M"/>
                                                 <exclude reference="AV8-zO-FWA"/>
                                                 <exclude reference="BK7-el-xU1"/>
+                                                <exclude reference="suQ-Nf-Q3M"/>
                                             </mask>
                                         </variation>
                                     </view>
@@ -2054,10 +2090,10 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="cpq-L8-pqi"/>
-                                        <exclude reference="z1X-75-pG2"/>
                                         <exclude reference="CcX-Ts-vlT"/>
                                         <exclude reference="cbr-Dd-pDe"/>
+                                        <exclude reference="cpq-L8-pqi"/>
+                                        <exclude reference="z1X-75-pG2"/>
                                     </mask>
                                 </variation>
                             </scrollView>
@@ -2082,8 +2118,8 @@
                                 <exclude reference="Y9J-nE-oLh"/>
                                 <exclude reference="jge-zX-jjF"/>
                                 <exclude reference="4xu-7y-oFP"/>
-                                <exclude reference="V8M-DK-ZFf"/>
                                 <exclude reference="B08-up-cdw"/>
+                                <exclude reference="V8M-DK-ZFf"/>
                                 <exclude reference="beo-5Y-LfF"/>
                             </mask>
                         </variation>
@@ -2111,7 +2147,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jBt-J1-Bcf" userLabel="Content View">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AnitaBorg" translatesAutoresizingMaskIntoConstraints="NO" id="svp-Ol-Cda">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="JoannaHoffman" translatesAutoresizingMaskIntoConstraints="NO" id="svp-Ol-Cda">
                                                 <rect key="frame" x="152" y="25" width="297" height="208"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="297" id="Zd6-5s-V6w"/>
@@ -2128,9 +2164,8 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQh-mG-1QC">
-                                                <rect key="frame" x="30" y="263" width="540" height="163"/>
-                                                <string key="text">Anita Borg paved the way to bridge the gender gap in computer science. She founded the Institute for Women and Technology (now the Anita Borg Institute for Women and Technology) and the Grace Hopper Celebration of Women in Computing to increase women’s impact on technology worldwide. She also created the Systers mailing list -- the world’s largest email community of women in technical roles in computing. 
-</string>
+                                                <rect key="frame" x="30" y="263" width="540" height="142"/>
+                                                <string key="text">Joanna Hoffman is one of the original members of Macintosh and NeXT team. She helped write the first draft of Mac’s user interface guidelines. In both 1981 and 1982, she was awarded a satirical award at Apple for being “the person who did the best job of standing up to” Steve Jobs. Hoffman will be portrayed by Kate Winslet in the 2015 Steve Jobs film for her important contributions at Apple in its earliest days. </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
@@ -2158,14 +2193,14 @@
                                         </constraints>
                                         <variation key="default">
                                             <mask key="constraints">
-                                                <exclude reference="SC8-jP-eey"/>
-                                                <exclude reference="O4i-It-IKM"/>
-                                                <exclude reference="xc7-nG-YeZ"/>
                                                 <exclude reference="JPN-Dj-YfZ"/>
                                                 <exclude reference="O1A-6u-Bac"/>
-                                                <exclude reference="hre-wy-Bqx"/>
-                                                <exclude reference="gC4-2e-ztn"/>
+                                                <exclude reference="O4i-It-IKM"/>
+                                                <exclude reference="SC8-jP-eey"/>
+                                                <exclude reference="xc7-nG-YeZ"/>
                                                 <exclude reference="Cc6-sG-G9u"/>
+                                                <exclude reference="gC4-2e-ztn"/>
+                                                <exclude reference="hre-wy-Bqx"/>
                                                 <exclude reference="klO-rV-Kvo"/>
                                             </mask>
                                         </variation>
@@ -2185,8 +2220,8 @@
                                     <mask key="constraints">
                                         <exclude reference="KrI-VS-iKb"/>
                                         <exclude reference="u1r-J2-vrY"/>
-                                        <exclude reference="yh7-XI-fnR"/>
                                         <exclude reference="wl0-YK-cwg"/>
+                                        <exclude reference="yh7-XI-fnR"/>
                                     </mask>
                                 </variation>
                             </scrollView>
@@ -2208,12 +2243,12 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="Ymt-H0-lm8"/>
-                                <exclude reference="N9L-7n-fg9"/>
+                                <exclude reference="B2h-xL-GgB"/>
+                                <exclude reference="gR5-kw-3Yt"/>
                                 <exclude reference="kAG-1h-aev"/>
                                 <exclude reference="vnb-uE-QCf"/>
-                                <exclude reference="gR5-kw-3Yt"/>
-                                <exclude reference="B2h-xL-GgB"/>
+                                <exclude reference="N9L-7n-fg9"/>
+                                <exclude reference="Ymt-H0-lm8"/>
                             </mask>
                         </variation>
                     </view>
@@ -2286,14 +2321,14 @@
                                         </constraints>
                                         <variation key="default">
                                             <mask key="constraints">
-                                                <exclude reference="Yc9-c6-Dbn"/>
                                                 <exclude reference="8iF-U1-pD0"/>
+                                                <exclude reference="ONT-YR-ADS"/>
+                                                <exclude reference="Yc9-c6-Dbn"/>
                                                 <exclude reference="bpB-fa-vHw"/>
                                                 <exclude reference="z8S-KU-HJm"/>
-                                                <exclude reference="ONT-YR-ADS"/>
-                                                <exclude reference="BrW-HX-W4Z"/>
                                                 <exclude reference="3rv-Ff-r3M"/>
                                                 <exclude reference="86B-lW-34v"/>
+                                                <exclude reference="BrW-HX-W4Z"/>
                                                 <exclude reference="wK0-hV-EYP"/>
                                             </mask>
                                         </variation>
@@ -2311,9 +2346,9 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="aUf-uG-rT4"/>
-                                        <exclude reference="X7j-1Z-c09"/>
                                         <exclude reference="URy-G5-x1v"/>
+                                        <exclude reference="X7j-1Z-c09"/>
+                                        <exclude reference="aUf-uG-rT4"/>
                                         <exclude reference="vob-DG-eir"/>
                                     </mask>
                                 </variation>
@@ -2336,12 +2371,12 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="QxS-I4-Pkf"/>
                                 <exclude reference="IaI-SM-bOF"/>
+                                <exclude reference="QxS-I4-Pkf"/>
                                 <exclude reference="geS-9U-XaG"/>
                                 <exclude reference="kxp-Ub-iP4"/>
-                                <exclude reference="zeE-hr-zqU"/>
                                 <exclude reference="u4X-nX-6yE"/>
+                                <exclude reference="zeE-hr-zqU"/>
                             </mask>
                         </variation>
                     </view>
@@ -2415,14 +2450,14 @@
                                         </constraints>
                                         <variation key="default">
                                             <mask key="constraints">
-                                                <exclude reference="lZq-lf-CMt"/>
-                                                <exclude reference="OC4-bb-FYv"/>
-                                                <exclude reference="9QI-Ox-cly"/>
-                                                <exclude reference="yRG-cs-Fsi"/>
                                                 <exclude reference="4qi-qI-dxy"/>
+                                                <exclude reference="9QI-Ox-cly"/>
+                                                <exclude reference="OC4-bb-FYv"/>
+                                                <exclude reference="lZq-lf-CMt"/>
+                                                <exclude reference="yRG-cs-Fsi"/>
                                                 <exclude reference="EFO-Ug-ILF"/>
-                                                <exclude reference="NqD-iN-G3Y"/>
                                                 <exclude reference="GIb-6f-XZf"/>
+                                                <exclude reference="NqD-iN-G3Y"/>
                                                 <exclude reference="nyH-oP-Jgg"/>
                                             </mask>
                                         </variation>
@@ -2440,9 +2475,9 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="aTI-Ar-dfA"/>
-                                        <exclude reference="FMv-pK-P5W"/>
                                         <exclude reference="Axw-3Z-90I"/>
+                                        <exclude reference="FMv-pK-P5W"/>
+                                        <exclude reference="aTI-Ar-dfA"/>
                                         <exclude reference="tNK-FZ-CVv"/>
                                     </mask>
                                 </variation>
@@ -2465,12 +2500,12 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="BWH-El-x67"/>
-                                <exclude reference="wR3-HO-pBf"/>
-                                <exclude reference="mTF-wv-HVD"/>
+                                <exclude reference="Hg5-Ap-qYk"/>
                                 <exclude reference="PHF-T4-yqP"/>
                                 <exclude reference="iB6-6Z-F3R"/>
-                                <exclude reference="Hg5-Ap-qYk"/>
+                                <exclude reference="mTF-wv-HVD"/>
+                                <exclude reference="BWH-El-x67"/>
+                                <exclude reference="wR3-HO-pBf"/>
                             </mask>
                         </variation>
                     </view>
@@ -2544,15 +2579,15 @@
                                         </constraints>
                                         <variation key="default">
                                             <mask key="constraints">
-                                                <exclude reference="vfd-kA-Z9g"/>
                                                 <exclude reference="0Dc-D0-sxI"/>
-                                                <exclude reference="blZ-Om-ejS"/>
                                                 <exclude reference="Zc2-tP-Ens"/>
+                                                <exclude reference="blZ-Om-ejS"/>
                                                 <exclude reference="iiz-uH-yFm"/>
-                                                <exclude reference="naf-bH-b30"/>
+                                                <exclude reference="vfd-kA-Z9g"/>
                                                 <exclude reference="0tm-c1-36M"/>
-                                                <exclude reference="lg7-MJ-yQZ"/>
                                                 <exclude reference="gI3-Qb-gQf"/>
+                                                <exclude reference="lg7-MJ-yQZ"/>
+                                                <exclude reference="naf-bH-b30"/>
                                             </mask>
                                         </variation>
                                     </view>
@@ -2594,12 +2629,12 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="jUj-zl-a0k"/>
-                                <exclude reference="7KD-bD-edc"/>
+                                <exclude reference="IVo-C6-B0o"/>
                                 <exclude reference="RE4-uS-uv4"/>
                                 <exclude reference="lgj-QP-lRm"/>
                                 <exclude reference="mPG-bJ-a4G"/>
-                                <exclude reference="IVo-C6-B0o"/>
+                                <exclude reference="7KD-bD-edc"/>
+                                <exclude reference="jUj-zl-a0k"/>
                             </mask>
                         </variation>
                     </view>
@@ -2672,15 +2707,15 @@
                                         </constraints>
                                         <variation key="default">
                                             <mask key="constraints">
-                                                <exclude reference="cHx-LP-8lm"/>
                                                 <exclude reference="Kax-m5-k2o"/>
-                                                <exclude reference="YuB-g9-io3"/>
-                                                <exclude reference="lmX-Sz-6lb"/>
                                                 <exclude reference="OUO-iM-yHi"/>
-                                                <exclude reference="UUN-CT-eUf"/>
-                                                <exclude reference="Hga-6z-bqa"/>
-                                                <exclude reference="zqh-Mo-5st"/>
+                                                <exclude reference="YuB-g9-io3"/>
+                                                <exclude reference="cHx-LP-8lm"/>
+                                                <exclude reference="lmX-Sz-6lb"/>
                                                 <exclude reference="91K-5d-7wK"/>
+                                                <exclude reference="Hga-6z-bqa"/>
+                                                <exclude reference="UUN-CT-eUf"/>
+                                                <exclude reference="zqh-Mo-5st"/>
                                             </mask>
                                         </variation>
                                     </view>
@@ -2697,10 +2732,10 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="ShA-s8-alc"/>
-                                        <exclude reference="rrf-0y-bFy"/>
-                                        <exclude reference="qcu-hT-2It"/>
                                         <exclude reference="0Nr-sS-JpE"/>
+                                        <exclude reference="ShA-s8-alc"/>
+                                        <exclude reference="qcu-hT-2It"/>
+                                        <exclude reference="rrf-0y-bFy"/>
                                     </mask>
                                 </variation>
                             </scrollView>
@@ -2722,12 +2757,12 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="Tzc-bP-FK3"/>
                                 <exclude reference="Ih4-es-CjF"/>
+                                <exclude reference="Tzc-bP-FK3"/>
                                 <exclude reference="1Zo-da-6ac"/>
-                                <exclude reference="uD9-re-EjP"/>
                                 <exclude reference="HNU-Sc-UUT"/>
                                 <exclude reference="UW3-mQ-GUL"/>
+                                <exclude reference="uD9-re-EjP"/>
                             </mask>
                         </variation>
                     </view>
@@ -2801,15 +2836,15 @@
                                         </constraints>
                                         <variation key="default">
                                             <mask key="constraints">
-                                                <exclude reference="wWe-qC-Abe"/>
                                                 <exclude reference="8VD-yV-hmn"/>
+                                                <exclude reference="PQn-gM-z1P"/>
                                                 <exclude reference="eXl-tX-hmD"/>
                                                 <exclude reference="ee0-TO-Gai"/>
-                                                <exclude reference="PQn-gM-z1P"/>
+                                                <exclude reference="wWe-qC-Abe"/>
                                                 <exclude reference="GnN-8C-6ws"/>
+                                                <exclude reference="IPR-Al-ygf"/>
                                                 <exclude reference="jBR-A1-qbj"/>
                                                 <exclude reference="mq2-VB-3EN"/>
-                                                <exclude reference="IPR-Al-ygf"/>
                                             </mask>
                                         </variation>
                                     </view>
@@ -2826,10 +2861,10 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="Mtk-LE-IR6"/>
                                         <exclude reference="BNK-Cs-UAo"/>
-                                        <exclude reference="weP-Ph-0P1"/>
+                                        <exclude reference="Mtk-LE-IR6"/>
                                         <exclude reference="ug9-di-aUE"/>
+                                        <exclude reference="weP-Ph-0P1"/>
                                     </mask>
                                 </variation>
                             </scrollView>
@@ -2853,8 +2888,8 @@
                             <mask key="constraints">
                                 <exclude reference="Kxl-30-rQP"/>
                                 <exclude reference="MFZ-Hs-ExT"/>
-                                <exclude reference="iEV-if-rkA"/>
                                 <exclude reference="F0I-Nl-MAn"/>
+                                <exclude reference="iEV-if-rkA"/>
                                 <exclude reference="olf-gq-x6r"/>
                                 <exclude reference="sAP-OY-gdT"/>
                             </mask>
@@ -2901,7 +2936,7 @@
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zdo-uF-Bsc">
                                                 <rect key="frame" x="30" y="263" width="540" height="183"/>
-                                                <mutableString key="text">Sofia Kovalevskaya was a great mathematician, responsible for important original contributions to analysis, differential equations and mechanics, and the first woman to work for a scientific journal as an editor. She was also an advocate of women’s rights in the 19th century, promoting the best education opportunities available to open doors at universities to women. Her revolutionary work in mathematics won her the respect of her male counterparts, redefining their outdated notions of women's inferiority to men in such fields at the time.</mutableString>
+                                                <string key="text">Sofia Kovalevskaya was a great mathematician, responsible for important original contributions to analysis, differential equations and mechanics, and the first woman to work for a scientific journal as an editor. She was also an advocate of women’s rights in the 19th century, promoting the best education opportunities available to open doors at universities to women. Her revolutionary work in mathematics won her the respect of her male counterparts, redefining their outdated notions of women's inferiority to men in such fields at the time.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
@@ -2929,15 +2964,15 @@
                                         </constraints>
                                         <variation key="default">
                                             <mask key="constraints">
+                                                <exclude reference="13g-9M-J2J"/>
+                                                <exclude reference="PVQ-ws-BJO"/>
                                                 <exclude reference="Ys2-gK-HZw"/>
                                                 <exclude reference="nsk-I7-WTK"/>
                                                 <exclude reference="x1w-fb-uCK"/>
-                                                <exclude reference="PVQ-ws-BJO"/>
-                                                <exclude reference="13g-9M-J2J"/>
-                                                <exclude reference="WgA-Zr-106"/>
                                                 <exclude reference="1Cq-oN-xOO"/>
-                                                <exclude reference="cuq-jn-XTd"/>
                                                 <exclude reference="KQ8-ix-FDr"/>
+                                                <exclude reference="WgA-Zr-106"/>
+                                                <exclude reference="cuq-jn-XTd"/>
                                             </mask>
                                         </variation>
                                     </view>
@@ -2956,8 +2991,8 @@
                                     <mask key="constraints">
                                         <exclude reference="5e3-sY-J0t"/>
                                         <exclude reference="Enx-Qy-iX8"/>
-                                        <exclude reference="faa-oM-2yi"/>
                                         <exclude reference="SqW-YF-k2y"/>
+                                        <exclude reference="faa-oM-2yi"/>
                                     </mask>
                                 </variation>
                             </scrollView>
@@ -2979,12 +3014,12 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="QFU-VA-hbw"/>
-                                <exclude reference="8Wb-dm-tG9"/>
-                                <exclude reference="z0r-JW-rt5"/>
-                                <exclude reference="e1a-mT-AvM"/>
-                                <exclude reference="VnI-cy-AhB"/>
                                 <exclude reference="7nV-y3-JEw"/>
+                                <exclude reference="VnI-cy-AhB"/>
+                                <exclude reference="e1a-mT-AvM"/>
+                                <exclude reference="z0r-JW-rt5"/>
+                                <exclude reference="8Wb-dm-tG9"/>
+                                <exclude reference="QFU-VA-hbw"/>
                             </mask>
                         </variation>
                     </view>
@@ -3057,15 +3092,15 @@
                                         </constraints>
                                         <variation key="default">
                                             <mask key="constraints">
-                                                <exclude reference="yo6-68-vrn"/>
-                                                <exclude reference="bd8-g3-05o"/>
-                                                <exclude reference="VGX-iR-vNz"/>
-                                                <exclude reference="Nbk-3X-itb"/>
                                                 <exclude reference="MY4-ol-LVZ"/>
+                                                <exclude reference="Nbk-3X-itb"/>
+                                                <exclude reference="VGX-iR-vNz"/>
+                                                <exclude reference="bd8-g3-05o"/>
+                                                <exclude reference="yo6-68-vrn"/>
+                                                <exclude reference="YyC-ld-GJB"/>
+                                                <exclude reference="e6B-uM-kQi"/>
                                                 <exclude reference="fCu-ux-hnG"/>
                                                 <exclude reference="q8f-Kd-7Dy"/>
-                                                <exclude reference="e6B-uM-kQi"/>
-                                                <exclude reference="YyC-ld-GJB"/>
                                             </mask>
                                         </variation>
                                     </view>
@@ -3083,9 +3118,9 @@
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="Nct-y2-yWV"/>
-                                        <exclude reference="rNc-Cn-Jme"/>
-                                        <exclude reference="ZCB-g7-Ehk"/>
                                         <exclude reference="WUG-7s-Lj7"/>
+                                        <exclude reference="ZCB-g7-Ehk"/>
+                                        <exclude reference="rNc-Cn-Jme"/>
                                     </mask>
                                 </variation>
                             </scrollView>
@@ -3107,12 +3142,12 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="5Jw-IS-s1v"/>
-                                <exclude reference="O3I-tM-okE"/>
-                                <exclude reference="nOz-XE-GIm"/>
+                                <exclude reference="Gjy-Ik-Aet"/>
                                 <exclude reference="fJv-VP-HCl"/>
                                 <exclude reference="joz-gB-i0s"/>
-                                <exclude reference="Gjy-Ik-Aet"/>
+                                <exclude reference="nOz-XE-GIm"/>
+                                <exclude reference="5Jw-IS-s1v"/>
+                                <exclude reference="O3I-tM-okE"/>
                             </mask>
                         </variation>
                     </view>
@@ -3157,8 +3192,8 @@
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YW4-lx-HZs">
                                                 <rect key="frame" x="30" y="263" width="540" height="183"/>
-                                                <mutableString key="text">Shakuntala Devi was a renowned mathematician and mental calculator, popularly known as the “human computer.” In 1980, she multiplied two 13-digit numbers—7,686,369,774,870 × 2,465,099,745,779—picked at random by the Computer Department of Imperial College, London. She correctly answered 18,947,668,177,995,426,462,773,730 in 28 seconds. She earned a place in the 1982 edition of The Guinness Book of World Records for her talents. 
-</mutableString>
+                                                <string key="text">Shakuntala Devi was a renowned mathematician and mental calculator, popularly known as the “human computer.” In 1980, she multiplied two 13-digit numbers—7,686,369,774,870 × 2,465,099,745,779—picked at random by the Computer Department of Imperial College, London. She correctly answered 18,947,668,177,995,426,462,773,730 in 28 seconds. She earned a place in the 1982 edition of The Guinness Book of World Records for her talents. 
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
@@ -3186,15 +3221,15 @@
                                         </constraints>
                                         <variation key="default">
                                             <mask key="constraints">
-                                                <exclude reference="zxc-o0-xqq"/>
+                                                <exclude reference="5XU-43-qfq"/>
+                                                <exclude reference="6Ek-3o-JLu"/>
                                                 <exclude reference="aFi-JG-WN6"/>
                                                 <exclude reference="fua-Zh-RzD"/>
-                                                <exclude reference="6Ek-3o-JLu"/>
-                                                <exclude reference="5XU-43-qfq"/>
+                                                <exclude reference="zxc-o0-xqq"/>
                                                 <exclude reference="1sw-QH-GF3"/>
                                                 <exclude reference="X6G-uK-7O3"/>
-                                                <exclude reference="xBX-XT-axQ"/>
                                                 <exclude reference="mEv-4i-RLf"/>
+                                                <exclude reference="xBX-XT-axQ"/>
                                             </mask>
                                         </variation>
                                     </view>
@@ -3211,9 +3246,9 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="nG2-0H-XN3"/>
                                         <exclude reference="4N7-hi-REf"/>
                                         <exclude reference="f1k-0i-EWY"/>
+                                        <exclude reference="nG2-0H-XN3"/>
                                         <exclude reference="qMo-oZ-SeR"/>
                                     </mask>
                                 </variation>
@@ -3238,10 +3273,10 @@
                             <mask key="constraints">
                                 <exclude reference="tkg-3g-MWR"/>
                                 <exclude reference="txh-rA-koI"/>
+                                <exclude reference="GJp-2W-nvu"/>
                                 <exclude reference="Igs-Dm-8MR"/>
                                 <exclude reference="v56-rZ-qkB"/>
                                 <exclude reference="yDi-YV-zdz"/>
-                                <exclude reference="GJp-2W-nvu"/>
                             </mask>
                         </variation>
                     </view>
@@ -3261,6 +3296,7 @@
         <image name="Engineering" width="32" height="32"/>
         <image name="GraceHopper" width="517" height="606"/>
         <image name="HedyLamarr" width="800" height="1033"/>
+        <image name="JoannaHoffman" width="149" height="149"/>
         <image name="MariaGaetanaAgnesi" width="344" height="400"/>
         <image name="MarieCurie" width="140" height="198"/>
         <image name="MarissaMayer" width="800" height="1048"/>
@@ -3279,21 +3315,22 @@
         <image name="newpurple" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="kIi-MR-eZe"/>
-        <segue reference="wQI-k4-bZN"/>
-        <segue reference="msz-PN-UYM"/>
-        <segue reference="uH9-W9-kkN"/>
         <segue reference="zA9-we-uV0"/>
+        <segue reference="kIi-MR-eZe"/>
         <segue reference="Xcs-Gc-Ah8"/>
-        <segue reference="LZg-oL-vca"/>
-        <segue reference="pz7-xX-iU4"/>
         <segue reference="20e-xg-p7J"/>
-        <segue reference="UWd-Dj-jrh"/>
-        <segue reference="jqS-WA-T8M"/>
-        <segue reference="G3C-N5-Yfz"/>
-        <segue reference="vfQ-S8-7fa"/>
-        <segue reference="r7V-eR-BlU"/>
-        <segue reference="eTg-f7-Eeg"/>
+        <segue reference="pz7-xX-iU4"/>
+        <segue reference="LZg-oL-vca"/>
         <segue reference="lwJ-kV-w7W"/>
+        <segue reference="vfQ-S8-7fa"/>
+        <segue reference="eTg-f7-Eeg"/>
+        <segue reference="r7V-eR-BlU"/>
+        <segue reference="UWd-Dj-jrh"/>
+        <segue reference="G3C-N5-Yfz"/>
+        <segue reference="jqS-WA-T8M"/>
+        <segue reference="iE5-L8-Jrh"/>
+        <segue reference="uH9-W9-kkN"/>
+        <segue reference="msz-PN-UYM"/>
+        <segue reference="wQI-k4-bZN"/>
     </inferredMetricsTieBreakers>
 </document>
