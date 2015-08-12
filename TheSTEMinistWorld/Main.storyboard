@@ -308,18 +308,19 @@
                                     <action selector="Dismiss:" destination="YRe-L2-VCd" eventType="touchUpInside" id="Ow5-ZF-Q1h"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All icons made by Icons8." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bqC-tf-VbP">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All other icons made by Icons8." lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bqC-tf-VbP">
                                 <rect key="frame" x="202" y="290" width="197" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="3Pl-MY-38S"/>
                                     <constraint firstAttribute="width" constant="197" id="sg1-Pt-bUZ"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5C8-0k-xxO">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5C8-0k-xxO">
                                 <rect key="frame" x="245" y="321" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
                                 <state key="normal" title="Link to Icons8">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -327,14 +328,22 @@
                                     <action selector="linkToIcons:" destination="YRe-L2-VCd" eventType="touchUpInside" id="ri9-bZ-vTD"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Title icon made by Kavya Tewari." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RSW-Mp-Ffc">
+                                <rect key="frame" x="175" y="261" width="251" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="bqC-tf-VbP" firstAttribute="centerX" secondItem="5C8-0k-xxO" secondAttribute="centerX" constant="7.5" id="FfI-D6-sl0"/>
                             <constraint firstAttribute="centerX" secondItem="bqC-tf-VbP" secondAttribute="centerX" id="LbX-tQ-W5G"/>
+                            <constraint firstItem="bqC-tf-VbP" firstAttribute="centerX" secondItem="RSW-Mp-Ffc" secondAttribute="centerX" constant="0.5" id="W9O-O7-yAi"/>
                             <constraint firstItem="5C8-0k-xxO" firstAttribute="top" secondItem="bqC-tf-VbP" secondAttribute="bottom" constant="10" id="dRa-jZ-11U"/>
                             <constraint firstItem="bqC-tf-VbP" firstAttribute="centerX" secondItem="5C8-0k-xxO" secondAttribute="centerX" constant="7.5" id="fRQ-tc-E7q"/>
                             <constraint firstItem="yCg-QM-wm6" firstAttribute="top" secondItem="L2e-MA-SjE" secondAttribute="bottom" constant="20" id="oin-Y6-mPE"/>
+                            <constraint firstItem="bqC-tf-VbP" firstAttribute="top" secondItem="RSW-Mp-Ffc" secondAttribute="bottom" constant="8" id="qbI-2f-Zec"/>
                             <constraint firstAttribute="centerY" secondItem="bqC-tf-VbP" secondAttribute="centerY" id="vC6-bZ-8Zg"/>
                             <constraint firstAttribute="trailingMargin" secondItem="yCg-QM-wm6" secondAttribute="trailing" constant="20" id="xfh-J1-cxg"/>
                         </constraints>
