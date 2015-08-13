@@ -371,15 +371,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to the STEMinist World!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C0y-Nx-ch7">
-                                <rect key="frame" x="176" y="117" width="249" height="46"/>
+                                <rect key="frame" x="176" y="130" width="249" height="20"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tq7-Vt-xIk" userLabel="Let's Get Started! &gt;">
-                                <rect key="frame" x="214" y="432" width="173" height="18"/>
+                                <rect key="frame" x="185" y="432" width="230" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Click here to get started!">
+                                <state key="normal" title="Click on the world to get started!">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -388,21 +388,21 @@
                                     <segue destination="u1c-zb-NT7" kind="show" id="kIi-MR-eZe"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iI3-nS-IcN">
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iI3-nS-IcN">
                                 <rect key="frame" x="223" y="188" width="155" height="224"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="224" id="IOX-UG-WSs"/>
                                     <constraint firstAttribute="width" constant="155" id="fst-ij-z80"/>
                                 </constraints>
-                                <state key="normal" image="TheSTEMinistWorldIcon">
+                                <state key="normal" backgroundImage="TheSTEMinistWorldIcon">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="u1c-zb-NT7" kind="show" id="Ctu-Gv-WkO"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zOC-j1-id5">
-                                <rect key="frame" x="16" y="562" width="32" height="32"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zOC-j1-id5">
+                                <rect key="frame" x="16" y="558" width="32" height="32"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                 <state key="normal" image="Question Mark">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -416,11 +416,13 @@
                         <constraints>
                             <constraint firstItem="iI3-nS-IcN" firstAttribute="leading" secondItem="6Hs-vw-hjo" secondAttribute="leadingMargin" constant="207" id="2LV-JZ-iQk"/>
                             <constraint firstItem="iI3-nS-IcN" firstAttribute="top" secondItem="C0y-Nx-ch7" secondAttribute="bottom" constant="24" id="6Xs-7Y-l4C"/>
+                            <constraint firstItem="Tq7-Vt-xIk" firstAttribute="top" secondItem="iI3-nS-IcN" secondAttribute="bottom" constant="20" id="ELm-6u-0ic"/>
                             <constraint firstItem="Tq7-Vt-xIk" firstAttribute="top" secondItem="iI3-nS-IcN" secondAttribute="bottom" constant="15" id="HF2-qM-vsc"/>
                             <constraint firstItem="Tq7-Vt-xIk" firstAttribute="top" secondItem="iI3-nS-IcN" secondAttribute="bottom" constant="20" id="Lyc-Fr-idp"/>
                             <constraint firstAttribute="centerX" secondItem="iI3-nS-IcN" secondAttribute="centerX" id="O2z-oz-Cvs"/>
                             <constraint firstItem="Tq7-Vt-xIk" firstAttribute="top" secondItem="iI3-nS-IcN" secondAttribute="bottom" constant="31" id="RoW-Mj-d2Z"/>
                             <constraint firstItem="zOC-j1-id5" firstAttribute="leading" secondItem="6Hs-vw-hjo" secondAttribute="leadingMargin" id="Upm-UX-7Uh"/>
+                            <constraint firstAttribute="centerX" secondItem="iI3-nS-IcN" secondAttribute="centerX" id="Uuf-PC-vBq"/>
                             <constraint firstItem="iI3-nS-IcN" firstAttribute="top" secondItem="C0y-Nx-ch7" secondAttribute="bottom" constant="25" id="WcE-0E-99J"/>
                             <constraint firstAttribute="centerX" secondItem="Tq7-Vt-xIk" secondAttribute="centerX" id="ZGO-d5-eSr"/>
                             <constraint firstAttribute="centerY" secondItem="C0y-Nx-ch7" secondAttribute="centerY" constant="160" id="ZYZ-qR-HkU"/>
@@ -429,20 +431,26 @@
                             <constraint firstItem="C0y-Nx-ch7" firstAttribute="centerY" secondItem="Tq7-Vt-xIk" secondAttribute="centerY" id="noP-aF-055"/>
                             <constraint firstItem="zOC-j1-id5" firstAttribute="leading" secondItem="6Hs-vw-hjo" secondAttribute="leadingMargin" id="qwY-ak-ASq"/>
                             <constraint firstAttribute="trailingMargin" secondItem="iI3-nS-IcN" secondAttribute="trailing" constant="206" id="upq-yk-uro"/>
-                            <constraint firstItem="uZm-pl-MWj" firstAttribute="top" secondItem="Tq7-Vt-xIk" secondAttribute="bottom" constant="150" id="vQe-sm-oNb"/>
+                            <constraint firstItem="uZm-pl-MWj" firstAttribute="top" secondItem="Tq7-Vt-xIk" secondAttribute="bottom" constant="75" id="vQe-sm-oNb"/>
                             <constraint firstItem="zOC-j1-id5" firstAttribute="leading" secondItem="6Hs-vw-hjo" secondAttribute="leadingMargin" id="wM2-r0-Hgz"/>
                             <constraint firstAttribute="centerY" secondItem="iI3-nS-IcN" secondAttribute="centerY" id="x22-gi-Tzg"/>
+                            <constraint firstAttribute="centerY" secondItem="iI3-nS-IcN" secondAttribute="centerY" id="zMz-D3-UEV"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="noP-aF-055"/>
                                 <exclude reference="2LV-JZ-iQk"/>
                                 <exclude reference="6Xs-7Y-l4C"/>
+                                <exclude reference="O2z-oz-Cvs"/>
+                                <exclude reference="WcE-0E-99J"/>
                                 <exclude reference="upq-yk-uro"/>
+                                <exclude reference="x22-gi-Tzg"/>
                                 <exclude reference="HF2-qM-vsc"/>
+                                <exclude reference="Lyc-Fr-idp"/>
                                 <exclude reference="RoW-Mj-d2Z"/>
                                 <exclude reference="Upm-UX-7Uh"/>
                                 <exclude reference="qwY-ak-ASq"/>
+                                <exclude reference="vQe-sm-oNb"/>
                             </mask>
                         </variation>
                     </view>
@@ -3396,7 +3404,7 @@
         <image name="Question Mark" width="32" height="32"/>
         <image name="RosalindFranklin" width="360" height="336"/>
         <image name="SallyRide" width="800" height="1016"/>
-        <image name="Science" width="42" height="42"/>
+        <image name="Science" width="32" height="32"/>
         <image name="ShakuntalaDevi" width="247" height="300"/>
         <image name="SofiaKovalevskaya" width="678" height="843"/>
         <image name="Technology" width="32" height="32"/>
